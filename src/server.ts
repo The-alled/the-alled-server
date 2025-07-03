@@ -1,5 +1,5 @@
+import "module-alias/register";
 import express from "express";
-import "tsconfig-paths/register";
 import "dotenv/config";
 import { Request, Response } from "express";
 import router from "@/routes/index";
