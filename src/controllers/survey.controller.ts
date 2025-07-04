@@ -3,7 +3,7 @@ import surveyService from '@/services/survey.service';
 class SurveyController {
 	async createSurveyAnswer(req: Request, res: Response) {
 		const payload = req.body;
-		res.status(201).send(await surveyService.createAssignment(payload));
+		res.status(201).send(await surveyService.createSurveyAnswer(payload));
 	}
 }
 

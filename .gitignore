@@ -16,3 +16,6 @@ yarn.lock
 npm-debug.log
 yarn-error.log
 lerna-debug.log
+
+memory-bank/
+
