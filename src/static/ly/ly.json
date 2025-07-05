@@ -1,0 +1,568 @@
+{
+	"10": {
+		"Đơn vị và Sai số": {
+			"Hệ đơn vị SI": {
+				"Công thức": "",
+				"Lý thuyết": "Hệ đơn vị đo lường quốc tế (SI) được xây dựng trên cơ sở 7 đơn vị cơ bản, bao gồm: mét (m) cho chiều dài, kilôgam (kg) cho khối lượng, giây (s) cho thời gian, kelvin (K) cho nhiệt độ, ampe (A) cho cường độ dòng điện, mol (mol) cho lượng chất, và candela (cd) cho cường độ sáng.",
+				"UUID": "03a2ec31-eea0-423e-afc4-5477b8bf4053"
+			},
+			"Sai số phép đo": {
+				"Công thức": "",
+				"Lý thuyết": "Sai số của phép đo là độ lệch giữa giá trị đo được và giá trị thực của đại lượng cần đo. Bao gồm sai số hệ thống (do dụng cụ hoặc phương pháp) và sai số ngẫu nhiên (do các yếu tố ngẫu nhiên không kiểm soát được).",
+				"UUID": "f1bd2d14-a5b6-43f7-a094-2ab919c70a15"
+			},
+			"Giá trị trung bình": {
+				"Công thức": "\\bar{A} = \\frac{A_1 + A_2 + ... + A_n}{n}",
+				"Lý thuyết": "Giá trị trung bình của một đại lượng được tính bằng tổng các giá trị đo được chia cho số lần đo.",
+				"UUID": "1df80717-99fd-4b0a-9705-ee5e55fc47b6"
+			},
+			"Sai số tuyệt đối": {
+				"Công thức": "\\Delta A_i = |\\bar{A} - A_i|",
+				"Lý thuyết": "Sai số tuyệt đối ứng với mỗi lần đo là giá trị tuyệt đối của hiệu giữa giá trị trung bình và giá trị của lần đo đó.",
+				"UUID": "58cdf162-ff04-455c-a15b-7f50efcf0721"
+			},
+			"Sai số tuyệt đối của phép đo": {
+				"Công thức": "\\Delta A = \\overline{\\Delta A} + \\Delta A_{dc}",
+				"Lý thuyết": "Sai số tuyệt đối của phép đo được xác định bằng tổng sai số ngẫu nhiên trung bình và sai số của dụng cụ đo.",
+				"UUID": "34a7b2a4-5b33-4188-bf78-31a1c1200c8b"
+			},
+			"Sai số tương đối (tỉ đối)": {
+				"Công thức": "\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%",
+				"Lý thuyết": "Sai số tương đối là tỉ số phần trăm giữa sai số tuyệt đối và giá trị trung bình của đại lượng đo, cho biết mức độ chính xác của phép đo.",
+				"UUID": "e681f51a-eaf9-4e55-b6ff-e5b26d826fd2"
+			},
+			"Cách viết kết quả đo": {
+				"Công thức": "A = \\bar{A} \\pm \\Delta A",
+				"Lý thuyết": "Kết quả đo một đại lượng A được biểu diễn dưới dạng giá trị trung bình cộng hoặc trừ đi sai số tuyệt đối của phép đo.",
+				"UUID": "9c79fe5c-e9ba-4f34-95da-292d068b1c86"
+			}
+		},
+		"Động học": {
+			"Độ dịch chuyển và Quãng đường": {
+				"Công thức": "d = x_f - x_i",
+				"Lý thuyết": "Độ dịch chuyển là một đại lượng vector, cho biết sự thay đổi vị trí của vật. Quãng đường là đại lượng vô hướng, là tổng chiều dài quỹ đạo vật đi được.",
+				"UUID": "34c642f8-9a05-4fc3-a6a4-ca3cc1766f71"
+			},
+			"Tốc độ trung bình": {
+				"Công thức": "v_{tb} = \\frac{s}{t}",
+				"Lý thuyết": "Tốc độ trung bình được tính bằng quãng đường đi được chia cho khoảng thời gian đi hết quãng đường đó.",
+				"UUID": "906103f0-002c-466c-a554-a3c58cf73401"
+			},
+			"Vận tốc trung bình": {
+				"Công thức": "\\vec{v}_{tb} = \\frac{\\vec{d}}{\\Delta t}",
+				"Lý thuyết": "Vận tốc trung bình là một đại lượng vector, được xác định bằng độ dịch chuyển chia cho khoảng thời gian thực hiện độ dịch chuyển đó.",
+				"UUID": "f6b1ed72-b6a5-480c-b246-196ce70af996"
+			},
+			"Công thức cộng vận tốc": {
+				"Công thức": "\\vec{v}_{1,3} = \\vec{v}_{1,2} + \\vec{v}_{2,3}",
+				"Lý thuyết": "Vận tốc tuyệt đối (của vật 1 so với hệ quy chiếu đứng yên 3) bằng tổng vector của vận tốc tương đối (vật 1 so với hệ quy chiếu chuyển động 2) và vận tốc kéo theo (hệ 2 so với hệ 3).",
+				"UUID": "3812bbfd-f310-4dc8-8cf7-706fec4a8e20"
+			},
+			"Gia tốc": {
+				"Công thức": "\\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t}",
+				"Lý thuyết": "Gia tốc là đại lượng vector, đặc trưng cho sự thay đổi (nhanh hay chậm) của vận tốc theo thời gian.",
+				"UUID": "567e2876-9b3e-415c-bbf0-1647b244c363"
+			},
+			"Chuyển động thẳng biến đổi đều": {
+				"Công thức": "v = v_0 + at; \\quad d = v_0t + \\frac{1}{2}at^2; \\quad v^2 - v_0^2 = 2ad",
+				"Lý thuyết": "Là chuyển động thẳng trong đó gia tốc không đổi theo thời gian. Nếu a>0 là chuyển động nhanh dần đều, a<0 là chuyển động chậm dần đều (với chiều dương là chiều chuyển động).",
+				"UUID": "36943a82-613f-4369-9702-705bf7ea5aac"
+			},
+			"Sự rơi tự do": {
+				"Công thức": "v = gt; \\quad h = \\frac{1}{2}gt^2; \\quad v^2 = 2gh",
+				"Lý thuyết": "Sự rơi tự do là chuyển động của một vật chỉ dưới tác dụng của trọng lực, là một trường hợp đặc biệt của chuyển động thẳng nhanh dần đều với gia tốc là gia tốc trọng trường g.",
+				"UUID": "73bb5205-01dd-4918-a9e4-a8483d7f436b"
+			},
+			"Chuyển động ném ngang": {
+				"Công thức": "y = \\frac{g}{2v_0^2}x^2; \\quad t_{bay} = \\sqrt{\\frac{2h}{g}}; \\quad L_{max} = v_0 \\sqrt{\\frac{2h}{g}}",
+				"Lý thuyết": "Là chuyển động có quỹ đạo dạng parabol, được phân tích thành hai chuyển động thành phần: chuyển động thẳng đều theo phương ngang và rơi tự do theo phương thẳng đứng.",
+				"UUID": "0fc3ccb2-e258-45a8-bb1a-ec230fbbef32"
+			},
+			"Chuyển động tròn đều": {
+				"Công thức": "v = \\omega R; \\quad a_{ht} = \\frac{v^2}{R} = \\omega^2 R",
+				"Lý thuyết": "Là chuyển động có quỹ đạo tròn và tốc độ dài không đổi. Tốc độ góc (ω) và tốc độ dài (v) liên hệ với nhau qua bán kính R. Gia tốc hướng tâm (a_ht) luôn hướng vào tâm quỹ đạo.",
+				"UUID": "ad9067d1-998d-4a98-908f-feaaf7c3eb9f"
+			}
+		},
+		"Động lực học": {
+			"Định luật I Newton": {
+				"Công thức": "\\sum \\vec{F} = 0 \\Rightarrow \\vec{a} = 0",
+				"Lý thuyết": "Nếu một vật không chịu tác dụng của lực nào hoặc chịu tác dụng của các lực có hợp lực bằng không, thì vật đang đứng yên sẽ tiếp tục đứng yên, vật đang chuyển động sẽ tiếp tục chuyển động thẳng đều. Đây là định luật về quán tính.",
+				"UUID": "b2b3d3db-5d97-428a-9335-b5e7a9d37286"
+			},
+			"Định luật II Newton": {
+				"Công thức": "\\vec{F} = m\\vec{a}",
+				"Lý thuyết": "Gia tốc của một vật cùng hướng với lực tác dụng lên vật. Độ lớn của gia tốc tỉ lệ thuận với độ lớn của hợp lực và tỉ lệ nghịch với khối lượng của vật.",
+				"UUID": "efda939a-a824-44ed-bce7-072e86b127f5"
+			},
+			"Định luật III Newton": {
+				"Công thức": "\\vec{F}_{AB} = -\\vec{F}_{BA}",
+				"Lý thuyết": "Khi vật A tác dụng lên vật B một lực (trực), thì vật B cũng tác dụng lại vật A một lực (phản lực). Hai lực này luôn xuất hiện và mất đi đồng thời, có cùng giá, cùng độ lớn nhưng ngược chiều.",
+				"UUID": "e74dae68-cdb6-4f3f-8653-0e11ebddfed1"
+			},
+			"Trọng lực": {
+				"Công thức": "P = mg",
+				"Lý thuyết": "Trọng lực là lực hấp dẫn do Trái Đất tác dụng lên vật, có điểm đặt tại trọng tâm của vật, phương thẳng đứng, chiều từ trên xuống.",
+				"UUID": "01e3c404-3fa9-4388-8e5b-c8c010a8ca43"
+			},
+			"Lực ma sát": {
+				"Công thức": "F_{ms} = \\mu N",
+				"Lý thuyết": "Lực ma sát là lực cản trở chuyển động, xuất hiện ở mặt tiếp xúc giữa hai vật. Độ lớn lực ma sát trượt tỉ lệ với độ lớn áp lực N, với μ là hệ số ma sát trượt.",
+				"UUID": "1c05ed3c-63b9-4b44-b9fd-742d424e37d4"
+			},
+			"Lực căng dây": {
+				"Công thức": "",
+				"Lý thuyết": "Lực căng dây xuất hiện khi dây bị kéo căng, có phương trùng với sợi dây và chiều hướng từ hai đầu vào phần giữa của dây.",
+				"UUID": "ac3a6790-b3aa-49a5-be2a-ad37f3c89275"
+			},
+			"Lực đẩy Archimedes": {
+				"Công thức": "F_A = \\rho \\cdot g \\cdot V",
+				"Lý thuyết": "Một vật nhúng trong chất lỏng bị chất lỏng đó đẩy thẳng đứng từ dưới lên với một lực có độ lớn bằng trọng lượng của phần chất lỏng mà vật chiếm chỗ. (ρ là khối lượng riêng của chất lỏng, V là thể tích phần chất lỏng bị vật chiếm chỗ).",
+				"UUID": "5af978f8-298b-444d-a56a-e61c34cc5e09"
+			},
+			"Lực hướng tâm": {
+				"Công thức": "F_{ht} = m a_{ht} = m\\frac{v^2}{R} = m\\omega^2 R",
+				"Lý thuyết": "Lực (hay hợp lực) tác dụng lên một vật chuyển động tròn đều, gây ra gia tốc hướng tâm cho vật, được gọi là lực hướng tâm.",
+				"UUID": "521f1504-0a79-48ce-9eed-9974b33ba404"
+			}
+		},
+		"Moment và Cân bằng vật rắn": {
+			"Tổng hợp và phân tích lực": {
+				"Công thức": "\\vec{F} = \\vec{F}_1 + \\vec{F}_2 + ...",
+				"Lý thuyết": "Tổng hợp lực là thay thế các lực tác dụng đồng thời vào cùng một vật bằng một lực duy nhất có tác dụng giống hệt như các lực ấy. Phân tích lực là thao tác ngược lại.",
+				"UUID": "45f7cd21-3268-4950-af16-405f09647b43"
+			},
+			"Điều kiện cân bằng của vật rắn": {
+				"Công thức": "\\sum \\vec{F} = 0; \\quad \\sum M = 0",
+				"Lý thuyết": "Một vật rắn được coi là cân bằng khi nó đứng yên hoặc chuyển động thẳng đều. Điều kiện để vật cân bằng là hợp lực tác dụng lên vật bằng không và tổng moment lực tác dụng lên vật đối với một điểm bất kỳ cũng bằng không.",
+				"UUID": "c38393a4-7aa1-4bab-bf52-e5548e98d148"
+			},
+			"Moment lực": {
+				"Công thức": "M = F \\cdot d",
+				"Lý thuyết": "Moment lực đối với một trục quay là đại lượng đặc trưng cho tác dụng làm quay của lực, được đo bằng tích của độ lớn của lực (F) với cánh tay đòn (d).",
+				"UUID": "5a5bbfd7-e0b7-40bb-9602-565f6c96d33c"
+			},
+			"Quy tắc moment lực": {
+				"Công thức": "M_1 + M_2 + ... = M'_1 + M'_2 + ...",
+				"Lý thuyết": "Để một vật có trục quay cố định cân bằng, tổng các moment lực có xu hướng làm vật quay theo chiều kim đồng hồ phải bằng tổng các moment lực có xu hướng làm vật quay ngược chiều kim đồng hồ.",
+				"UUID": "1be4269c-4ebf-4777-b2f7-31cdac118ded"
+			}
+		},
+		"Năng lượng và Công": {
+			"Công cơ học": {
+				"Công thức": "A = F \\cdot d \\cdot \\cos\\alpha",
+				"Lý thuyết": "Công là đại lượng đo phần năng lượng được truyền từ vật này sang vật khác thông qua lực tác dụng và làm vật dịch chuyển. α là góc giữa hướng của lực và hướng dịch chuyển.",
+				"UUID": "c6db9505-e9b0-4672-8e8d-e55b6f14289e"
+			},
+			"Công suất": {
+				"Công thức": "\\mathcal{P} = \\frac{A}{t} = F \\cdot v",
+				"Lý thuyết": "Công suất là đại lượng đặc trưng cho tốc độ thực hiện công, được đo bằng công sinh ra trong một đơn vị thời gian.",
+				"UUID": "7cd96d0d-be61-481f-bb39-16faa007757f"
+			},
+			"Động năng": {
+				"Công thức": "W_d = \\frac{1}{2}mv^2",
+				"Lý thuyết": "Động năng là năng lượng mà một vật có được do chuyển động.",
+				"UUID": "2c6cde34-24a2-4f2d-9af7-d9eaf23bcea3"
+			},
+			"Thế năng trọng trường": {
+				"Công thức": "W_t = mgh",
+				"Lý thuyết": "Thế năng trọng trường là năng lượng mà một vật có được do vị trí của nó trong trọng trường, phụ thuộc vào độ cao h so với mốc thế năng được chọn.",
+				"UUID": "0b7a51d0-5c10-4d2e-9369-dd8d79b827bd"
+			},
+			"Cơ năng": {
+				"Công thức": "W = W_d + W_t = \\frac{1}{2}mv^2 + mgh",
+				"Lý thuyết": "Cơ năng của một vật là tổng động năng và thế năng của nó.",
+				"UUID": "383a3377-958d-4acd-bd68-642c4a606046"
+			},
+			"Định luật bảo toàn cơ năng": {
+				"Công thức": "W_1 = W_2 \\Leftrightarrow \\frac{1}{2}mv_1^2 + mgh_1 = \\frac{1}{2}mv_2^2 + mgh_2",
+				"Lý thuyết": "Khi một vật chuyển động chỉ dưới tác dụng của trọng lực (hoặc lực đàn hồi), cơ năng của vật là một đại lượng được bảo toàn.",
+				"UUID": "02045852-bf2d-4fe8-937f-c42e5d18ab6c"
+			},
+			"Hiệu suất": {
+				"Công thức": "H = \\frac{A_{ich}}{A_{toan phan}} \\cdot 100\\%",
+				"Lý thuyết": "Hiệu suất là tỉ số giữa năng lượng có ích và năng lượng toàn phần cung cấp.",
+				"UUID": "bfac1209-d342-47ec-be2a-45db59771a2c"
+			}
+		},
+		"Động lượng": {
+			"Động lượng": {
+				"Công thức": "\\vec{p} = m\\vec{v}",
+				"Lý thuyết": "Động lượng là một đại lượng vector đặc trưng cho lượng chuyển động của vật, được xác định bằng tích của khối lượng và vận tốc của vật.",
+				"UUID": "95ececee-1720-4421-be34-a184de3ddd2b"
+			},
+			"Độ biến thiên động lượng": {
+				"Công thức": "\\Delta \\vec{p} = \\vec{F}_{hl} \\cdot \\Delta t",
+				"Lý thuyết": "Độ biến thiên động lượng của một vật bằng xung lượng của hợp lực tác dụng lên vật trong khoảng thời gian đó.",
+				"UUID": "c5b6dec5-3303-4278-a7f4-d8ebd9981bf6"
+			},
+			"Định luật bảo toàn động lượng": {
+				"Công thức": "\\sum \\vec{p}_{truoc} = \\sum \\vec{p}_{sau}",
+				"Lý thuyết": "Trong một hệ cô lập (hệ không có ngoại lực tác dụng hoặc hợp ngoại lực bằng không), tổng động lượng của hệ là một đại lượng bảo toàn.",
+				"UUID": "226f4506-567d-4873-aad7-20d24f793e2a"
+			},
+			"Va chạm": {
+				"Công thức": "",
+				"Lý thuyết": "Va chạm đàn hồi là va chạm trong đó tổng động năng của hệ được bảo toàn. Va chạm mềm là va chạm mà sau đó các vật dính vào nhau và chuyển động cùng vận tốc, động năng không bảo toàn.",
+				"UUID": "e8f12191-b1a7-4110-9c4d-469d36b9abb5"
+			}
+		},
+		"Biến dạng của vật rắn": {
+			"Định luật Hooke": {
+				"Công thức": "F_{dh} = k|\\Delta l|",
+				"Lý thuyết": "Trong giới hạn đàn hồi, độ lớn của lực đàn hồi của vật rắn (như lò xo) tỉ lệ thuận với độ biến dạng của nó. k là độ cứng (hệ số đàn hồi), Δl là độ dãn hoặc nén so với chiều dài tự nhiên.",
+				"UUID": "740ef739-bd4b-4246-a380-36924ad65fd1"
+			}
+		}
+	},
+	"11": {
+		"Dao động cơ": {
+			"Dao động điều hoà": {
+				"Công thức": "x = A\\cos(\\omega t + \\phi_0)",
+				"Lý thuyết": "Là dao động tuần hoàn trong đó li độ của vật là một hàm cosin (hoặc sin) của thời gian. Đồ thị li độ - thời gian là một đường hình sin.",
+				"UUID": "65611f31-10e5-446b-9f3b-cfd29cdeb4ef"
+			},
+			"Vận tốc trong dao động điều hoà": {
+				"Công thức": "v = -\\omega A\\sin(\\omega t + \\phi_0)",
+				"Lý thuyết": "Vận tốc của vật dao động điều hoà cũng biến thiên điều hoà, sớm pha \\(\\pi/2\\) so với li độ.",
+				"UUID": "70bd2d94-2862-4191-90a9-1e33b8b77994"
+			},
+			"Gia tốc trong dao động điều hoà": {
+				"Công thức": "a = -\\omega^2 A\\cos(\\omega t + \\phi_0) = -\\omega^2 x",
+				"Lý thuyết": "Gia tốc của vật dao động điều hoà cũng biến thiên điều hoà, ngược pha (lệch pha \\(\\pi\\)) so với li độ và luôn hướng về vị trí cân bằng.",
+				"UUID": "8c44ee0d-fe6e-404a-a01e-d90c9dce3d90"
+			},
+			"Hệ thức độc lập thời gian": {
+				"Công thức": "A^2 = x^2 + \\frac{v^2}{\\omega^2}",
+				"Lý thuyết": "Mối liên hệ giữa li độ và vận tốc không phụ thuộc vào thời gian.",
+				"UUID": "06c467c6-43b5-48d5-93ac-8783bf4eca8c"
+			},
+			"Tần số góc của con lắc lò xo": {
+				"Công thức": "\\omega = \\sqrt{\\frac{k}{m}}",
+				"Lý thuyết": "Tần số góc của con lắc lò xo phụ thuộc vào độ cứng k của lò xo và khối lượng m của vật.",
+				"UUID": "365bc8af-ccb4-4f26-aed4-ecf463d065da"
+			},
+			"Tần số góc của con lắc đơn": {
+				"Công thức": "\\omega = \\sqrt{\\frac{g}{l}}",
+				"Lý thuyết": "Tần số góc của con lắc đơn (dao động với biên độ nhỏ) phụ thuộc vào gia tốc trọng trường g và chiều dài l của dây treo.",
+				"UUID": "687aaed0-ad19-4ccd-b783-1ddbad7c8cf3"
+			},
+			"Năng lượng trong dao động điều hoà": {
+				"Công thức": "W = W_d + W_t = \\frac{1}{2}mv^2 + \\frac{1}{2}kx^2 = \\frac{1}{2}kA^2 = \\frac{1}{2}m\\omega^2A^2",
+				"Lý thuyết": "Cơ năng của con lắc lò xo dao động điều hoà được bảo toàn, tỉ lệ với bình phương biên độ dao động. Động năng và thế năng biến thiên tuần hoàn với tần số góc \\(\\omega' = 2\\omega\\).",
+				"UUID": "635ce687-76f9-47c4-879d-b8f7f0ac4286"
+			},
+			"Dao động tắt dần": {
+				"Công thức": "",
+				"Lý thuyết": "Là dao động có biên độ giảm dần theo thời gian do tác dụng của lực cản môi trường.",
+				"UUID": "e1703a51-5674-4c2d-8a1d-63b59f4c328e"
+			},
+			"Dao động cưỡng bức và Cộng hưởng": {
+				"Công thức": "",
+				"Lý thuyết": "Dao động cưỡng bức là dao động chịu tác dụng của một ngoại lực biến thiên tuần hoàn. Hiện tượng cộng hưởng xảy ra khi tần số của ngoại lực bằng tần số riêng của hệ, khi đó biên độ dao động đạt giá trị cực đại.",
+				"UUID": "2cbe3f28-2546-4dba-a396-1da8712be686"
+			}
+		},
+		"Sóng": {
+			"Các đặc trưng của sóng": {
+				"Công thức": "\\lambda = vT = \\frac{v}{f}",
+				"Lý thuyết": "Sóng là sự lan truyền dao động trong một môi trường. Bước sóng (\\(\\lambda\\)) là quãng đường sóng truyền đi trong một chu kì (T). Tốc độ truyền sóng (v) phụ thuộc vào môi trường truyền sóng, còn tần số (f) của sóng thì không đổi khi truyền từ môi trường này sang môi trường khác.",
+				"UUID": "648fff32-2116-49d9-ae96-2b3f42808ba6"
+			},
+			"Phương trình sóng": {
+				"Công thức": "u = A\\cos(2\\pi(\\frac{t}{T} - \\frac{x}{\\lambda}))",
+				"Lý thuyết": "Mô tả li độ (u) của một điểm trong môi trường tại vị trí x và thời điểm t.",
+				"UUID": "b995dd52-4ece-436a-88b6-821e9d7a6dc3"
+			},
+			"Giao thoa sóng cơ": {
+				"Công thức": "d_2 - d_1 = k\\lambda",
+				"Lý thuyết": "Giao thoa là hiện tượng hai sóng kết hợp gặp nhau tạo nên các điểm có biên độ được tăng cường hoặc suy giảm. Vị trí các điểm có biên độ cực đại (vân giao thoa cực đại) khi hai nguồn cùng pha được xác định bởi công thức trên (k là số nguyên). Vị trí cực tiểu là \\(d_2 - d_1 = (k + 0.5)\\lambda\\).",
+				"UUID": "c8be9ac4-37fb-4a20-96cf-5bf5d16194e9"
+			},
+			"Sóng dừng": {
+				"Công thức": "l = k\\frac{\\lambda}{2}",
+				"Lý thuyết": "Sóng dừng là trường hợp đặc biệt của giao thoa sóng, tạo ra các điểm đứng yên (nút sóng) và các điểm dao động với biên độ cực đại (bụng sóng). Điều kiện để có sóng dừng trên dây có hai đầu cố định là chiều dài dây bằng một số nguyên lần nửa bước sóng.",
+				"UUID": "af85fa10-1f25-4849-a195-6926d5cd799f"
+			},
+			"Sóng dừng (1 đầu cố định, 1 đầu tự do)": {
+				"Công thức": "l = (2k+1)\\frac{\\lambda}{4}",
+				"Lý thuyết": "Điều kiện để có sóng dừng trên dây có một đầu cố định, một đầu tự do là chiều dài dây bằng một số lẻ lần một phần tư bước sóng (k là số nguyên không âm).",
+				"UUID": "cd66e28a-ac46-4a27-875f-c9f017d22c59"
+			},
+			"Sóng điện từ": {
+				"Công thức": "c = \\lambda f",
+				"Lý thuyết": "Là sự lan truyền của điện từ trường biến thiên. Là sóng ngang, truyền được trong chân không với tốc độ c ≈ 3.10⁸ m/s. Các tính chất đặc trưng bao gồm phản xạ, khúc xạ, nhiễu xạ, giao thoa.",
+				"UUID": "d047bc40-9046-4290-98a8-e98ccf31c148"
+			},
+			"Giao thoa ánh sáng": {
+				"Công thức": "i = \\frac{\\lambda D}{a}",
+				"Lý thuyết": "Hiện tượng giao thoa ánh sáng qua hai khe hẹp (thí nghiệm Young) tạo ra một hệ vân sáng và vân tối xen kẽ trên màn. Khoảng vân (i) là khoảng cách giữa hai vân sáng hoặc hai vân tối liên tiếp. Vị trí vân sáng: \\(x_s = ki\\). Vị trí vân tối: \\(x_t = (k+0.5)i\\).",
+				"UUID": "922bfcbb-c6cf-480b-913e-bb2dc0c57caf"
+			}
+		},
+		"Điện học": {
+			"Định luật Coulomb": {
+				"Công thức": "F = k\\frac{|q_1q_2|}{\\varepsilon r^2}",
+				"Lý thuyết": "Lực tương tác tĩnh điện giữa hai điện tích điểm trong một môi trường có hằng số điện môi \\(\\varepsilon\\). Trong chân không, \\(\\varepsilon = 1\\) và \\(k = 9 \\cdot 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2\\).",
+				"UUID": "de797077-eee3-447a-8763-92f6ef7983ae"
+			},
+			"Cường độ điện trường": {
+				"Công thức": "E = \\frac{F}{q}",
+				"Lý thuyết": "Là đại lượng vectơ đặc trưng cho điện trường về mặt tác dụng lực. Vectơ cường độ điện trường \\(\\vec{E}\\) có cùng chiều với lực điện \\(\\vec{F}\\) nếu điện tích thử q dương, và ngược chiều nếu q âm.",
+				"UUID": "b4ed3ab6-d0d5-4322-bf31-b57f9efbb59f"
+			},
+			"Điện trường do điện tích điểm": {
+				"Công thức": "E = k\\frac{|Q|}{\\varepsilon r^2}",
+				"Lý thuyết": "Cường độ điện trường do một điện tích điểm Q gây ra tại một điểm cách nó một khoảng r.",
+				"UUID": "f7485e07-c78d-4cd7-b1fc-3f75042641de"
+			},
+			"Công của lực điện và Hiệu điện thế": {
+				"Công thức": "A_{MN} = qU_{MN} = q(V_M - V_N)",
+				"Lý thuyết": "Công của lực điện trường dịch chuyển điện tích q từ điểm M đến N. Hiệu điện thế \\(U_{MN}\\) là đại lượng đặc trưng cho khả năng sinh công của điện trường khi dịch chuyển một đơn vị điện tích giữa hai điểm đó.",
+				"UUID": "6d0ce766-a99c-4c3f-8ad8-561ff2111cbf"
+			},
+			"Mối liên hệ giữa E và U": {
+				"Công thức": "E = \\frac{U}{d}",
+				"Lý thuyết": "Mối liên hệ giữa cường độ điện trường đều E và hiệu điện thế U giữa hai điểm có hình chiếu trên một đường sức là d.",
+				"UUID": "769e4629-ce6d-4d9a-a243-3f6fb32fb05c"
+			},
+			"Tụ điện": {
+				"Công thức": "C = \\frac{Q}{U}",
+				"Lý thuyết": "Điện dung C của tụ điện là đại lượng đặc trưng cho khả năng tích điện của tụ, đơn vị là Fara (F).",
+				"UUID": "2c62bf44-05c5-450a-8668-3dcc515bfeb4"
+			},
+			"Ghép tụ điện nối tiếp": {
+				"Công thức": "\\frac{1}{C_b} = \\frac{1}{C_1} + \\frac{1}{C_2} + ...",
+				"Lý thuyết": "Khi ghép nối tiếp, điện tích trên các tụ bằng nhau: \\(Q_1 = Q_2 = ... = Q_b\\).",
+				"UUID": "46794429-79fa-46af-8bfb-994b2b111b3d"
+			},
+			"Ghép tụ điện song song": {
+				"Công thức": "C_b = C_1 + C_2 + ...",
+				"Lý thuyết": "Khi ghép song song, hiệu điện thế trên các tụ bằng nhau: \\(U_1 = U_2 = ... = U_b\\).",
+				"UUID": "8d9c1c98-2a59-46a6-99b5-4f99a3c798fb"
+			},
+			"Năng lượng tụ điện": {
+				"Công thức": "W = \\frac{1}{2}QU = \\frac{1}{2}CU^2 = \\frac{Q^2}{2C}",
+				"Lý thuyết": "Năng lượng của tụ điện được dự trữ dưới dạng năng lượng điện trường giữa hai bản tụ.",
+				"UUID": "7b5a807f-5137-470b-bb0f-57113f1c437f"
+			}
+		},
+		"Dòng điện không đổi": {
+			"Cường độ dòng điện": {
+				"Công thức": "I = \\frac{\\Delta q}{\\Delta t}",
+				"Lý thuyết": "Là đại lượng đặc trưng cho độ mạnh yếu của dòng điện, đo bằng điện lượng dịch chuyển qua tiết diện thẳng của vật dẫn trong một đơn vị thời gian. Đơn vị là Ampe (A).",
+				"UUID": "d6c3e08b-9c42-4d5c-97dc-83a9068f3861"
+			},
+			"Định luật Ohm cho đoạn mạch": {
+				"Công thức": "I = \\frac{U}{R}",
+				"Lý thuyết": "Cường độ dòng điện chạy qua một đoạn mạch chỉ có điện trở R tỉ lệ thuận với hiệu điện thế U hai đầu đoạn mạch và tỉ lệ nghịch với điện trở R.",
+				"UUID": "7add55f5-034e-44fd-b59b-b4da46a2cecd"
+			},
+			"Điện trở của vật dẫn": {
+				"Công thức": "R = \\rho \\frac{l}{S}",
+				"Lý thuyết": "Điện trở của vật dẫn hình trụ phụ thuộc vào bản chất vật liệu (điện trở suất \\(\\rho\\)), chiều dài (l) và tiết diện (S) của vật dẫn.",
+				"UUID": "2ac1b4b8-8c6f-4cd1-a987-a075fe37d62a"
+			},
+			"Suất điện động của nguồn điện": {
+				"Công thức": "\\mathscr{E} = \\frac{A_{nguon}}{q}",
+				"Lý thuyết": "Suất điện động (\\(\\mathscr{E}\\)) của một nguồn điện là đại lượng đặc trưng cho khả năng thực hiện công của nguồn điện, đo bằng công của lực lạ khi dịch chuyển một đơn vị điện tích dương ngược chiều điện trường bên trong nguồn. Đơn vị là Vôn (V).",
+				"UUID": "e36076c8-7ca3-4bba-b79c-a19eef705874"
+			},
+			"Định luật Ohm cho toàn mạch": {
+				"Công thức": "I = \\frac{\\mathscr{E}}{R_N + r}",
+				"Lý thuyết": "Cường độ dòng điện trong mạch kín tỉ lệ thuận với suất điện động của nguồn và tỉ lệ nghịch với tổng điện trở của mạch ngoài (R_N) và điện trở trong (r) của nguồn.",
+				"UUID": "2d75ee65-9f9d-41c3-88b2-9e3527d29faa"
+			},
+			"Công và Công suất điện": {
+				"Công thức": "\\mathscr{P} = UI = I^2R = \\frac{U^2}{R}",
+				"Lý thuyết": "Công suất tiêu thụ điện của một đoạn mạch là năng lượng điện mà đoạn mạch đó tiêu thụ trong một đơn vị thời gian. Công của dòng điện: A = P.t.",
+				"UUID": "68e7b31a-9867-433d-a620-d0cb1893d1ee"
+			},
+			"Công và Công suất của nguồn điện": {
+				"Công thức": "\\mathscr{P}_{ng} = \\mathscr{E}I",
+				"Lý thuyết": "Công suất của nguồn điện. Công của nguồn điện: \\(A_{ng} = \\mathscr{P}_{ng} \\cdot t = \\mathscr{E}It\\).",
+				"UUID": "be5a014c-ce76-482d-b31c-21538641f22b"
+			},
+			"Hiệu suất của nguồn điện": {
+				"Công thức": "H = \\frac{U_N}{\\mathscr{E}} = \\frac{R_N}{R_N + r}",
+				"Lý thuyết": "Là tỉ số giữa công suất có ích (ở mạch ngoài) và công suất toàn phần của nguồn điện.",
+				"UUID": "def442f6-2fd3-4646-bb51-18d72b176ab4"
+			}
+		}
+	},
+	"12": {
+		"Vật lí nhiệt": {
+			"Sự nóng chảy": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình chuyển từ thể rắn sang thể lỏng. Đối với chất rắn kết tinh, quá trình này xảy ra ở một nhiệt độ xác định gọi là nhiệt độ nóng chảy. Đối với chất rắn vô định hình, quá trình này xảy ra trong một khoảng nhiệt độ.",
+				"UUID": "06751e17-e903-417b-9906-c45e6f7c6ab8"
+			},
+			"Nhiệt nóng chảy riêng": {
+				"Công thức": "\\lambda = \\frac{Q}{m}",
+				"Lý thuyết": "Nhiệt nóng chảy riêng (λ) của một chất có giá trị bằng nhiệt lượng (Q) cần cung cấp để làm 1 kg chất đó (m) chuyển hoàn toàn từ thể rắn sang thể lỏng ở nhiệt độ nóng chảy. Đơn vị là J/kg.",
+				"UUID": "75e87ef0-5eea-4723-877a-9b30f9146b7d"
+			},
+			"Sự bay hơi và sự sôi": {
+				"Công thức": "",
+				"Lý thuyết": "Sự bay hơi là quá trình chuyển từ thể lỏng sang thể khí xảy ra ở bề mặt chất lỏng. Sự sôi là quá trình bay hơi xảy ra cả ở bên trong và trên bề mặt chất lỏng, diễn ra ở nhiệt độ sôi xác định phụ thuộc vào áp suất bên ngoài.",
+				"UUID": "1b264b7f-7803-489b-b114-c66c5c84d9ba"
+			},
+			"Nhiệt hoá hơi riêng": {
+				"Công thức": "L = \\frac{Q}{m}",
+				"Lý thuyết": "Nhiệt hoá hơi riêng (L) của một chất lỏng có giá trị bằng nhiệt lượng (Q) cần cung cấp để làm 1 kg chất lỏng đó (m) hoá hơi hoàn toàn ở nhiệt độ sôi. Đơn vị là J/kg.",
+				"UUID": "2c08813e-3206-4363-9b36-b23233fa0bd7"
+			},
+			"Thang nhiệt độ": {
+				"Công thức": "T(K) = t(°C) + 273,15 \\\\ T(°F) = 1,8t(°C) + 32",
+				"Lý thuyết": "Thang Celsius (°C) dựa trên điểm đông đặc (0°C) và điểm sôi (100°C) của nước ở áp suất 1 atm. Thang Kelvin (K) là thang nhiệt độ tuyệt đối, với 0 K là nhiệt độ không tuyệt đối. Thang Fahrenheit (°F) là một thang đo nhiệt độ khác.",
+				"UUID": "b75b10ee-7dc4-49f0-8d3f-bd0d27a554fd"
+			},
+			"Nội năng": {
+				"Công thức": "",
+				"Lý thuyết": "Nội năng của một vật là tổng động năng chuyển động nhiệt của các phân tử và thế năng tương tác giữa chúng. Nội năng phụ thuộc vào nhiệt độ và thể tích của vật.",
+				"UUID": "2d98121b-8f91-4130-bdbe-1b3b3618c2e8"
+			},
+			"Nhiệt dung riêng": {
+				"Công thức": "Q = mc(T_2 - T_1)",
+				"Lý thuyết": "Nhiệt lượng (Q) mà một vật thu vào hay toả ra khi nhiệt độ thay đổi được tính theo khối lượng (m), nhiệt dung riêng (c) và độ biến thiên nhiệt độ. Nhiệt dung riêng là nhiệt lượng cần thiết để làm 1 kg chất tăng thêm 1 K.",
+				"UUID": "ed86ace8-63a3-4c77-9fac-18b1be3eb34f"
+			},
+			"Định luật 1 Nhiệt động lực học": {
+				"Công thức": "\\Delta U = A + Q",
+				"Lý thuyết": "Độ biến thiên nội năng (ΔU) của một hệ bằng tổng công (A) và nhiệt lượng (Q) mà hệ nhận được. Quy ước dấu: Q > 0: Hệ nhận nhiệt lượng; Q < 0: Hệ truyền nhiệt lượng; A > 0: Hệ nhận công; A < 0: Hệ thực hiện công.",
+				"UUID": "0d235139-5967-459c-9caf-8bb245a2075b"
+			}
+		},
+		"Khí lí tưởng": {
+			"Thuyết động học phân tử chất khí": {
+				"Công thức": "",
+				"Lý thuyết": "Chất khí được cấu tạo từ các phân tử có kích thước rất nhỏ, chuyển động hỗn loạn không ngừng. Khi nhiệt độ càng cao, các phân tử chuyển động càng nhanh. Áp suất chất khí lên thành bình là do các va chạm của phân tử khí lên thành bình.",
+				"UUID": "89c0ae90-f744-4cb1-a24e-bec0ca092c5b"
+			},
+			"Phương trình trạng thái khí lí tưởng": {
+				"Công thức": "\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2} \\\\ pV = nRT",
+				"Lý thuyết": "Phương trình liên hệ giữa ba thông số trạng thái: áp suất (p), thể tích (V) và nhiệt độ tuyệt đối (T) của một lượng khí không đổi. Trong đó n là số mol khí, R là hằng số khí lí tưởng (R ≈ 8,31 J/mol.K).",
+				"UUID": "91cd155c-66cb-4486-86bc-55c1852c6fc7"
+			},
+			"Quá trình đẳng nhiệt (Định luật Boyle)": {
+				"Công thức": "pV = \\text{hằng số} \\\\ p_1V_1 = p_2V_2",
+				"Lý thuyết": "Trong quá trình đẳng nhiệt (nhiệt độ không đổi) của một lượng khí nhất định, áp suất tỉ lệ nghịch với thể tích.",
+				"UUID": "ab34be43-5479-4730-885e-5c6c7569871d"
+			},
+			"Quá trình đẳng áp (Định luật Charles)": {
+				"Công thức": "\\frac{V}{T} = \\text{hằng số} \\\\ \\frac{V_1}{T_1} = \\frac{V_2}{T_2}",
+				"Lý thuyết": "Trong quá trình đẳng áp (áp suất không đổi) của một lượng khí nhất định, thể tích tỉ lệ thuận với nhiệt độ tuyệt đối.",
+				"UUID": "71b85852-08bf-4316-be93-20f24110f98b"
+			},
+			"Quá trình đẳng tích": {
+				"Công thức": "\\frac{p}{T} = \\text{hằng số} \\\\ \\frac{p_1}{T_1} = \\frac{p_2}{T_2}",
+				"Lý thuyết": "Trong quá trình đẳng tích (thể tích không đổi) của một lượng khí nhất định, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.",
+				"UUID": "49384654-f3c8-4bc6-bf9e-36adbe29e2a1"
+			},
+			"Áp suất và động năng phân tử": {
+				"Công thức": "p = \\frac{1}{3}\\mu \\overline{v^2} \\\\ W_đ = \\frac{3}{2}kT",
+				"Lý thuyết": "Áp suất (p) của chất khí liên quan đến mật độ phân tử (μ) và bình phương trung bình của vận tốc phân tử. Động năng tịnh tiến trung bình (Wđ) của một phân tử khí tỉ lệ thuận với nhiệt độ tuyệt đối (T), với k là hằng số Boltzmann (k ≈ 1,38.10⁻²³ J/K).",
+				"UUID": "5e234fed-29a1-4015-9417-0ce8fb348265"
+			}
+		},
+		"Từ trường và Cảm ứng điện từ": {
+			"Lực từ": {
+				"Công thức": "F = BIL\\sin\\theta",
+				"Lý thuyết": "Lực từ (F) tác dụng lên một đoạn dây dẫn có chiều dài L, mang dòng điện I, đặt trong từ trường đều B, hợp với B một góc θ. Chiều của lực từ được xác định bằng quy tắc bàn tay trái.",
+				"UUID": "fba17520-110c-453f-b5eb-15025b576e1f"
+			},
+			"Cảm ứng từ": {
+				"Công thức": "B = \\frac{F}{IL\\sin\\theta}",
+				"Lý thuyết": "Cảm ứng từ (B) là đại lượng vật lí đặc trưng cho từ trường về mặt tác dụng lực. Đơn vị của cảm ứng từ là Tesla (T).",
+				"UUID": "c0b5635b-ec70-403a-b257-55d050763f0c"
+			},
+			"Cảm ứng từ của các dòng điện đặc biệt": {
+				"Công thức": "B = 2 \\cdot 10^{-7} \\frac{I}{r} \\\\ B = 2\\pi \\cdot 10^{-7} \\frac{NI}{R} \\\\ B = 4\\pi \\cdot 10^{-7} \\frac{NI}{L}",
+				"Lý thuyết": "Công thức tính cảm ứng từ gây ra bởi dòng điện thẳng dài (công thức 1, r là khoảng cách), tại tâm dòng điện tròn N vòng bán kính R (công thức 2), và trong lòng ống dây dài L có N vòng (công thức 3).",
+				"UUID": "80da7edd-acdd-4093-acab-ab082f49da64"
+			},
+			"Từ thông": {
+				"Công thức": "\\Phi = BScos\\alpha",
+				"Lý thuyết": "Từ thông (Φ) qua một diện tích S đặt trong từ trường đều B là một đại lượng vô hướng, được xác định bởi cảm ứng từ B, diện tích S và góc α hợp bởi vectơ pháp tuyến của mặt phẳng và vectơ cảm ứng từ. Đơn vị là Weber (Wb).",
+				"UUID": "e337de8f-e314-473a-b593-5456854194a2"
+			},
+			"Suất điện động cảm ứng": {
+				"Công thức": "|e_c| = |\\frac{\\Delta\\Phi}{\\Delta t}| \\\\ e = -N\\frac{d\\Phi}{dt}",
+				"Lý thuyết": "Khi từ thông qua một mạch kín biến thiên, trong mạch xuất hiện một suất điện động cảm ứng (ec). Độ lớn của suất điện động cảm ứng tỉ lệ với tốc độ biến thiên của từ thông. Dấu '-' trong công thức thể hiện định luật Lenz, cho biết suất điện động cảm ứng có xu hướng chống lại sự biến thiên của từ thông đã sinh ra nó.",
+				"UUID": "723eff0a-7856-45a1-8e48-aff6cba6bfad"
+			},
+			"Dòng điện xoay chiều": {
+				"Công thức": "i = I_0\\cos(\\omega t + \\phi_i) \\\\ u = U_0\\cos(\\omega t + \\phi_u)",
+				"Lý thuyết": "Dòng điện xoay chiều là dòng điện có cường độ biến thiên điều hòa theo thời gian với tần số góc ω. i và u là giá trị tức thời, I₀ và U₀ là giá trị cực đại.",
+				"UUID": "efcc9052-d1e1-4b35-8d40-1eb1eb00f5b9"
+			},
+			"Giá trị hiệu dụng của dòng điện xoay chiều": {
+				"Công thức": "I = \\frac{I_0}{\\sqrt{2}} \\\\ U = \\frac{U_0}{\\sqrt{2}}",
+				"Lý thuyết": "Các giá trị hiệu dụng (I, U) của dòng điện và điện áp xoay chiều được định nghĩa dựa trên tác dụng nhiệt tương đương với dòng điện không đổi.",
+				"UUID": "a9ed41d6-aaa5-4d59-9959-8f7402fdd217"
+			},
+			"Công suất nhiệt của dòng điện xoay chiều": {
+				"Công thức": "\\mathcal{P} = RI^2",
+				"Lý thuyết": "Công suất toả nhiệt trung bình (P) trên một điện trở R khi có dòng điện xoay chiều chạy qua được tính bằng giá trị hiệu dụng của cường độ dòng điện.",
+				"UUID": "0ecd572d-7b54-4b41-b4ca-d40f24900456"
+			}
+		},
+		"Vật lí hạt nhân": {
+			"Cấu tạo hạt nhân": {
+				"Công thức": "A = Z + N",
+				"Lý thuyết": "Hạt nhân được cấu tạo từ các nucleon, bao gồm proton (mang điện tích dương) và neutron (không mang điện). Z là số proton (số hiệu nguyên tử), N là số neutron, và A là số khối (tổng số nucleon). Kí hiệu hạt nhân là `^A_ZX`.",
+				"UUID": "bce75732-dda6-4ef1-abac-79df2ac7f829"
+			},
+			"Đồng vị": {
+				"Công thức": "",
+				"Lý thuyết": "Các đồng vị của một nguyên tố là những nguyên tử có cùng số proton (Z) nhưng khác nhau về số neutron (N).",
+				"UUID": "2986ad70-1370-48d1-a2cf-5a95d2339bc8"
+			},
+			"Hệ thức Einstein": {
+				"Công thức": "E = mc^2",
+				"Lý thuyết": "Hệ thức tương đương giữa khối lượng (m) và năng lượng (E). Một vật có khối lượng m thì có năng lượng nghỉ tương ứng là E, với c là tốc độ ánh sáng trong chân không (c ≈ 3.10⁸ m/s).",
+				"UUID": "c477b737-5e27-457f-b652-c2428f571c83"
+			},
+			"Độ hụt khối và Năng lượng liên kết": {
+				"Công thức": "\\Delta m = [Zm_p + (A-Z)m_n] - m_{hn} \\\\ E_{lk} = \\Delta m c^2",
+				"Lý thuyết": "Độ hụt khối (Δm) là độ chênh lệch giữa tổng khối lượng của các nucleon tạo thành hạt nhân và khối lượng của chính hạt nhân đó. Năng lượng liên kết (Elk) là năng lượng cần thiết để phá vỡ một hạt nhân thành các nucleon riêng rẽ, hoặc là năng lượng tỏa ra khi các nucleon kết hợp tạo thành hạt nhân.",
+				"UUID": "7cb17f4b-2d0a-4120-a6b3-cf71a0591d09"
+			},
+			"Năng lượng liên kết riêng": {
+				"Công thức": "E_{lkr} = \\frac{E_{lk}}{A}",
+				"Lý thuyết": "Năng lượng liên kết riêng là năng lượng liên kết tính trên mỗi nucleon. Nó đặc trưng cho mức độ bền vững của hạt nhân. Hạt nhân có năng lượng liên kết riêng càng lớn thì càng bền vững.",
+				"UUID": "2b1b21ba-5a1a-4d05-94fd-42ee7da32a2a"
+			},
+			"Phản ứng hạt nhân": {
+				"Công thức": "W = (m_{truoc} - m_{sau})c^2",
+				"Lý thuyết": "Là quá trình biến đổi của các hạt nhân. Các định luật bảo toàn cơ bản là bảo toàn điện tích và bảo toàn số khối. Năng lượng của phản ứng (W) được xác định bởi sự thay đổi khối lượng nghỉ. Nếu W > 0, phản ứng tỏa năng lượng. Nếu W < 0, phản ứng thu năng lượng.",
+				"UUID": "b06d7815-f5d7-4920-a97a-a73848e6bf27"
+			},
+			"Phản ứng phân hạch": {
+				"Công thức": "",
+				"Lý thuyết": "Là phản ứng trong đó một hạt nhân nặng vỡ thành hai hạt nhân trung bình, kèm theo sự giải phóng năng lượng và một vài neutron.",
+				"UUID": "2c1e22c0-9118-4209-9aea-9a69450412e1"
+			},
+			"Phản ứng nhiệt hạch": {
+				"Công thức": "",
+				"Lý thuyết": "Là phản ứng trong đó hai hay nhiều hạt nhân nhẹ hợp lại thành một hạt nhân nặng hơn, và cũng giải phóng năng lượng lớn. Điều kiện để xảy ra là nhiệt độ rất cao.",
+				"UUID": "269eda5e-5cf9-46f0-89e5-4a6a8fb969c5"
+			},
+			"Hiện tượng phóng xạ": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình phân rã tự phát của một hạt nhân không bền vững. Quá trình này phát ra các tia phóng xạ (alpha, beta, gamma) và biến đổi hạt nhân ban đầu thành một hạt nhân khác.",
+				"UUID": "110b7001-5b66-4111-8f03-acdff2ab4185"
+			},
+			"Định luật phóng xạ": {
+				"Công thức": "N(t) = N_0 e^{-\\lambda t} \\\\ H(t) = H_0 e^{-\\lambda t}",
+				"Lý thuyết": "Số lượng hạt nhân chưa phân rã N(t) và độ phóng xạ H(t) của một mẫu giảm theo thời gian theo quy luật hàm số mũ. N₀ và H₀ là các giá trị ban đầu, λ là hằng số phóng xạ.",
+				"UUID": "085e6b62-9f30-49c2-b0ba-50c405fc62d6"
+			},
+			"Chu kì bán rã": {
+				"Công thức": "T = \\frac{\\ln 2}{\\lambda}",
+				"Lý thuyết": "Chu kì bán rã (T) là thời gian để một nửa số hạt nhân của một mẫu chất phóng xạ bị phân rã. Đây là một đại lượng đặc trưng cho mỗi chất phóng xạ.",
+				"UUID": "70a40139-2376-460a-a9ff-79013aa64943"
+			}
+		}
+	}
+}

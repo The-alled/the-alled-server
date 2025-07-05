@@ -2,6 +2,7 @@ import { CreatedResponse } from '@/core/success.response';
 import problemHandler from '@/config/generateProblem';
 import generateContext from '@/utils/generateText';
 import { subjectList } from '@/config/subjects';
+import * as z from 'zod/v4';
 import { AssignmentSubjectType } from '@/constant/assignmentSubject.constant';
 
 class AssignmentService {
@@ -21,10 +22,8 @@ class AssignmentService {
 		});
 	}
 
-	async getAssignmentSubject(params: AssignmentSubjectType) {
-		return new CreatedResponse('Data retrieved', {
-			data: subjectList[params.subject][params.class],
-		});
+	async getAssignmentSubject(params: z.infer<typeof AssignmentSubjectType>) {
+		return new CreatedResponse('Data retrieved', subjectList[params.subject][params.class]);
 	}
 }
 

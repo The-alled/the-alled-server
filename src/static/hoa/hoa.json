@@ -1,0 +1,481 @@
+{
+	"10": {
+		"Cấu tạo nguyên tử": {
+			"Thành phần nguyên tử": {
+				"Công thức": "",
+				"Lý thuyết": "Nguyên tử gồm hạt nhân ở tâm và vỏ electron. Hạt nhân gồm các hạt proton (mang điện tích dương, +1) và neutron (không mang điện). Vỏ nguyên tử gồm các hạt electron (mang điện tích âm, -1) chuyển động xung quanh hạt nhân. Nguyên tử trung hòa về điện nên số proton bằng số electron.",
+				"UUID": "2bd96172-19f5-429b-9493-5aecf87bf333"
+			},
+			"Khối lượng nguyên tử": {
+				"Công thức": "1 \\text{ amu} = \\frac{1}{12} \\times m_C = 1,66 \\times 10^{-24} \\text{ g}",
+				"Lý thuyết": "Đơn vị khối lượng nguyên tử, kí hiệu là amu. 1 amu có giá trị bằng 1/12 khối lượng của nguyên tử carbon-12. Khối lượng của proton và neutron xấp xỉ 1 amu, còn khối lượng của electron rất nhỏ (khoảng 0,00055 amu).",
+				"UUID": "af41b860-d612-4912-9973-40b8656430ce"
+			},
+			"Nguyên tố hóa học": {
+				"Công thức": "",
+				"Lý thuyết": "Là tập hợp những nguyên tử có cùng điện tích hạt nhân (cùng số proton). Số đơn vị điện tích hạt nhân (Z) của một nguyên tố được gọi là số hiệu nguyên tử của nguyên tố đó.",
+				"UUID": "40873a23-c09c-478d-9d5b-bf5a323934a8"
+			},
+			"Số khối": {
+				"Công thức": "A = Z + N",
+				"Lý thuyết": "Số khối (A) là tổng số hạt proton (Z) và số hạt neutron (N) trong hạt nhân nguyên tử.",
+				"UUID": "8b7f6004-a611-4b96-bb1a-a8a86d6422ab"
+			},
+			"Đồng vị": {
+				"Công thức": "",
+				"Lý thuyết": "Là những nguyên tử của cùng một nguyên tố hóa học (cùng số proton) nhưng có số neutron khác nhau, do đó số khối của chúng khác nhau.",
+				"UUID": "7eb0785e-9dd7-4f47-97a7-a5a89602b205"
+			},
+			"Nguyên tử khối trung bình": {
+				"Công thức": "\\bar{A} = \\frac{a_1 \\times A_1 + a_2 \\times A_2 + ... + a_i \\times A_i}{100}",
+				"Lý thuyết": "Nguyên tử khối của một nguyên tố là nguyên tử khối trung bình của hỗn hợp các đồng vị của nguyên tố đó, có tính đến tỉ lệ phần trăm số nguyên tử của mỗi đồng vị. Trong đó, A_i là số khối của đồng vị thứ i và a_i là tỉ lệ phần trăm số nguyên tử của đồng vị đó.",
+				"UUID": "42da96e1-1b0f-4b98-ab00-0287c714bf24"
+			},
+			"Cấu trúc vỏ electron": {
+				"Công thức": "",
+				"Lý thuyết": "Trong nguyên tử, các electron được sắp xếp thành từng lớp, các lớp được sắp xếp theo thứ tự năng lượng từ thấp đến cao (gần hạt nhân ra xa). Các lớp electron (n = 1, 2, 3,...) được kí hiệu tương ứng là K, L, M,.... Mỗi lớp lại được chia thành các phân lớp s, p, d, f. Số electron tối đa trong một lớp thứ n là 2n² (với n ≤ 4).",
+				"UUID": "96cc1b08-ff70-4273-b416-ec309417b602"
+			},
+			"Cấu hình electron": {
+				"Công thức": "",
+				"Lý thuyết": "Biểu diễn sự phân bố electron trên các phân lớp thuộc các lớp khác nhau. Các electron được phân bố lần lượt vào các orbital có mức năng lượng từ thấp đến cao (1s 2s 2p 3s 3p 4s 3d 4p 5s...) theo nguyên lí vững bền, nguyên lí Pauli và quy tắc Hund.",
+				"UUID": "0a7b34ae-c332-4b8f-8498-af894b37c320"
+			}
+		},
+		"Bảng tuần hoàn và Định luật tuần hoàn": {
+			"Cấu tạo Bảng tuần hoàn": {
+				"Công thức": "",
+				"Lý thuyết": "Các nguyên tố hóa học được sắp xếp theo chiều tăng dần của điện tích hạt nhân. Bảng gồm có các ô nguyên tố, chu kì và nhóm. Ô nguyên tố cho biết số hiệu nguyên tử, kí hiệu, tên nguyên tố và nguyên tử khối. Chu kì là dãy các nguyên tố mà nguyên tử của chúng có cùng số lớp electron. Nhóm gồm các nguyên tố mà nguyên tử có cấu hình electron tương tự nhau, do đó có tính chất hóa học gần giống nhau.",
+				"UUID": "9249c46a-9524-411a-8a80-6642f11d53e3"
+			},
+			"Sự biến đổi bán kính nguyên tử": {
+				"Công thức": "",
+				"Lý thuyết": "Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, bán kính nguyên tử có xu hướng giảm dần. Trong một nhóm A, theo chiều tăng dần điện tích hạt nhân, bán kính nguyên tử có xu hướng tăng dần.",
+				"UUID": "d18ae146-fb0a-4c02-ae25-cccb7046c54f"
+			},
+			"Sự biến đổi độ âm điện": {
+				"Công thức": "",
+				"Lý thuyết": "Độ âm điện của một nguyên tử đặc trưng cho khả năng hút electron của nguyên tử đó khi tạo thành liên kết hóa học. Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, độ âm điện có xu hướng tăng dần. Trong một nhóm A, theo chiều tăng dần điện tích hạt nhân, độ âm điện có xu hướng giảm dần.",
+				"UUID": "6a255713-becb-4d6e-9d16-791e6676487d"
+			},
+			"Sự biến đổi tính kim loại - phi kim": {
+				"Công thức": "",
+				"Lý thuyết": "Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, tính kim loại giảm dần, tính phi kim tăng dần. Trong một nhóm A, theo chiều tăng dần điện tích hạt nhân, tính kim loại tăng dần, tính phi kim giảm dần.",
+				"UUID": "beac4def-f948-48ca-be30-076fa7ebc254"
+			},
+			"Sự biến đổi tính acid - base của oxide và hydroxide": {
+				"Công thức": "",
+				"Lý thuyết": "Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, tính base của các oxide và hydroxide tương ứng yếu dần, đồng thời tính acid của chúng mạnh dần.",
+				"UUID": "d2c6e79c-7961-42ca-a254-9945d8b3d1dd"
+			},
+			"Định luật tuần hoàn": {
+				"Công thức": "",
+				"Lý thuyết": "Tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử.",
+				"UUID": "f8625c3d-d167-43ab-a20f-b9bb4840df23"
+			}
+		},
+		"Liên kết hóa học": {
+			"Quy tắc Octet": {
+				"Công thức": "",
+				"Lý thuyết": "Khi hình thành liên kết hóa học, nguyên tử của các nguyên tố có xu hướng nhường, nhận hoặc góp chung electron để đạt được cấu hình electron bền vững của nguyên tử khí hiếm gần nhất (với 8 electron ở lớp ngoài cùng, hoặc 2 đối với helium).",
+				"UUID": "2538a9a5-1b57-4549-9b69-01de4b4263c2"
+			},
+			"Liên kết ion": {
+				"Công thức": "",
+				"Lý thuyết": "Là liên kết được hình thành bởi lực hút tĩnh điện giữa các ion mang điện tích trái dấu. Thường được hình thành giữa kim loại điển hình và phi kim điển hình. Hợp chất ion thường ở trạng thái rắn, có nhiệt độ nóng chảy và nhiệt độ sôi cao, dẫn điện khi nóng chảy hoặc tan trong nước.",
+				"UUID": "3e12b011-ab6d-41ea-8315-6b6c84d90021"
+			},
+			"Liên kết cộng hóa trị": {
+				"Công thức": "",
+				"Lý thuyết": "Là liên kết được hình thành giữa hai nguyên tử bằng một hay nhiều cặp electron dùng chung. Nếu cặp electron dùng chung không bị lệch về phía nguyên tử nào thì đó là liên kết cộng hóa trị không phân cực. Nếu cặp electron dùng chung bị lệch về phía nguyên tử có độ âm điện lớn hơn thì đó là liên kết cộng hóa trị phân cực.",
+				"UUID": "ae01ab17-8c0b-4106-8efb-ed945d13b1d4"
+			},
+			"Phân loại liên kết dựa vào hiệu độ âm điện (Δχ)": {
+				"Công thức": "",
+				"Lý thuyết": "Dựa vào hiệu độ âm điện (Δχ) giữa hai nguyên tử tham gia liên kết: Nếu 0 ≤ Δχ < 0,4: liên kết cộng hóa trị không phân cực. Nếu 0,4 ≤ Δχ < 1,7: liên kết cộng hóa trị phân cực. Nếu Δχ ≥ 1,7: liên kết ion.",
+				"UUID": "3d84e3b1-93dd-4029-9aa8-19fff79003f8"
+			},
+			"Liên kết cho - nhận": {
+				"Công thức": "",
+				"Lý thuyết": "Là một trường hợp đặc biệt của liên kết cộng hóa trị, trong đó cặp electron dùng chung chỉ do một nguyên tử đóng góp.",
+				"UUID": "f674bcbd-5649-49b2-9229-faed49d8ca13"
+			},
+			"Liên kết Hydrogen": {
+				"Công thức": "",
+				"Lý thuyết": "Là một loại liên kết yếu, được hình thành giữa nguyên tử H (đã liên kết với một nguyên tử có độ âm điện lớn, thường là F, O, N) với một nguyên tử khác có độ âm điện lớn (F, O, N) còn cặp electron hóa trị chưa tham gia liên kết. Liên kết hydrogen làm tăng nhiệt độ nóng chảy, nhiệt độ sôi của nhiều chất.",
+				"UUID": "be997381-d0a9-4172-a509-28855d51f7f1"
+			},
+			"Tương tác van der Waals": {
+				"Công thức": "",
+				"Lý thuyết": "Là một loại tương tác yếu giữa các phân tử, được hình thành do sự xuất hiện của các lưỡng cực tạm thời và lưỡng cực cảm ứng. Tương tác này tăng theo sự tăng của khối lượng phân tử và kích thước phân tử, làm tăng nhiệt độ nóng chảy và nhiệt độ sôi.",
+				"UUID": "f8b02d50-d335-400b-a5b0-c97726e9871c"
+			}
+		},
+		"Phản ứng oxi hóa - khử": {
+			"Số oxi hóa": {
+				"Công thức": "",
+				"Lý thuyết": "Là điện tích của nguyên tử trong phân tử nếu giả định rằng liên kết giữa các nguyên tử trong phân tử là liên kết ion. Có 4 quy tắc để xác định: 1. Trong đơn chất, số oxi hóa của nguyên tử bằng 0. 2. Trong phân tử, tổng số oxi hóa của các nguyên tử bằng 0. 3. Trong ion, tổng số oxi hóa bằng điện tích ion. 4. Một số quy tắc cho các nguyên tố phổ biến (H là +1, O là -2, kim loại IA, IIA, Al có số oxi hóa tương ứng là +1, +2, +3).",
+				"UUID": "aa5adc75-9666-4a0c-8b8e-2a353e94d526"
+			},
+			"Phản ứng oxi hóa - khử": {
+				"Công thức": "",
+				"Lý thuyết": "Là phản ứng hóa học trong đó có sự thay đổi số oxi hóa của một số nguyên tố. Quá trình oxi hóa (sự oxi hóa) là quá trình nhường electron, làm tăng số oxi hóa. Quá trình khử (sự khử) là quá trình nhận electron, làm giảm số oxi hóa. Chất khử là chất nhường electron, chất oxi hóa là chất nhận electron.",
+				"UUID": "31b1d6ad-e0a4-49e2-92ee-6a63abfbd8f0"
+			},
+			"Phương pháp thăng bằng electron": {
+				"Công thức": "",
+				"Lý thuyết": "Dùng để lập phương trình hóa học của phản ứng oxi hóa - khử, dựa trên nguyên tắc tổng số electron do chất khử nhường bằng tổng số electron do chất oxi hóa nhận. Gồm 4 bước: 1. Xác định số oxi hóa, tìm chất khử và chất oxi hóa. 2. Viết quá trình oxi hóa và quá trình khử. 3. Tìm hệ số thích hợp cho chất khử và chất oxi hóa. 4. Đặt hệ số vào phương trình và cân bằng các nguyên tố còn lại.",
+				"UUID": "c910f471-a02c-4c4f-9f08-335c145d4b6f"
+			}
+		},
+		"Năng lượng hóa học": {
+			"Phản ứng tỏa nhiệt và thu nhiệt": {
+				"Công thức": "",
+				"Lý thuyết": "Phản ứng tỏa nhiệt là phản ứng hóa học giải phóng năng lượng dưới dạng nhiệt. Phản ứng thu nhiệt là phản ứng hóa học hấp thụ năng lượng dưới dạng nhiệt.",
+				"UUID": "e42fceaf-16ed-41c3-b823-9d2b82b53584"
+			},
+			"Biến thiên enthalpy chuẩn": {
+				"Công thức": "\\Delta_rH_{298}^o",
+				"Lý thuyết": "Là nhiệt lượng tỏa ra hay thu vào của một phản ứng hóa học được thực hiện ở điều kiện chuẩn (áp suất 1 bar đối với chất khí, nồng độ 1 mol/L đối với chất tan và nhiệt độ thường được chọn là 25°C hay 298 K). Phản ứng tỏa nhiệt có ΔH < 0, phản ứng thu nhiệt có ΔH > 0.",
+				"UUID": "73c4d8a8-d519-46fc-8e2b-94594d179b5a"
+			},
+			"Enthalpy tạo thành chuẩn": {
+				"Công thức": "\\Delta_fH_{298}^o",
+				"Lý thuyết": "Enthalpy tạo thành của một chất là biến thiên enthalpy của phản ứng tạo thành 1 mol chất đó từ các đơn chất ở dạng bền vững nhất, ở một điều kiện xác định. Enthalpy tạo thành chuẩn của các đơn chất bền vững bằng 0.",
+				"UUID": "9fcf3cc3-fb29-4f9a-a50e-598f1ba7fcd1"
+			},
+			"Tính biến thiên enthalpy phản ứng theo enthalpy tạo thành": {
+				"Công thức": "\\Delta_rH_{298}^o = \\sum \\Delta_fH_{298}^o (sp) - \\sum \\Delta_fH_{298}^o (cd)",
+				"Lý thuyết": "Biến thiên enthalpy của phản ứng bằng tổng enthalpy tạo thành chuẩn của các sản phẩm trừ đi tổng enthalpy tạo thành chuẩn của các chất đầu.",
+				"UUID": "d02e0f23-289d-4916-907e-f0ef4d1f9781"
+			},
+			"Tính biến thiên enthalpy phản ứng theo năng lượng liên kết": {
+				"Công thức": "\\Delta_rH_{298}^o = \\sum E_b (cd) - \\sum E_b (sp)",
+				"Lý thuyết": "Biến thiên enthalpy của phản ứng bằng tổng năng lượng liên kết của các chất đầu trừ đi tổng năng lượng liên kết của các sản phẩm. (Áp dụng cho phản ứng ở thể khí).",
+				"UUID": "e7b12d0f-797b-4440-a0b0-664a8722b210"
+			}
+		},
+		"Tốc độ phản ứng hóa học": {
+			"Tốc độ trung bình của phản ứng": {
+				"Công thức": "\\bar{v} = -\\frac{1}{a} \\frac{\\Delta C_A}{\\Delta t} = -\\frac{1}{b} \\frac{\\Delta C_B}{\\Delta t} = \\frac{1}{c} \\frac{\\Delta C_C}{\\Delta t} = \\frac{1}{d} \\frac{\\Delta C_D}{\\Delta t}",
+				"Lý thuyết": "Đối với phản ứng aA + bB → cC + dD, tốc độ trung bình của phản ứng được tính bằng sự biến thiên nồng độ của một chất trong một khoảng thời gian.",
+				"UUID": "b8c51a9f-2110-4019-95dc-cb72946dacf3"
+			},
+			"Các yếu tố ảnh hưởng đến tốc độ phản ứng": {
+				"Công thức": "",
+				"Lý thuyết": "Tốc độ phản ứng bị ảnh hưởng bởi các yếu tố: nồng độ (tăng nồng độ chất phản ứng, tốc độ tăng), nhiệt độ (tăng nhiệt độ, tốc độ tăng), áp suất (đối với phản ứng có chất khí, tăng áp suất, tốc độ tăng), diện tích bề mặt tiếp xúc (tăng diện tích bề mặt, tốc độ tăng) và chất xúc tác (làm tăng tốc độ phản ứng nhưng không bị tiêu hao).",
+				"UUID": "1f22c6eb-3909-4e21-ab92-2b592c199698"
+			},
+			"Hệ số nhiệt độ Vant Hoff": {
+				"Công thức": "\\gamma = \\frac{v_{t+10}}{v_t}",
+				"Lý thuyết": "Hệ số nhiệt độ Van't Hoff (γ) cho biết tốc độ phản ứng tăng lên bao nhiêu lần khi nhiệt độ tăng lên 10°C. Mối quan hệ giữa tốc độ ở hai nhiệt độ là: $v_{t_2} = v_{t_1} \\times \\gamma^{\\frac{t_2 - t_1}{10}}$",
+				"UUID": "6bf1ffbb-eac2-49ee-99d9-496d967801f3"
+			}
+		},
+		"Halogen và hợp chất": {
+			"Tính chất hóa học của Halogen": {
+				"Công thức": "X_2 + 2e \\rightarrow 2X^-",
+				"Lý thuyết": "Halogen là những phi kim điển hình, có tính oxi hóa mạnh. Tính oxi hóa giảm dần từ fluorine đến iodine. Chúng phản ứng với hầu hết kim loại, với hydrogen và một số phi kim khác. Halogen mạnh hơn có thể đẩy halogen yếu hơn ra khỏi dung dịch muối.",
+				"UUID": "4710b7e0-3e3f-4597-8453-6c19d5ae6101"
+			},
+			"Phản ứng của Halogen với nước": {
+				"Công thức": "X_2 + H_2O \\rightleftharpoons HX + HXO",
+				"Lý thuyết": "Fluorine phản ứng mãnh liệt với nước. Chlorine, bromine, iodine phản ứng thuận nghịch với nước tạo ra hỗn hợp hai acid. Khả năng phản ứng giảm dần từ Cl₂ đến I₂.",
+				"UUID": "45f9f95a-f776-4934-8df3-55b6c69d6c86"
+			},
+			"Hydrogen Halide và Hydrohalic acid": {
+				"Công thức": "",
+				"Lý thuyết": "Hydrogen halide (HX) là các hợp chất khí, tan tốt trong nước tạo thành dung dịch hydrohalic acid. Từ HF đến HI, nhiệt độ sôi tăng dần (trừ HF có nhiệt độ sôi cao bất thường do liên kết hydrogen). Tính acid của các dung dịch tăng dần từ HF đến HI.",
+				"UUID": "e47d6926-b960-45b6-b82e-5b7590b2bf64"
+			},
+			"Nhận biết ion Halide": {
+				"Công thức": "Ag^+ + X^- \\rightarrow AgX\\downarrow",
+				"Lý thuyết": "Dùng dung dịch silver nitrate (AgNO₃) để nhận biết các ion halide (trừ F⁻). AgCl là kết tủa trắng, AgBr là kết tủa vàng nhạt, AgI là kết tủa vàng.",
+				"UUID": "ec61f12b-783e-4878-b813-6686a78a7940"
+			}
+		}
+	},
+	"11": {
+		"Cân bằng hóa học": {
+			"Phản ứng thuận nghịch và Cân bằng hóa học": {
+				"Công thức": "aA + bB \\rightleftharpoons cC + dD",
+				"Lý thuyết": "Phản ứng thuận nghịch là phản ứng xảy ra theo hai chiều ngược nhau trong cùng điều kiện. Cân bằng hóa học là trạng thái của phản ứng thuận nghịch khi tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch (v_t = v_n).",
+				"UUID": "f8a19d27-da1c-445c-a252-2f4706018bb5"
+			},
+			"Hằng số cân bằng (Kc)": {
+				"Công thức": "K_C = \\frac{[C]^c [D]^d}{[A]^a [B]^b}",
+				"Lý thuyết": "Là đại lượng đặc trưng cho một cân bằng hóa học xác định, chỉ phụ thuộc vào nhiệt độ. Nồng độ của chất rắn không được biểu diễn trong biểu thức hằng số cân bằng.",
+				"UUID": "723119e7-70bb-4fd0-baea-36e1cf003b01"
+			},
+			"Nguyên lí chuyển dịch cân bằng Le Chatelier": {
+				"Công thức": "",
+				"Lý thuyết": "Một phản ứng thuận nghịch đang ở trạng thái cân bằng khi chịu một tác động từ bên ngoài như biến đổi nồng độ, áp suất hoặc nhiệt độ thì cân bằng sẽ chuyển dịch theo chiều làm giảm tác động đó. Chất xúc tác không làm chuyển dịch cân bằng.",
+				"UUID": "02ae056f-1097-4969-b3d1-a013bad82651"
+			}
+		},
+		"Sự điện li và pH": {
+			"Sự điện li": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình phân li các chất trong nước ra ion. Chất điện li là chất khi tan trong nước phân li ra ion. Chất điện li mạnh phân li hoàn toàn (HCl, NaOH, NaCl). Chất điện li yếu phân li một phần (CH₃COOH, NH₃). Chất không điện li không phân li ra ion (saccharose, ethanol).",
+				"UUID": "001d91b2-8e77-45c3-81a4-28810a1a8d12"
+			},
+			"Thuyết acid-base Brønsted–Lowry": {
+				"Công thức": "",
+				"Lý thuyết": "Theo thuyết Brønsted–Lowry: Acid là chất cho proton (H⁺), base là chất nhận proton (H⁺). Acid và base có thể là phân tử hoặc ion. Hợp chất có khả năng vừa cho, vừa nhận proton được gọi là chất lưỡng tính (ví dụ: HCO₃⁻, H₂O).",
+				"UUID": "26a3a2a7-e717-46fa-9d00-bc017cd968f8"
+			},
+			"Tích số ion của nước và pH": {
+				"Công thức": "K_w = [H^+][OH^-] = 1.0 \\times 10^{-14} \\text{ (ở 25°C)}\\npH = -\\log[H^+]",
+				"Lý thuyết": "Nước là chất điện li rất yếu. Tích số ion của nước là một hằng số ở nhiệt độ xác định. Môi trường acid có [H⁺] > 10⁻⁷ M (pH < 7). Môi trường base có [H⁺] < 10⁻⁷ M (pH > 7). Môi trường trung tính có [H⁺] = 10⁻⁷ M (pH = 7).",
+				"UUID": "02a9ae44-4fc3-4070-9194-01faefdd04a2"
+			},
+			"Chuẩn độ acid-base": {
+				"Công thức": "C_{acid} \\times V_{acid} = C_{base} \\times V_{base}",
+				"Lý thuyết": "Là phương pháp xác định nồng độ của một dung dịch acid hoặc base bằng một dung dịch base hoặc acid đã biết nồng độ (dung dịch chuẩn). Thời điểm mà hai chất phản ứng vừa đủ được gọi là điểm tương đương, nhận biết bằng chất chỉ thị pH.",
+				"UUID": "4c637b56-c993-4e43-88c5-6669a082923b"
+			},
+			"Sự thủy phân của ion trong nước": {
+				"Công thức": "CO_3^{2-} + H_2O \\rightleftharpoons HCO_3^- + OH^-\\nAl^{3+} + 3H_2O \\rightleftharpoons Al(OH)_3\\downarrow + 3H^+",
+				"Lý thuyết": "Là phản ứng trao đổi ion giữa các ion trong muối và nước. Ion của acid yếu (ví dụ: CH₃COO⁻, CO₃²⁻) bị thủy phân tạo môi trường base. Ion của base yếu (ví dụ: NH₄⁺, Al³⁺, Fe³⁺) bị thủy phân tạo môi trường acid. Ion của acid mạnh và base mạnh không bị thủy phân.",
+				"UUID": "cc29b20a-007f-4e06-bb1a-a8314d5ee4d5"
+			}
+		},
+		"Nitrogen - Sulfur": {
+			"Nitrogen (N₂)": {
+				"Công thức": "N_2(g) + 3H_2(g) \\xrightarrow{t^o, p, xt} 2NH_3(g); \\Delta_rH_{298}^o = -92 kJ\\nN_2(g) + O_2(g) \\xrightarrow{3000^oC} 2NO(g); \\Delta_rH_{298}^o = +180 kJ",
+				"Lý thuyết": "Ở điều kiện thường, nitrogen là chất khí trơ về mặt hóa học do có liên kết ba bền vững (E_b = 945 kJ/mol). Ở nhiệt độ cao, nitrogen thể hiện cả tính oxi hóa (tác dụng với kim loại, H₂) và tính khử (tác dụng với O₂).",
+				"UUID": "076ceebd-e3a4-49f2-9505-ea0eb42cb836"
+			},
+			"Ammonia (NH₃) và muối Ammonium": {
+				"Công thức": "NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-\\nNH_4Cl \\xrightarrow{t^o} NH_3 + HCl\\nNH_4NO_3 \\xrightarrow{t^o} N_2O + 2H_2O",
+				"Lý thuyết": "Ammonia là một base yếu, tác dụng với nước, acid, dung dịch muối. Ammonia còn là một chất khử mạnh khi tác dụng với oxygen. Muối ammonium dễ tan, là chất điện li mạnh, dễ bị nhiệt phân hủy. Ion NH₄⁺ thể hiện tính acid khi tác dụng với dung dịch base.",
+				"UUID": "922f4771-69c7-424e-9b55-5203589aa9dd"
+			},
+			"Hợp chất của Nitrogen với Oxygen": {
+				"Công thức": "2NO + O_2 \\rightarrow 2NO_2\\n4NO_2 + O_2 + 2H_2O \\rightarrow 4HNO_3",
+				"Lý thuyết": "Các oxide của nitrogen (NO, NO₂, N₂O, N₂O₅,...) là các chất khí độc, là nguyên nhân chính gây ra mưa acid và hiện tượng phú dưỡng. Mưa acid là hiện tượng nước mưa có pH < 5,6 do sự hòa tan của SO₂ và các oxide của nitrogen.",
+				"UUID": "37fa8059-3fa4-497f-8c91-098b9de88c85"
+			},
+			"Nitric Acid (HNO₃)": {
+				"Công thức": "Cu + 4HNO_3(\\text{đặc}) \\rightarrow Cu(NO_3)_2 + 2NO_2 + 2H_2O",
+				"Lý thuyết": "Là một acid mạnh, phân li hoàn toàn trong dung dịch. Là một chất oxi hóa rất mạnh, oxi hóa được hầu hết các kim loại (trừ Au, Pt). Tùy thuộc vào nồng độ acid và độ mạnh của chất khử, sản phẩm khử của N⁺⁵ có thể là NO₂, NO, N₂O, N₂, NH₄NO₃.",
+				"UUID": "ee7a0591-679c-4ac4-8ef4-c5de9f22edac"
+			},
+			"Sulfur (S) và Sulfur Dioxide (SO₂)": {
+				"Công thức": "S + O_2 \\xrightarrow{t^o} SO_2\\nSO_2 + 2H_2S \\rightarrow 3S + 2H_2O",
+				"Lý thuyết": "Sulfur là chất rắn, vừa có tính oxi hóa (tác dụng với kim loại, hydrogen), vừa có tính khử (tác dụng với oxygen, fluorine). Sulfur dioxide (SO₂) là khí độc, vừa là chất khử, vừa là chất oxi hóa, là một trong các nguyên nhân chính gây mưa acid.",
+				"UUID": "cba67bc1-8986-4a39-a42c-b9b39db9818a"
+			},
+			"Sulfuric Acid (H₂SO₄) và muối Sulfate": {
+				"Công thức": "C_{12}H_{22}O_{11} \\xrightarrow{H_2SO_4 \\text{ đặc}} 12C + 11H_2O\\nBa^{2+} + SO_4^{2-} \\rightarrow BaSO_4\\downarrow",
+				"Lý thuyết": "Dung dịch H₂SO₄ loãng có đầy đủ tính chất của một acid mạnh. Dung dịch H₂SO₄ đặc, nóng có tính oxi hóa mạnh (oxi hóa được hầu hết kim loại, nhiều phi kim) và tính háo nước. Ion sulfate (SO₄²⁻) được nhận biết bằng ion Ba²⁺ tạo kết tủa trắng BaSO₄.",
+				"UUID": "b2bfb46d-2977-43c7-ab4f-ea84d89bae20"
+			}
+		},
+		"Đại cương Hóa học hữu cơ": {
+			"Hợp chất hữu cơ và Phân loại": {
+				"Công thức": "",
+				"Lý thuyết": "Hợp chất hữu cơ là hợp chất của carbon (trừ CO, CO₂, muối carbonate, cyanide,...). Hóa học hữu cơ là ngành hóa học nghiên cứu về các hợp chất hữu cơ. Hợp chất hữu cơ được phân loại thành hydrocarbon (chỉ chứa C, H) và dẫn xuất của hydrocarbon (ngoài C, H còn có các nguyên tố khác như O, N, S, halogen...).",
+				"UUID": "6460e3f0-43cd-4dad-8ad9-a59289efc6c9"
+			},
+			"Công thức phân tử và Phân tích nguyên tố": {
+				"Công thức": "C_xH_yO_zN_t: x:y:z:t = \\frac{\\%C}{12} : \\frac{\\%H}{1} : \\frac{\\%O}{16} : \\frac{\\%N}{14}",
+				"Lý thuyết": "Phân tích nguyên tố dùng để xác định phần trăm khối lượng các nguyên tố trong hợp chất hữu cơ. Từ đó, lập được công thức đơn giản nhất. Kết hợp với phân tử khối (xác định bằng phổ khối lượng - MS), ta có thể lập được công thức phân tử.",
+				"UUID": "a6fc9af2-cb4b-4af0-b9b2-971fae869dbb"
+			},
+			"Cấu tạo hóa học và Đồng phân": {
+				"Công thức": "",
+				"Lý thuyết": "Thuyết cấu tạo hóa học: 1. Trong phân tử hợp chất hữu cơ, các nguyên tử liên kết với nhau theo đúng hóa trị và theo một thứ tự nhất định. 2. Trong phân tử hợp chất hữu cơ, carbon có hóa trị 4. 3. Tính chất của các chất phụ thuộc vào thành phần phân tử và cấu tạo hóa học. Đồng phân là những chất khác nhau nhưng có cùng công thức phân tử.",
+				"UUID": "fc64aceb-5074-4ca2-a111-d4d1cb989c8d"
+			},
+			"Đồng đẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Đồng đẳng là những hợp chất hữu cơ có thành phần phân tử hơn kém nhau một hay nhiều nhóm -CH₂- và có tính chất hóa học tương tự nhau.",
+				"UUID": "db2559c8-cb79-48c7-8c8c-72b5c3696c4b"
+			},
+			"Phương pháp tách và tinh chế": {
+				"Công thức": "",
+				"Lý thuyết": "Các phương pháp phổ biến để tách và tinh chế hợp chất hữu cơ bao gồm: Chưng cất (tách các chất lỏng có nhiệt độ sôi khác nhau), Chiết (tách chất dựa vào độ tan khác nhau trong các dung môi không trộn lẫn), Kết tinh (tách chất rắn dựa vào độ tan và sự thay đổi nhiệt độ), Sắc kí cột (tách các chất dựa vào sự hấp phụ khác nhau trên pha tĩnh và sự di chuyển khác nhau trong pha động).",
+				"UUID": "6bf378bb-a2c9-472a-9051-df29ae096d6a"
+			}
+		},
+		"Hydrocarbon": {
+			"Alkane": {
+				"Công thức": "C_nH_{2n+2} \\; (n \\ge 1)\\nC_nH_{2n+2} + X_2 \\xrightarrow{\\text{as/t}^o} C_nH_{2n+1}X + HX\\nC_nH_{2n+2} + (\\frac{3n+1}{2})O_2 \\xrightarrow{t^o} nCO_2 + (n+1)H_2O",
+				"Lý thuyết": "Là những hydrocarbon no, mạch hở, trong phân tử chỉ có liên kết đơn. Phản ứng đặc trưng là phản ứng thế (halogenation). Phản ứng cracking bẻ gãy mạch carbon. Phản ứng cháy tỏa nhiều nhiệt.",
+				"UUID": "75d4ca19-3895-4801-8a7f-3462bf20e21c"
+			},
+			"Alkene": {
+				"Công thức": "C_nH_{2n} \\; (n \\ge 2)\\nCH_2=CH_2 + H_2 \\xrightarrow{Ni, t^o} CH_3-CH_3\\nCH_2=CH_2 + Br_2 \\rightarrow CH_2Br-CH_2Br\\nnCH_2=CH_2 \\xrightarrow{t^o, p, xt} (-CH_2-CH_2-)_n",
+				"Lý thuyết": "Là những hydrocarbon không no, mạch hở, trong phân tử có một liên kết đôi C=C. Phản ứng đặc trưng là phản ứng cộng (H₂, halogen, HX, H₂O). Alkenes cũng tham gia phản ứng trùng hợp và phản ứng oxi hóa (làm mất màu dung dịch KMnO₄).",
+				"UUID": "3f4a3f2d-9912-4cb9-9015-fb66bcfffa7d"
+			},
+			"Alkyne": {
+				"Công thức": "C_nH_{2n-2} \\; (n \\ge 2)\\nCH\\equiv CH + 2H_2 \\xrightarrow{Ni, t^o} CH_3-CH_3\\nCH\\equiv CH + 2Br_2 \\rightarrow CHBr_2-CHBr_2\\nCH\\equiv CH + 2AgNO_3 + 2NH_3 \\rightarrow AgC\\equiv CAg\\downarrow + 2NH_4NO_3",
+				"Lý thuyết": "Là những hydrocarbon không no, mạch hở, trong phân tử có một liên kết ba C≡C. Tính chất hóa học tương tự alkene, tham gia phản ứng cộng với H₂, halogen, HX,... qua hai giai đoạn. Các alk-1-yne (alkyne có liên kết ba ở đầu mạch) có phản ứng thế ion kim loại (phản ứng với dung dịch AgNO₃/NH₃ tạo kết tủa).",
+				"UUID": "8c70e73e-5991-4ce8-8890-b21881daaf95"
+			},
+			"Quy tắc Markovnikov và Zaitsev": {
+				"Công thức": "",
+				"Lý thuyết": "Quy tắc Markovnikov (cộng): Trong phản ứng cộng HX vào alkene không đối xứng, nguyên tử H ưu tiên cộng vào nguyên tử carbon bậc thấp hơn (có nhiều H hơn) ở liên kết đôi. Quy tắc Zaitsev (tách): Trong phản ứng tách HX khỏi dẫn xuất halogen, nguyên tử H ưu tiên bị tách ra cùng với X từ nguyên tử carbon bậc cao hơn bên cạnh.",
+				"UUID": "61c21b26-9220-42e8-92ab-ddcbec341663"
+			},
+			"Arene (Hydrocarbon thơm)": {
+				"Công thức": "C_6H_6 + Br_2 \\xrightarrow{FeBr_3, t^o} C_6H_5Br + HBr\\nC_6H_6 + HNO_3(\\text{đặc}) \\xrightarrow{H_2SO_4(\\text{đặc}), t^o} C_6H_5NO_2 + H_2O\\nC_6H_6 + 3H_2 \\xrightarrow{Ni, t^o, p} C_6H_{12}",
+				"Lý thuyết": "Là những hydrocarbon có chứa vòng benzene. Tính chất hóa học đặc trưng của benzene là thơm: dễ tham gia phản ứng thế, khó tham gia phản ứng cộng và bền vững với các chất oxi hóa. Các nhóm thế có sẵn trên vòng ảnh hưởng đến khả năng phản ứng và hướng của phản ứng thế tiếp theo.",
+				"UUID": "e44b594f-6b03-4797-986e-8101272f1c60"
+			}
+		},
+		"Dẫn xuất của Hydrocarbon": {
+			"Dẫn xuất Halogen": {
+				"Công thức": "R-X + NaOH \\xrightarrow{t^o} R-OH + NaX\\nCH_3CH_2Cl + KOH \\xrightarrow{C_2H_5OH, t^o} CH_2=CH_2 + KCl + H_2O",
+				"Lý thuyết": "Là hợp chất thu được khi thay thế một hay nhiều nguyên tử hydrogen trong phân tử hydrocarbon bằng một hay nhiều nguyên tử halogen. Tham gia phản ứng thế nguyên tử halogen bằng nhóm -OH (phản ứng thủy phân) và phản ứng tách hydrogen halide (theo quy tắc Zaitsev).",
+				"UUID": "c2491513-1828-47e1-b258-1f4de0825d9e"
+			},
+			"Alcohol": {
+				"Công thức": "C_nH_{2n+1}OH \\; (n \\ge 1)\\n2C_2H_5OH + 2Na \\rightarrow 2C_2H_5ONa + H_2\\uparrow\\nC_2H_5OH \\xrightarrow{H_2SO_4 \\text{ đặc}, 170^oC} CH_2=CH_2 + H_2O\\nR-CH_2OH + CuO \\xrightarrow{t^o} R-CHO + Cu + H_2O",
+				"Lý thuyết": "Là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết với nguyên tử carbon no. Alcohol có phản ứng thế nguyên tử H của nhóm -OH (tác dụng với kim loại kiềm), phản ứng tách nước tạo alkene hoặc ether, và phản ứng oxi hóa (alcohol bậc I tạo aldehyde, alcohol bậc II tạo ketone). Polyalcohol có các nhóm -OH kề nhau hòa tan được Cu(OH)₂ tạo dung dịch màu xanh lam đặc trưng.",
+				"UUID": "aec2ad86-afe4-4122-ade5-f814bc7cb691"
+			},
+			"Phenol": {
+				"Công thức": "C_6H_5OH + NaOH \\rightarrow C_6H_5ONa + H_2O\\nC_6H_5OH + 3Br_2 \\rightarrow C_6H_2Br_3OH\\downarrow + 3HBr",
+				"Lý thuyết": "Là hợp chất hữu cơ có nhóm -OH liên kết trực tiếp với vòng benzene. Do ảnh hưởng của vòng benzene, phenol có tính acid yếu (mạnh hơn alcohol, yếu hơn carbonic acid), tác dụng được với dung dịch base mạnh. Do ảnh hưởng của nhóm -OH, phenol dễ tham gia phản ứng thế vào vòng benzene hơn (với nước bromine, HNO₃) và ưu tiên thế vào các vị trí ortho, para.",
+				"UUID": "1304406e-dcbc-4605-b107-1873cb34f455"
+			},
+			"Hợp chất Carbonyl (Aldehyde - Ketone)": {
+				"Công thức": "R-CHO + H_2 \\xrightarrow{Ni, t^o} R-CH_2OH\\nR-CHO + 2[Ag(NH_3)_2]OH \\xrightarrow{t^o} R-COONH_4 + 2Ag\\downarrow + 3NH_3 + H_2O\\nCH_3-CO-R + 3I_2 + 4NaOH \\rightarrow CHI_3\\downarrow + R-COONa + 3NaI + 3H_2O",
+				"Lý thuyết": "Là hợp chất hữu cơ có chứa nhóm carbonyl (>C=O). Aldehyde có nhóm -CHO, ketone có nhóm >C=O liên kết với hai gốc hydrocarbon. Cả aldehyde và ketone đều tham gia phản ứng cộng (khử bởi H₂) tạo alcohol. Aldehyde có tính khử mạnh, tham gia phản ứng tráng bạc và phản ứng với Cu(OH)₂/OH⁻. Phản ứng iodoform dùng để nhận biết các hợp chất có nhóm CH₃-CO-.",
+				"UUID": "7d5b0995-c331-479c-b5e9-ef107fd2d08c"
+			},
+			"Carboxylic Acid": {
+				"Công thức": "C_nH_{2n+1}COOH \\; (n \\ge 0)\\nRCOOH \\rightleftharpoons RCOO^- + H^+\\nRCOOH + R'OH \\rightleftharpoons RCOOR' + H_2O \\; (H_2SO_4 \\text{đặc}, t^o)",
+				"Lý thuyết": "Là hợp chất hữu cơ có nhóm carboxyl (-COOH). Carboxylic acid có đầy đủ tính chất của một acid: làm đổi màu quỳ tím, tác dụng với base, oxide base, muối của acid yếu hơn và kim loại đứng trước H. Phản ứng đặc trưng là phản ứng ester hóa với alcohol.",
+				"UUID": "07fc7abe-bc42-4657-bfc8-ba1974930f4b"
+			}
+		}
+	},
+	"12": {
+		"Ester - Lipid": {
+			"Ester": {
+				"Công thức": "R-COOH + R'-OH \\rightleftharpoons R-COO-R' + H_2O \\; (H_2SO_4 \\text{đặc}, t^o)",
+				"Lý thuyết": "Ester là sản phẩm của phản ứng giữa carboxylic acid và alcohol. Công thức chung là RCOOR', với R là gốc hydrocarbon hoặc H, R' là gốc hydrocarbon. Phản ứng thủy phân trong môi trường acid là phản ứng thuận nghịch. Phản ứng thủy phân trong môi trường base (phản ứng xà phòng hóa) là phản ứng một chiều, tạo ra muối và alcohol.",
+				"UUID": "b674086c-29ab-4606-afff-87336d7e2b08"
+			},
+			"Lipid (Chất béo)": {
+				"Công thức": "(RCOO)_3C_3H_5 + 3NaOH \\xrightarrow{t^o} 3RCOONa + C_3H_5(OH)_3",
+				"Lý thuyết": "Lipid là những hợp chất hữu cơ có trong tế bào sống, không tan trong nước nhưng tan trong các dung môi hữu cơ không phân cực. Chất béo (triglyceride) là triester của glycerol với các acid béo. Acid béo là các carboxylic acid đơn chức, mạch dài, không phân nhánh. Chất béo lỏng (chứa gốc acid béo không no) có thể tham gia phản ứng cộng hydrogen (hydrogen hóa) để chuyển thành chất béo rắn (chứa gốc acid béo no).",
+				"UUID": "a3f39e72-1c8c-412e-a2fc-e2b59cea6029"
+			},
+			"Xà phòng và Chất giặt rửa": {
+				"Công thức": "",
+				"Lý thuyết": "Xà phòng là hỗn hợp muối sodium hoặc potassium của acid béo. Chất giặt rửa tổng hợp là những chất không phải muối của acid béo nhưng có tính năng giặt rửa tương tự xà phòng. Cả hai đều có cấu trúc gồm một 'đầu' ưa nước (ion) và một 'đuôi' kị nước (mạch hydrocarbon dài), có tác dụng làm giảm sức căng bề mặt của nước và phân tán chất bẩn.",
+				"UUID": "205160fc-01c9-4cc7-90a7-57d87d736ed9"
+			}
+		},
+		"Carbohydrate": {
+			"Khái niệm và Phân loại": {
+				"Công thức": "C_n(H_2O)_m",
+				"Lý thuyết": "Carbohydrate là những hợp chất hữu cơ tạp chức, thường có công thức chung là C_n(H_2O)_m. Chúng được chia thành 3 loại chính: monosaccharide (glucose, fructose), disaccharide (saccharose, maltose) và polysaccharide (tinh bột, cellulose).",
+				"UUID": "a05390eb-dade-4f37-a17d-0a9b95561d58"
+			},
+			"Glucose và Fructose": {
+				"Công thức": "C_6H_{12}O_6 + 2[Ag(NH_3)_2]OH \\xrightarrow{t^o} CH_2OH[CHOH]_4COONH_4 + 2Ag\\downarrow + 3NH_3 + H_2O\\nC_6H_{12}O_6 \\xrightarrow{\\text{enzyme}} 2C_2H_5OH + 2CO_2",
+				"Lý thuyết": "Là các monosaccharide, công thức phân tử C_6H_{12}O_6. Tồn tại ở cả dạng mạch hở và mạch vòng. Có tính chất của polyalcohol (tác dụng với Cu(OH)₂ ở nhiệt độ thường tạo dung dịch xanh lam) và có phản ứng lên men. Glucose có nhóm -CHO nên có tính khử (phản ứng tráng bạc, làm mất màu nước bromine). Fructose có nhóm >C=O nhưng trong môi trường base có thể chuyển hóa thành glucose nên cũng có phản ứng tráng bạc.",
+				"UUID": "b8a42655-5def-4f7c-b3d2-9d37d5a81757"
+			},
+			"Saccharose và Maltose": {
+				"Công thức": "C_{12}H_{22}O_{11} + H_2O \\xrightarrow{H^+, t^o} C_6H_{12}O_6 (glucose) + C_6H_{12}O_6 (fructose)",
+				"Lý thuyết": "Là các disaccharide. Saccharose được cấu tạo từ một gốc α-glucose và một gốc β-fructose. Maltose được cấu tạo từ hai gốc α-glucose. Cả hai đều có tính chất của polyalcohol và bị thủy phân tạo monosaccharide. Saccharose không có nhóm hemiacetal tự do nên không có tính khử. Maltose có nhóm hemiacetal tự do nên có tính khử tương tự glucose.",
+				"UUID": "b2cf6bbb-800e-4b91-8e56-de5cb0cec391"
+			},
+			"Tinh bột và Cellulose": {
+				"Công thức": "(C_6H_{10}O_5)_n + nH_2O \\xrightarrow{H^+, t^o} nC_6H_{12}O_6\\n[C_6H_7O_2(OH)_3]_n + 3nHNO_3(\\text{đặc}) \\xrightarrow{H_2SO_4(\\text{đặc})} [C_6H_7O_2(ONO_2)_3]_n + 3nH_2O",
+				"Lý thuyết": "Là các polysaccharide, công thức (C_6H_{10}O_5)_n. Tinh bột được tạo bởi các gốc α-glucose, gồm amylose (mạch thẳng) và amylopectin (mạch nhánh). Cellulose được tạo bởi các gốc β-glucose (mạch thẳng). Cả hai đều bị thủy phân đến cùng tạo glucose. Tinh bột có phản ứng đặc trưng với iodine tạo màu xanh tím. Cellulose có phản ứng với HNO₃ đặc tạo cellulose trinitrate.",
+				"UUID": "171c68e1-87d4-4d9e-b5a0-e6da03780c80"
+			}
+		},
+		"Hợp chất chứa Nitrogen": {
+			"Amine": {
+				"Công thức": "R-NH_2 + H_2O \\rightleftharpoons R-NH_3^+ + OH^-\\nR-NH_2 + HCl \\rightarrow R-NH_3Cl",
+				"Lý thuyết": "Amine là hợp chất hữu cơ được coi là dẫn xuất của ammonia khi thay thế một hay nhiều nguyên tử hydrogen bằng gốc hydrocarbon. Amine có tính base, thể hiện qua phản ứng với nước và acid. Aniline (C₆H₅NH₂) có tính base rất yếu. Amine bậc 1, 2, 3 có phản ứng khác nhau với nitrous acid (HNO₂). Aniline phản ứng với nước bromine tạo kết tủa trắng.",
+				"UUID": "f4808519-7b0a-4670-ae1c-76d618851e3e"
+			},
+			"Amino Acid": {
+				"Công thức": "H_2N-R-COOH + NaOH \\rightarrow H_2N-R-COONa + H_2O\\nH_2N-R-COOH + HCl \\rightarrow ClH_3N-R-COOH",
+				"Lý thuyết": "Amino acid là hợp chất hữu cơ tạp chức, phân tử chứa đồng thời nhóm amino (-NH₂) và nhóm carboxyl (-COOH). Amino acid tồn tại chủ yếu ở dạng ion lưỡng cực. Chúng có tính lưỡng tính, vừa tác dụng với acid, vừa tác dụng với base. Chúng còn có phản ứng ester hóa của nhóm -COOH và phản ứng trùng ngưng tạo liên kết peptide.",
+				"UUID": "faa3bd72-66df-4c87-9ba9-907cb1a247b9"
+			},
+			"Peptide và Protein": {
+				"Công thức": "",
+				"Lý thuyết": "Liên kết peptide là liên kết -CO-NH- giữa hai đơn vị α-amino acid. Peptide là hợp chất chứa từ 2 đến 50 gốc α-amino acid liên kết với nhau bằng các liên kết peptide. Protein là những polypeptide cao phân tử. Cả peptide (từ 2 liên kết trở lên) và protein đều có phản ứng màu biuret với Cu(OH)₂ trong môi trường kiềm tạo phức chất màu tím. Chúng cũng bị thủy phân trong môi trường acid hoặc base tạo ra các amino acid.",
+				"UUID": "ccdc6458-2895-4911-8a0a-de8631f332d1"
+			},
+			"Enzyme": {
+				"Công thức": "",
+				"Lý thuyết": "Enzyme là những protein có khả năng xúc tác cho các phản ứng hóa học. Mỗi enzyme thường chỉ xúc tác cho một phản ứng nhất định. Hoạt động của enzyme có tính chọn lọc cao và hiệu quả ở điều kiện nhiệt độ, pH xác định.",
+				"UUID": "b4f48bb1-6a20-47cf-98b5-690454f0224c"
+			}
+		},
+		"Polymer và Vật liệu Polymer": {
+			"Đại cương về Polymer": {
+				"Công thức": "nCH_2=CH_2 \\xrightarrow{t^o, p, xt} (-CH_2-CH_2-)_n\\nnH_2N-[CH_2]_5-COOH \\xrightarrow{t^o} (-NH-[CH_2]_5-CO-)_n + nH_2O",
+				"Lý thuyết": "Polymer là hợp chất có phân tử khối rất lớn do nhiều đơn vị nhỏ (monomer) liên kết với nhau. Phản ứng tạo polymer gồm phản ứng trùng hợp (cộng nhiều monomer giống nhau hoặc tương tự nhau) và phản ứng trùng ngưng (kết hợp nhiều monomer, có loại ra các phân tử nhỏ như nước).",
+				"UUID": "e17db929-fe7b-4403-b5e9-b5805b668d4d"
+			},
+			"Vật liệu Polymer": {
+				"Công thức": "",
+				"Lý thuyết": "Chất dẻo là vật liệu polymer có tính dẻo. Tơ là vật liệu polymer hình sợi dài, mảnh. Cao su là vật liệu polymer có tính đàn hồi. Keo dán là vật liệu có khả năng kết dính các mảnh vật liệu. Vật liệu composite gồm chất nền polymer và chất độn để tăng cường tính chất.",
+				"UUID": "35d9b9d8-eec8-48e1-82ec-ac62ae565a48"
+			},
+			"Cao su": {
+				"Công thức": "",
+				"Lý thuyết": "Cao su thiên nhiên là polymer của isoprene. Cao su tổng hợp gồm các loại như buna, buna-S, buna-N, isoprene, chloroprene. Lưu hóa cao su là quá trình tạo các cầu nối disulfide (-S-S-) giữa các mạch polymer, làm tăng độ đàn hồi, độ bền và khả năng chịu nhiệt của cao su.",
+				"UUID": "4e8c3fdc-36bb-48e5-b2c5-60d5bbb79277"
+			}
+		},
+		"Điện hóa học": {
+			"Pin điện hóa (Pin Galvanic)": {
+				"Công thức": "E_{pin} = E_{cathode} - E_{anode}",
+				"Lý thuyết": "Là thiết bị biến đổi hóa năng thành điện năng. Gồm hai điện cực khác nhau nhúng trong dung dịch điện li. Anode (cực âm) là nơi xảy ra sự oxi hóa. Cathode (cực dương) là nơi xảy ra sự khử. Suất điện động của pin được tính bằng hiệu thế điện cực của cathode và anode.",
+				"UUID": "00e0faa7-4908-41f6-bab6-69324242f75b"
+			},
+			"Dãy thế điện cực chuẩn của kim loại": {
+				"Công thức": "",
+				"Lý thuyết": "Sắp xếp các cặp oxi hóa - khử của kim loại theo chiều tăng dần giá trị thế điện cực chuẩn. Dãy này cho phép so sánh tính khử của kim loại và tính oxi hóa của ion kim loại, từ đó dự đoán chiều của phản ứng oxi hóa - khử theo quy tắc alpha (α).",
+				"UUID": "191d9605-8a3f-4445-9263-860f988eea1d"
+			},
+			"Ăn mòn kim loại": {
+				"Công thức": "Fe \\rightarrow Fe^{2+} + 2e\\n2H^+ + 2e \\rightarrow H_2",
+				"Lý thuyết": "Là sự phá hủy kim loại hoặc hợp kim do tác dụng của các chất trong môi trường. Có hai loại chính: ăn mòn hóa học và ăn mòn điện hóa. Ăn mòn điện hóa xảy ra khi các kim loại khác nhau (hoặc kim loại và phi kim) tiếp xúc với nhau và cùng tiếp xúc với dung dịch chất điện li, tạo thành một pin điện hóa mà ở đó kim loại có tính khử mạnh hơn bị ăn mòn (là cực âm).",
+				"UUID": "bb5b5155-b1f4-4030-ad5d-fbadb26e2b5d"
+			},
+			"Điện phân": {
+				"Công thức": "2NaCl + 2H_2O \\xrightarrow{\\text{điện phân dung dịch, có màng ngăn}} 2NaOH + H_2 + Cl_2",
+				"Lý thuyết": "Là quá trình sử dụng năng lượng điện để thực hiện một phản ứng oxi hóa - khử không tự xảy ra. Tại cathode (cực âm) xảy ra quá trình khử (cation hoặc nước). Tại anode (cực dương) xảy ra quá trình oxi hóa (anion hoặc nước). Điện phân được ứng dụng để điều chế kim loại, phi kim và nhiều hợp chất, cũng như trong mạ điện.",
+				"UUID": "0c6d6934-1d32-4806-8540-caa100d8035c"
+			}
+		},
+		"Hóa học kim loại": {
+			"Đại cương kim loại": {
+				"Công thức": "M \\rightarrow M^{n+} + ne",
+				"Lý thuyết": "Kim loại có cấu tạo mạng tinh thể kim loại, liên kết kim loại. Tính chất vật lí chung: tính dẻo, dẫn điện, dẫn nhiệt, ánh kim. Tính chất hóa học đặc trưng là tính khử. Kim loại tác dụng với phi kim, acid, nước (tùy kim loại) và dung dịch muối.",
+				"UUID": "678df5e4-342e-442d-b102-0ec6df7e73ba"
+			},
+			"Điều chế kim loại": {
+				"Công thức": "ZnO + C \\xrightarrow{t^o} Zn + CO",
+				"Lý thuyết": "Nguyên tắc chung là khử ion kim loại thành nguyên tử kim loại. Các phương pháp chính: thủy luyện (dùng kim loại mạnh hơn đẩy kim loại yếu hơn ra khỏi dung dịch muối), nhiệt luyện (dùng chất khử như C, CO, H₂, Al để khử oxide kim loại ở nhiệt độ cao), và điện phân (điện phân nóng chảy đối với kim loại mạnh, điện phân dung dịch đối với kim loại trung bình và yếu).",
+				"UUID": "d1a25236-930e-4f03-ba17-2bfb29849158"
+			},
+			"Kim loại nhóm IA và IIA": {
+				"Công thức": "2M + 2H_2O \\rightarrow 2MOH + H_2 \\; (M \\in IA)\\nM' + 2H_2O \\rightarrow M'(OH)_2 + H_2 \\; (M' \\in IIA, \\text{trừ Be})",
+				"Lý thuyết": "Kim loại nhóm IA (kiềm) và IIA (kiềm thổ) là những kim loại có tính khử rất mạnh. Tính khử tăng dần từ trên xuống dưới trong mỗi nhóm. Chúng dễ dàng tác dụng với phi kim, acid và nước. Các hợp chất quan trọng bao gồm NaOH, NaHCO₃, Na₂CO₃, CaCO₃, Ca(OH)₂. Nước cứng là nước chứa nhiều ion Ca²⁺ và Mg²⁺.",
+				"UUID": "d3642a47-e6cc-4abb-ab26-144650000e74"
+			},
+			"Kim loại chuyển tiếp và Phức chất": {
+				"Công thức": "Cu^{2+} + 4NH_3 \\rightarrow [Cu(NH_3)_4]^{2+}",
+				"Lý thuyết": "Kim loại chuyển tiếp (nhóm B) có nhiều số oxi hóa, có khả năng tạo ion phức. Phức chất là hợp chất tạo bởi ion trung tâm (thường là ion kim loại chuyển tiếp) liên kết với các phân tử hoặc ion xung quanh gọi là phối tử (ligand). Nhiều ion phức có màu đặc trưng.",
+				"UUID": "f3b2636b-e346-40c7-819e-6f8458167283"
+			}
+		}
+	}
+}

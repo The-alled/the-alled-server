@@ -1,0 +1,1202 @@
+{
+	"10": {
+		"Mệnh đề": {
+			"Khái niệm mệnh đề": {
+				"Công thức": "",
+				"Lý thuyết": "Mệnh đề là một khẳng định đúng hoặc một khẳng định sai. Một mệnh đề không thể vừa đúng, vừa sai.",
+				"UUID": "1753279a-e4e5-44b8-803c-2bd66a4cddd7"
+			},
+			"Mệnh đề phủ định": {
+				"Công thức": "\\bar{P}",
+				"Lý thuyết": "Mệnh đề P và mệnh đề phủ định của nó (ký hiệu là \\bar{P}) là hai mệnh đề có tính đúng sai trái ngược nhau. Nếu P đúng thì \\bar{P} sai, và nếu P sai thì \\bar{P} đúng.",
+				"UUID": "b8bfe45b-d5d3-41f0-adab-22c28fecdeca"
+			},
+			"Mệnh đề kéo theo": {
+				"Công thức": "P \\Rightarrow Q",
+				"Lý thuyết": "Mệnh đề có dạng 'Nếu P thì Q', ký hiệu là P \\Rightarrow Q. Mệnh đề này chỉ sai khi P đúng và Q sai.",
+				"UUID": "38f7038b-ac00-4849-9a12-20b07c7ef83f"
+			},
+			"Mệnh đề đảo": {
+				"Công thức": "Q \\Rightarrow P",
+				"Lý thuyết": "Mệnh đề Q \\Rightarrow P được gọi là mệnh đề đảo của mệnh đề P \\Rightarrow Q.",
+				"UUID": "c6db5025-071d-439b-9dfb-4fefd8525178"
+			},
+			"Mệnh đề tương đương": {
+				"Công thức": "P \\Leftrightarrow Q",
+				"Lý thuyết": "Mệnh đề 'P tương đương Q', ký hiệu P \\Leftrightarrow Q, đúng khi và chỉ khi cả hai mệnh đề P \\Rightarrow Q và Q \\Rightarrow P đều đúng. Có thể đọc là 'P khi và chỉ khi Q' hoặc 'P nếu và chỉ nếu Q'.",
+				"UUID": "0f7735e5-43a2-4647-abbd-27c9dbe41bc7"
+			},
+			"Mệnh đề chứa kí hiệu ∀ (với mọi)": {
+				"Công thức": "\\forall x \\in M, P(x)",
+				"Lý thuyết": "Mệnh đề khẳng định rằng với mọi giá trị của x thuộc tập hợp M, mệnh đề P(x) là đúng.",
+				"UUID": "7492859e-2c07-48a5-b9fa-347fd30a734f"
+			},
+			"Mệnh đề chứa kí hiệu ∃ (tồn tại)": {
+				"Công thức": "\\exists x \\in M, P(x)",
+				"Lý thuyết": "Mệnh đề khẳng định rằng có ít nhất một giá trị x thuộc tập hợp M sao cho mệnh đề P(x) là đúng.",
+				"UUID": "c789e8b1-9907-47c3-a915-65a311c60c21"
+			}
+		},
+		"Tập hợp": {
+			"Tập hợp con": {
+				"Công thức": "A \\subset B",
+				"Lý thuyết": "Nếu mọi phần tử của tập hợp A đều là phần tử của tập hợp B thì ta nói A là một tập hợp con của B.",
+				"UUID": "7458797e-f972-4ee9-8209-fa7f53a4e083"
+			},
+			"Tập hợp bằng nhau": {
+				"Công thức": "A = B \\Leftrightarrow (A \\subset B \\text{ và } B \\subset A)",
+				"Lý thuyết": "Hai tập hợp A và B được gọi là bằng nhau nếu A là tập con của B và ngược lại, B cũng là tập con của A.",
+				"UUID": "8197ecb3-fe44-474a-b740-092021c3378a"
+			},
+			"Giao của hai tập hợp": {
+				"Công thức": "A \\cap B = \\{x | x \\in A \\text{ và } x \\in B\\}",
+				"Lý thuyết": "Giao của hai tập hợp A và B là tập hợp chứa tất cả các phần tử vừa thuộc A, vừa thuộc B.",
+				"UUID": "028091af-9463-4e36-ac4f-773568dce9c9"
+			},
+			"Hợp của hai tập hợp": {
+				"Công thức": "A \\cup B = \\{x | x \\in A \\text{ hoặc } x \\in B\\}",
+				"Lý thuyết": "Hợp của hai tập hợp A và B là tập hợp chứa tất cả các phần tử thuộc A hoặc thuộc B.",
+				"UUID": "8ddb9028-a93d-4cb0-9598-6fc8473d760e"
+			},
+			"Hiệu của hai tập hợp": {
+				"Công thức": "A \\setminus B = \\{x | x \\in A \\text{ và } x \\notin B\\}",
+				"Lý thuyết": "Hiệu của hai tập hợp A và B là tập hợp chứa các phần tử thuộc A nhưng không thuộc B.",
+				"UUID": "d8307d3c-39b3-4f61-b133-a9242bf7b467"
+			},
+			"Phần bù": {
+				"Công thức": "C_E A = E \\setminus A",
+				"Lý thuyết": "Nếu A là tập con của E, thì phần bù của A trong E, ký hiệu là C_E A, chính là hiệu E \\setminus A.",
+				"UUID": "15d5f64e-6717-4686-9600-48a8c06a828d"
+			}
+		},
+		"Bất phương trình bậc nhất hai ẩn": {
+			"Dạng tổng quát": {
+				"Công thức": "ax + by + c < 0",
+				"Lý thuyết": "Bất phương trình bậc nhất hai ẩn x, y có dạng tổng quát là ax + by + c < 0 (hoặc các dạng >, ≤, ≥), trong đó a, b, c là các số thực, và a, b không đồng thời bằng 0.",
+				"UUID": "7a43ccd9-26c9-48a4-93b7-52dfee95b1a3"
+			},
+			"Hệ bất phương trình": {
+				"Công thức": "\\begin{cases} ax + by < c \\\\ a'x + b'y < c' \\end{cases}",
+				"Lý thuyết": "Là một hệ thống gồm hai hay nhiều bất phương trình bậc nhất hai ẩn. Nghiệm của hệ là nghiệm chung của tất cả các bất phương trình trong hệ.",
+				"UUID": "340f4b05-7214-4f94-bbc4-56834ff05c36"
+			}
+		},
+		"Hàm số và đồ thị": {
+			"Tập xác định": {
+				"Công thức": "D",
+				"Lý thuyết": "Là tập hợp tất cả các giá trị của x sao cho biểu thức f(x) có nghĩa.",
+				"UUID": "acb3f869-5955-4b6b-bdd3-98cf522f10de"
+			},
+			"Tập giá trị": {
+				"Công thức": "T = \\{y | y = f(x), x \\in D\\}",
+				"Lý thuyết": "Là tập hợp tất cả các giá trị của y = f(x) khi x thay đổi trong tập xác định D.",
+				"UUID": "1439153f-ff29-48c7-938e-218d15b04a50"
+			},
+			"Hàm số đồng biến": {
+				"Công thức": "\\forall x_1, x_2 \\in (a, b), x_1 < x_2 \\Rightarrow f(x_1) < f(x_2)",
+				"Lý thuyết": "Hàm số được gọi là đồng biến (hay tăng) trên một khoảng nếu giá trị của hàm số tăng lên khi biến số tăng lên trong khoảng đó.",
+				"UUID": "f55c65e7-8b0a-4d04-9291-55f7bcbe5192"
+			},
+			"Hàm số nghịch biến": {
+				"Công thức": "\\forall x_1, x_2 \\in (a, b), x_1 < x_2 \\Rightarrow f(x_1) > f(x_2)",
+				"Lý thuyết": "Hàm số được gọi là nghịch biến (hay giảm) trên một khoảng nếu giá trị của hàm số giảm xuống khi biến số tăng lên trong khoảng đó.",
+				"UUID": "6b4546c5-f66b-4d59-8749-023e421a6c1c"
+			},
+			"Hàm số bậc hai - Dạng tổng quát": {
+				"Công thức": "y = ax^2 + bx + c \\quad (a \\neq 0)",
+				"Lý thuyết": "Là hàm số có công thức như trên, với a, b, c là các hằng số và a phải khác 0. Đồ thị của nó là một đường parabol.",
+				"UUID": "c9877612-8803-456e-b855-ea5ac48e19f4"
+			},
+			"Hàm số bậc hai - Đỉnh Parabol": {
+				"Công thức": "S(-\\frac{b}{2a}, -\\frac{\\Delta}{4a})",
+				"Lý thuyết": "Là điểm cao nhất hoặc thấp nhất của đồ thị parabol, tùy thuộc vào dấu của hệ số a.",
+				"UUID": "1ed7ddf3-8072-49a1-8c98-345ed29e47c9"
+			},
+			"Hàm số bậc hai - Trục đối xứng": {
+				"Công thức": "x = -\\frac{b}{2a}",
+				"Lý thuyết": "Là đường thẳng đứng đi qua đỉnh của parabol, chia parabol thành hai phần đối xứng.",
+				"UUID": "cb18edb4-d959-4a52-8106-d7b2a15e8569"
+			}
+		},
+		"Hệ thức lượng trong tam giác": {
+			"Giá trị lượng giác - sin": {
+				"Công thức": "\\sin\\alpha = y_0",
+				"Lý thuyết": "Trong đường tròn đơn vị, sin của một góc là tung độ của điểm biểu diễn góc đó.",
+				"UUID": "702434a9-1a83-4953-b21b-59ee204e8705"
+			},
+			"Giá trị lượng giác - cos": {
+				"Công thức": "\\cos\\alpha = x_0",
+				"Lý thuyết": "Trong đường tròn đơn vị, cos của một góc là hoành độ của điểm biểu diễn góc đó.",
+				"UUID": "8fc6e8fa-b61d-41ff-9254-b168e3959141"
+			},
+			"Giá trị lượng giác - tan": {
+				"Công thức": "\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}",
+				"Lý thuyết": "Tan của một góc được định nghĩa là tỉ số giữa sin và cos của góc đó (với cos khác 0).",
+				"UUID": "48c3f53b-e764-4e51-add6-7a02273f5f1c"
+			},
+			"Giá trị lượng giác - cot": {
+				"Công thức": "\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha}",
+				"Lý thuyết": "Cotan của một góc được định nghĩa là tỉ số giữa cos và sin của góc đó (với sin khác 0).",
+				"UUID": "fc8c23ae-fca7-4fc9-b8e3-e529b87e4e2e"
+			},
+			"Hệ thức lượng giác cơ bản 1": {
+				"Công thức": "\\sin^2\\alpha + \\cos^2\\alpha = 1",
+				"Lý thuyết": "Tổng bình phương của sin và cos của cùng một góc luôn bằng 1.",
+				"UUID": "d7735eb7-2c2e-492f-9ad5-62b501df9910"
+			},
+			"Hệ thức lượng giác cơ bản 2": {
+				"Công thức": "1 + \\tan^2\\alpha = \\frac{1}{\\cos^2\\alpha}",
+				"Lý thuyết": "Mối liên hệ giữa tan và cos của một góc.",
+				"UUID": "d96369a2-0572-4b85-a169-ec8a625a1478"
+			},
+			"Hệ thức lượng giác cơ bản 3": {
+				"Công thức": "1 + \\cot^2\\alpha = \\frac{1}{\\sin^2\\alpha}",
+				"Lý thuyết": "Mối liên hệ giữa cotan và sin của một góc.",
+				"UUID": "ab097382-cee3-49ea-87a9-862fb12cb2b9"
+			},
+			"Định lí Cosin": {
+				"Công thức": "a^2 = b^2 + c^2 - 2bc \\cos A",
+				"Lý thuyết": "Cho phép tính độ dài một cạnh của tam giác khi biết độ dài hai cạnh còn lại và góc xen giữa chúng.",
+				"UUID": "2285b83c-4c5b-41ef-8420-5cead51649cd"
+			},
+			"Hệ quả Định lí Cosin": {
+				"Công thức": "\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}",
+				"Lý thuyết": "Cho phép tính cosin của một góc khi biết độ dài ba cạnh của tam giác.",
+				"UUID": "75a8d436-6b55-4bac-bd1b-e5694705ad84"
+			},
+			"Định lí Sin": {
+				"Công thức": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R",
+				"Lý thuyết": "Thiết lập mối quan hệ giữa các cạnh, các góc và bán kính đường tròn ngoại tiếp của một tam giác.",
+				"UUID": "46706f4e-a543-447b-abb5-8606a7d35c0f"
+			},
+			"Diện tích tam giác (theo đường cao)": {
+				"Công thức": "S = \\frac{1}{2} a h_a",
+				"Lý thuyết": "Diện tích tam giác bằng một nửa tích của một cạnh với chiều cao tương ứng.",
+				"UUID": "452ea4ae-1ad9-4398-b1cc-af8329063ea5"
+			},
+			"Diện tích tam giác (theo sin)": {
+				"Công thức": "S = \\frac{1}{2}ab\\sin C",
+				"Lý thuyết": "Diện tích tam giác bằng một nửa tích hai cạnh nhân với sin của góc xen giữa.",
+				"UUID": "a600ca48-24da-4f49-a6c5-09036c9214df"
+			},
+			"Diện tích tam giác (theo R)": {
+				"Công thức": "S = \\frac{abc}{4R}",
+				"Lý thuyết": "Diện tích tam giác có thể được tính thông qua tích ba cạnh và bán kính đường tròn ngoại tiếp R.",
+				"UUID": "49e33344-1e39-4163-b937-0ee0ed4375f5"
+			},
+			"Diện tích tam giác (theo r)": {
+				"Công thức": "S = pr",
+				"Lý thuyết": "Diện tích tam giác bằng tích của nửa chu vi (p) và bán kính đường tròn nội tiếp (r).",
+				"UUID": "ebd12b11-d494-4ecd-abc3-78c408792d7b"
+			},
+			"Diện tích tam giác (Heron)": {
+				"Công thức": "S = \\sqrt{p(p-a)(p-b)(p-c)}",
+				"Lý thuyết": "Công thức Heron cho phép tính diện tích tam giác khi chỉ biết độ dài ba cạnh của nó.",
+				"UUID": "f1a488a2-dc5a-4b06-b86e-71c28e5a27f7"
+			}
+		},
+		"Vector": {
+			"Quy tắc ba điểm": {
+				"Công thức": "\\vec{AB} + \\vec{BC} = \\vec{AC}",
+				"Lý thuyết": "Với ba điểm bất kỳ A, B, C, vector tổng của \\vec{AB} và \\vec{BC} là vector \\vec{AC}.",
+				"UUID": "862d0af6-78d6-4671-af27-3de99955c274"
+			},
+			"Quy tắc hình bình hành": {
+				"Công thức": "\\vec{AB} + \\vec{AD} = \\vec{AC}",
+				"Lý thuyết": "Nếu ABCD là một hình bình hành, thì tổng của hai vector \\vec{AB} và \\vec{AD} là vector đường chéo \\vec{AC}.",
+				"UUID": "1a4ec105-bc5a-40ea-a0e3-470bdf9ca407"
+			},
+			"Hiệu hai vector": {
+				"Công thức": "\\vec{a} - \\vec{b} = \\vec{a} + (-\\vec{b})",
+				"Lý thuyết": "Hiệu của hai vector là phép cộng vector thứ nhất với vector đối của vector thứ hai.",
+				"UUID": "9d91e539-2179-4fe4-8076-54c39e5a7078"
+			},
+			"Tích của một số với một vector": {
+				"Công thức": "k\\vec{a}",
+				"Lý thuyết": "Là một vector có độ dài bằng |k| lần độ dài vector \\vec{a}, cùng hướng với \\vec{a} nếu k > 0 và ngược hướng nếu k < 0.",
+				"UUID": "bfce0257-c41b-445f-824f-d85e2707c7dd"
+			},
+			"Tích vô hướng của hai vector": {
+				"Công thức": "\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b})",
+				"Lý thuyết": "Là một giá trị vô hướng (một số), được tính bằng tích độ dài của hai vector nhân với cosin của góc tạo bởi chúng.",
+				"UUID": "201d089e-c753-4556-a9dc-582d7e0c6a38"
+			},
+			"Bình phương vô hướng": {
+				"Công thức": "\\vec{a}^2 = |\\vec{a}|^2",
+				"Lý thuyết": "Bình phương vô hướng của một vector bằng bình phương độ dài của chính vector đó.",
+				"UUID": "93b5a342-70c5-4cfa-aa37-9d772b41ccd8"
+			}
+		},
+		"Thống kê": {
+			"Sai số tuyệt đối": {
+				"Công thức": "\\Delta_a = |\\bar{a} - a|",
+				"Lý thuyết": "Là giá trị tuyệt đối của hiệu giữa số đúng (\\bar{a}) và số gần đúng (a).",
+				"UUID": "98b5f6b7-2bba-44b3-94a3-10519dd6bcd3"
+			},
+			"Sai số tương đối": {
+				"Công thức": "\\delta_a = \\frac{\\Delta_a}{|a|}",
+				"Lý thuyết": "Là tỉ số giữa sai số tuyệt đối và giá trị tuyệt đối của số gần đúng, thể hiện mức độ chính xác tương đối.",
+				"UUID": "234d59af-cdc6-49f0-af71-bcc97271a81f"
+			},
+			"Số trung bình": {
+				"Công thức": "\\bar{x} = \\frac{x_1 + x_2 + ... + x_n}{n}",
+				"Lý thuyết": "Là giá trị trung tâm của một tập dữ liệu, được tính bằng tổng tất cả các giá trị chia cho số lượng các giá trị.",
+				"UUID": "9b33ff8f-b3d0-4a4a-a8ce-0d05578e6450"
+			},
+			"Trung vị": {
+				"Công thức": "M_e",
+				"Lý thuyết": "Là giá trị nằm ở vị trí chính giữa của một mẫu số liệu đã được sắp xếp theo thứ tự. Nếu số phần tử là chẵn, trung vị là trung bình cộng của hai giá trị ở giữa.",
+				"UUID": "35548986-1746-45cc-96f9-fad873b754ee"
+			},
+			"Tứ phân vị": {
+				"Công thức": "Q_1, Q_2, Q_3",
+				"Lý thuyết": "Là các giá trị chia một mẫu số liệu đã sắp xếp thành bốn phần có số lượng phần tử bằng nhau. Q2 chính là trung vị.",
+				"UUID": "6b1dd7dc-f900-4ba7-8081-2355b51ea463"
+			},
+			"Mốt": {
+				"Công thức": "M_o",
+				"Lý thuyết": "Là giá trị có tần số xuất hiện cao nhất trong một mẫu số liệu.",
+				"UUID": "67afa179-ffac-4c90-9070-a20812f5261b"
+			},
+			"Khoảng biến thiên": {
+				"Công thức": "R = x_{max} - x_{min}",
+				"Lý thuyết": "Là hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất trong mẫu số liệu, cho biết độ 'trải rộng' của dữ liệu.",
+				"UUID": "7a413a47-fc6d-478c-b3f4-eeb4d7f982fd"
+			},
+			"Khoảng tứ phân vị": {
+				"Công thức": "\\Delta_Q = Q_3 - Q_1",
+				"Lý thuyết": "Là hiệu giữa tứ phân vị thứ ba và tứ phân vị thứ nhất, đo lường độ phân tán của 50% dữ liệu ở giữa.",
+				"UUID": "28b5e797-9dbb-4fc2-b953-6af65972e361"
+			},
+			"Phương sai": {
+				"Công thức": "S^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2",
+				"Lý thuyết": "Là trung bình của bình phương các độ lệch của từng giá trị so với số trung bình, đo mức độ phân tán của dữ liệu.",
+				"UUID": "e1baea39-f690-404f-ab69-3ac23af0451f"
+			},
+			"Độ lệch chuẩn": {
+				"Công thức": "S = \\sqrt{S^2}",
+				"Lý thuyết": "Là căn bậc hai của phương sai, đưa đơn vị đo về cùng đơn vị với dữ liệu gốc.",
+				"UUID": "d9c99d69-8c31-4fed-b2d7-25d729b656de"
+			}
+		},
+		"Bất phương trình bậc hai": {
+			"Tam thức bậc hai": {
+				"Công thức": "f(x) = ax^2 + bx + c \\quad (a \\neq 0)",
+				"Lý thuyết": "Tam thức bậc hai đối với x là một biểu thức có dạng f(x) = ax^2 + bx + c, trong đó a, b, c là các hệ số đã cho và a khác 0.",
+				"UUID": "91dc2c33-99e0-47fb-a27b-8a6c5d91f743"
+			},
+			"Định lí về dấu của tam thức bậc hai": {
+				"Công thức": "",
+				"Lý thuyết": "Cho tam thức bậc hai f(x) = ax^2 + bx + c (a ≠ 0) có biệt thức Δ = b^2 - 4ac:\n- Nếu Δ < 0, thì f(x) luôn cùng dấu với hệ số a với mọi x ∈ ℝ.\n- Nếu Δ = 0, thì f(x) có nghiệm kép x = -b/(2a) và f(x) luôn cùng dấu với hệ số a với mọi x ≠ -b/(2a).\n- Nếu Δ > 0, f(x) có hai nghiệm phân biệt x₁, x₂ (giả sử x₁ < x₂). Khi đó, f(x) cùng dấu với a khi x < x₁ hoặc x > x₂, và f(x) trái dấu với a khi x₁ < x < x₂.",
+				"UUID": "6b2097d3-e158-4be5-95a8-d49215116813"
+			},
+			"Bất phương trình bậc hai một ẩn": {
+				"Công thức": "ax^2 + bx + c > 0",
+				"Lý thuyết": "Là bất phương trình có một trong các dạng ax^2 + bx + c > 0, ax^2 + bx + c < 0, ax^2 + bx + c ≥ 0, ax^2 + bx + c ≤ 0, trong đó a, b, c là các số thực đã cho và a khác 0.",
+				"UUID": "29c6d28e-4ace-4e77-9ce2-8886280f9b73"
+			},
+			"Phương trình quy về phương trình bậc hai (Dạng 1)": {
+				"Công thức": "\\sqrt{ax^2 + bx + c} = \\sqrt{dx^2 + ex + f}",
+				"Lý thuyết": "Phương pháp giải: Bình phương hai vế và đặt điều kiện để biểu thức dưới căn không âm.",
+				"UUID": "1c60f59d-339b-4327-ad11-839907a0e061"
+			},
+			"Phương trình quy về phương trình bậc hai (Dạng 2)": {
+				"Công thức": "\\sqrt{ax^2 + bx + c} = dx + e",
+				"Lý thuyết": "Phương pháp giải: Bình phương hai vế và đặt điều kiện vế phải (dx + e) không âm.",
+				"UUID": "3615207f-64e4-4ed1-b69c-253181049c49"
+			}
+		},
+		"Đại số tổ hợp": {
+			"Quy tắc cộng": {
+				"Công thức": "m+n",
+				"Lý thuyết": "Nếu một công việc có thể được thực hiện theo một trong hai phương án A hoặc B. Nếu phương án A có m cách thực hiện và phương án B có n cách thực hiện không trùng với bất kỳ cách nào của phương án A, thì công việc đó có m + n cách thực hiện.",
+				"UUID": "a9a20fcc-a342-45fa-a636-a45d838c9de6"
+			},
+			"Quy tắc nhân": {
+				"Công thức": "m \\times n",
+				"Lý thuyết": "Nếu một công việc được chia thành hai công đoạn. Công đoạn thứ nhất có m cách thực hiện và ứng với mỗi cách đó có n cách thực hiện công đoạn thứ hai. Khi đó, công việc có m x n cách thực hiện.",
+				"UUID": "1bbe9a8f-7f50-4e06-986d-9e881faf3c4b"
+			},
+			"Hoán vị": {
+				"Công thức": "P_n = n!",
+				"Lý thuyết": "Một hoán vị của n phần tử là một cách sắp xếp n phần tử đó theo một thứ tự nhất định.",
+				"UUID": "ff4369e4-721e-4ca3-a225-eb4f2ca916bc"
+			},
+			"Chỉnh hợp": {
+				"Công thức": "A_n^k = \\frac{n!}{(n-k)!}",
+				"Lý thuyết": "Một chỉnh hợp chập k của n phần tử là một cách lấy k phần tử từ n phần tử và sắp xếp chúng theo một thứ tự.",
+				"UUID": "13553c86-f1bc-4e52-a7cf-fbe36bd821d4"
+			},
+			"Tổ hợp": {
+				"Công thức": "C_n^k = \\frac{n!}{k!(n-k)!}",
+				"Lý thuyết": "Một tổ hợp chập k của n phần tử là một cách lấy k phần tử từ n phần tử mà không quan tâm đến thứ tự.",
+				"UUID": "a5484784-c72b-4ec0-a1ba-e5483554759c"
+			},
+			"Nhị thức Newton": {
+				"Công thức": "(a+b)^n = \\sum_{k=0}^{n} C_n^k a^{n-k} b^k",
+				"Lý thuyết": "Công thức khai triển một luỹ thừa bậc n của một tổng hai số hạng (nhị thức).",
+				"UUID": "4da4451d-8d32-45b1-be16-0e39e259a515"
+			}
+		},
+		"Phương pháp toạ độ trong mặt phẳng": {
+			"Biểu thức toạ độ của phép cộng vector": {
+				"Công thức": "\\vec{a} + \\vec{b} = (a_1+b_1; a_2+b_2)",
+				"Lý thuyết": "",
+				"UUID": "773ff648-07a8-4c82-acdc-52cfd4f32872"
+			},
+			"Biểu thức toạ độ của phép trừ vector": {
+				"Công thức": "\\vec{a} - \\vec{b} = (a_1-b_1; a_2-b_2)",
+				"Lý thuyết": "",
+				"UUID": "03d391ce-fcf6-438b-9a3b-f17828c23089"
+			},
+			"Biểu thức toạ độ của phép nhân vector với một số": {
+				"Công thức": "k\\vec{a} = (ka_1; ka_2)",
+				"Lý thuyết": "",
+				"UUID": "b9c424bc-f493-4535-891c-460c788164fc"
+			},
+			"Biểu thức toạ độ của tích vô hướng": {
+				"Công thức": "\\vec{a} \\cdot \\vec{b} = a_1b_1 + a_2b_2",
+				"Lý thuyết": "",
+				"UUID": "63b07c96-956e-4c30-8ca5-8208927765b8"
+			},
+			"Toạ độ vector theo hai điểm": {
+				"Công thức": "\\vec{AB} = (x_B - x_A; y_B - y_A)",
+				"Lý thuyết": "",
+				"UUID": "662204bc-b37e-4c26-b819-6789848cdd7c"
+			},
+			"Toạ độ trung điểm đoạn thẳng": {
+				"Công thức": "x_M = \\frac{x_A+x_B}{2}; y_M = \\frac{y_A+y_B}{2}",
+				"Lý thuyết": "",
+				"UUID": "394e9cbe-3b80-44e1-9a1c-8f96dc984db7"
+			},
+			"Toạ độ trọng tâm tam giác": {
+				"Công thức": "x_G = \\frac{x_A+x_B+x_C}{3}; y_G = \\frac{y_A+y_B+y_C}{3}",
+				"Lý thuyết": "",
+				"UUID": "17bbb933-365a-4f78-9fb0-5b1ceddd9e44"
+			},
+			"Độ dài vector": {
+				"Công thức": "|\\vec{a}| = \\sqrt{a_1^2 + a_2^2}",
+				"Lý thuyết": "",
+				"UUID": "2c0cee6b-537b-4300-a093-a9d0710bd665"
+			},
+			"Khoảng cách giữa hai điểm": {
+				"Công thức": "AB = \\sqrt{(x_B-x_A)^2 + (y_B-y_A)^2}",
+				"Lý thuyết": "",
+				"UUID": "0d8fb284-680c-4a27-a883-9a3398de418f"
+			},
+			"Góc giữa hai vector": {
+				"Công thức": "\\cos(\\vec{a}, \\vec{b}) = \\frac{a_1b_1+a_2b_2}{\\sqrt{a_1^2+a_2^2} \\cdot \\sqrt{b_1^2+b_2^2}}",
+				"Lý thuyết": "",
+				"UUID": "b6d59fd2-5a88-422a-a1a0-05b5214d35d4"
+			},
+			"Phương trình tham số của đường thẳng": {
+				"Công thức": "\\begin{cases} x = x_0 + u_1t \\\\ y = y_0 + u_2t \\end{cases}",
+				"Lý thuyết": "Phương trình đường thẳng đi qua điểm M₀(x₀; y₀) và có vector chỉ phương u⃗ = (u₁; u₂).",
+				"UUID": "0d4d6b85-d87b-44b5-ae6c-1c4fe50d70fa"
+			},
+			"Phương trình tổng quát của đường thẳng": {
+				"Công thức": "ax + by + c = 0",
+				"Lý thuyết": "Phương trình đường thẳng có vector pháp tuyến n⃗ = (a; b).",
+				"UUID": "3fdcfbea-18dc-43b3-8a0a-8361aa393fee"
+			},
+			"Góc giữa hai đường thẳng": {
+				"Công thức": "\\cos(\\Delta_1, \\Delta_2) = |\\cos(\\vec{n_1}, \\vec{n_2})| = \\frac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2} \\cdot \\sqrt{a_2^2+b_2^2}}",
+				"Lý thuyết": "Góc giữa hai đường thẳng được tính thông qua cosin của góc giữa hai vector pháp tuyến tương ứng.",
+				"UUID": "7954553a-6491-4324-834f-17d1af21d3ba"
+			},
+			"Khoảng cách từ điểm đến đường thẳng": {
+				"Công thức": "d(M_0, \\Delta) = \\frac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}",
+				"Lý thuyết": "Khoảng cách từ điểm M₀(x₀; y₀) đến đường thẳng Δ có phương trình ax + by + c = 0.",
+				"UUID": "6f4e9821-d3ff-47e6-b4d9-8afe1df107ad"
+			},
+			"Phương trình đường tròn (Dạng chính tắc)": {
+				"Công thức": "(x-a)^2 + (y-b)^2 = R^2",
+				"Lý thuyết": "Phương trình đường tròn có tâm I(a; b) và bán kính R.",
+				"UUID": "6d4fb15d-fb31-46f1-8a79-ad21a3fef61a"
+			},
+			"Phương trình đường tròn (Dạng tổng quát)": {
+				"Công thức": "x^2+y^2-2ax-2by+c=0",
+				"Lý thuyết": "Điều kiện để là phương trình đường tròn: a² + b² - c > 0. Khi đó, tâm là I(a; b) và bán kính R = \\sqrt{a^2+b^2-c}.",
+				"UUID": "ae4b8b5f-3a37-4b9b-bf24-e08edcbd89a9"
+			},
+			"Phương trình tiếp tuyến của đường tròn": {
+				"Công thức": "(x_0-a)(x-x_0) + (y_0-b)(y-y_0) = 0",
+				"Lý thuyết": "Phương trình tiếp tuyến của đường tròn (C) tại điểm M₀(x₀; y₀) nằm trên đường tròn.",
+				"UUID": "70b8af2f-6c64-40af-af7f-4d771c0f0a00"
+			},
+			"Phương trình chính tắc của Elip": {
+				"Công thức": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+				"Lý thuyết": "Elip là tập hợp các điểm M trong mặt phẳng sao cho tổng khoảng cách từ M đến hai điểm cố định F₁, F₂ (tiêu điểm) là một hằng số 2a. Với a² = b² + c².",
+				"UUID": "f9454954-482e-4c32-aa5a-3454fc09a96b"
+			},
+			"Phương trình chính tắc của Hypebol": {
+				"Công thức": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+				"Lý thuyết": "Hypebol là tập hợp các điểm M trong mặt phẳng sao cho giá trị tuyệt đối của hiệu khoảng cách từ M đến hai điểm cố định F₁, F₂ (tiêu điểm) là một hằng số 2a. Với c² = a² + b².",
+				"UUID": "668e407f-2939-4814-8052-b0d099064643"
+			},
+			"Phương trình chính tắc của Parabol": {
+				"Công thức": "y^2 = 2px",
+				"Lý thuyết": "Parabol là tập hợp các điểm M trong mặt phẳng cách đều một điểm cố định F (tiêu điểm) và một đường thẳng cố định Δ (đường chuẩn).",
+				"UUID": "613d0cdc-75ee-40ad-9fe6-c23dc90f2f77"
+			}
+		},
+		"Xác suất": {
+			"Không gian mẫu": {
+				"Công thức": "\\Omega",
+				"Lý thuyết": "Tập hợp tất cả các kết quả có thể có của một phép thử ngẫu nhiên được gọi là không gian mẫu của phép thử đó.",
+				"UUID": "7363fcc1-fe5f-4b74-9e81-3a2a23f1a1df"
+			},
+			"Biến cố": {
+				"Công thức": "",
+				"Lý thuyết": "Một tập con của không gian mẫu được gọi là một biến cố.",
+				"UUID": "3178dc2f-aac7-4150-9aad-615f59a26838"
+			},
+			"Biến cố đối": {
+				"Công thức": "P(\\bar{A}) = 1 - P(A)",
+				"Lý thuyết": "Biến cố 'Không xảy ra A', ký hiệu là \\bar{A}, được gọi là biến cố đối của A.",
+				"UUID": "051afad7-24d0-4008-a457-36c8b04c281a"
+			},
+			"Xác suất của biến cố (Định nghĩa cổ điển)": {
+				"Công thức": "P(A) = \\frac{n(A)}{n(\\Omega)}",
+				"Lý thuyết": "Xác suất của biến cố A được xác định bởi tỉ số giữa số kết quả thuận lợi cho A và tổng số kết quả có thể xảy ra của phép thử.",
+				"UUID": "571050dc-4610-4067-aca2-36b421c8fa02"
+			}
+		}
+	},
+	"11": {
+		"Hàm số lượng giác và Phương trình lượng giác": {
+			"Hệ thức Chasles": {
+				"Công thức": "(Oa, Ob) + (Ob, Oc) = (Oa, Oc) + k360^{\\circ} \\quad (k \\in \\mathbb{Z})",
+				"Lý thuyết": "Với ba tia Oa, Ob, Oc bất kì, ta có hệ thức về số đo của các góc lượng giác.",
+				"UUID": "6ba03ebf-6c31-44a0-a5ce-bdbd570f7438"
+			},
+			"Đổi đơn vị đo góc": {
+				"Công thức": "a^{\\circ} = \\frac{\\pi a}{180} \\text{ rad}; \\quad \\alpha \\text{ rad} = (\\frac{180\\alpha}{\\pi})^{\\circ}",
+				"Lý thuyết": "Công thức chuyển đổi giữa đơn vị độ và đơn vị radian.",
+				"UUID": "a4c86102-7584-41fb-837c-e143f7dacdd7"
+			},
+			"Giá trị lượng giác của góc lượng giác": {
+				"Công thức": "\\sin\\alpha = y_M; \\quad \\cos\\alpha = x_M; \\quad \\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}; \\quad \\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha}",
+				"Lý thuyết": "Trên đường tròn lượng giác, với điểm M(x_M, y_M) là điểm biểu diễn của góc lượng giác α, ta có các định nghĩa về giá trị lượng giác.",
+				"UUID": "4b39d5bd-84dc-4893-a02f-79437fdcba1d"
+			},
+			"Hệ thức lượng giác cơ bản": {
+				"Công thức": "\\sin^2\\alpha + \\cos^2\\alpha = 1; \\quad 1 + \\tan^2\\alpha = \\frac{1}{\\cos^2\\alpha}; \\quad 1 + \\cot^2\\alpha = \\frac{1}{\\sin^2\\alpha}",
+				"Lý thuyết": "Các hệ thức cơ bản liên kết các giá trị lượng giác của cùng một góc.",
+				"UUID": "37f779f1-10b6-4073-8865-bbb5dd08e660"
+			},
+			"Giá trị lượng giác của các góc có liên quan đặc biệt": {
+				"Công thức": "\\sin(-\\alpha) = -\\sin\\alpha; \\cos(-\\alpha) = \\cos\\alpha; \\sin(\\pi - \\alpha) = \\sin\\alpha; \\cos(\\pi - \\alpha) = -\\cos\\alpha; \\sin(\\pi + \\alpha) = -\\sin\\alpha; \\cos(\\pi + \\alpha) = -\\cos\\alpha; \\sin(\\frac{\\pi}{2} - \\alpha) = \\cos\\alpha; \\cos(\\frac{\\pi}{2} - \\alpha) = \\sin\\alpha",
+				"Lý thuyết": "Công thức cho các góc đối nhau, bù nhau, hơn kém pi, và phụ nhau.",
+				"UUID": "8599b6f9-f2bd-46c1-ab29-cc89dbbbbb84"
+			},
+			"Công thức cộng": {
+				"Công thức": "\\cos(a \\pm b) = \\cos a \\cos b \\mp \\sin a \\sin b; \\quad \\sin(a \\pm b) = \\sin a \\cos b \\pm \\cos a \\sin b; \\quad \\tan(a \\pm b) = \\frac{\\tan a \\pm \\tan b}{1 \\mp \\tan a \\tan b}",
+				"Lý thuyết": "",
+				"UUID": "bc84143f-af7c-4925-8550-3ff073198902"
+			},
+			"Công thức nhân đôi": {
+				"Công thức": "\\sin 2a = 2\\sin a\\cos a; \\quad \\cos 2a = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a; \\quad \\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a}",
+				"Lý thuyết": "",
+				"UUID": "fac0f220-7cfe-4b07-802b-07454223d774"
+			},
+			"Công thức biến đổi tích thành tổng": {
+				"Công thức": "\\cos a \\cos b = \\frac{1}{2}[\\cos(a-b) + \\cos(a+b)]; \\quad \\sin a \\sin b = \\frac{1}{2}[\\cos(a-b) - \\cos(a+b)]; \\quad \\sin a \\cos b = \\frac{1}{2}[\\sin(a-b) + \\sin(a+b)]",
+				"Lý thuyết": "",
+				"UUID": "2c6f1f8b-1956-4793-bdfe-e0e319248e89"
+			},
+			"Công thức biến đổi tổng thành tích": {
+				"Công thức": "\\cos a + \\cos b = 2\\cos\\frac{a+b}{2}\\cos\\frac{a-b}{2}; \\quad \\cos a - \\cos b = -2\\sin\\frac{a+b}{2}\\sin\\frac{a-b}{2}; \\quad \\sin a + \\sin b = 2\\sin\\frac{a+b}{2}\\cos\\frac{a-b}{2}; \\quad \\sin a - \\sin b = 2\\cos\\frac{a+b}{2}\\sin\\frac{a-b}{2}",
+				"Lý thuyết": "",
+				"UUID": "d72a7f43-8094-42cc-ac85-09d5e3d47235"
+			},
+			"Hàm số chẵn, lẻ": {
+				"Công thức": "f(-x) = f(x); \\quad f(-x) = -f(x)",
+				"Lý thuyết": "Hàm số y = f(x) với tập xác định D được gọi là hàm số chẵn nếu với mọi x thuộc D ta có -x cũng thuộc D và f(-x) = f(x). Hàm số được gọi là lẻ nếu với mọi x thuộc D ta có -x cũng thuộc D và f(-x) = -f(x).",
+				"UUID": "57b45dfb-2955-4c44-bfdb-01bf714f86f9"
+			},
+			"Hàm số tuần hoàn": {
+				"Công thức": "f(x+T) = f(x)",
+				"Lý thuyết": "Hàm số y = f(x) có tập xác định D được gọi là hàm số tuần hoàn nếu tồn tại một số T khác 0 sao cho với mọi x thuộc D, ta có x+T và x-T cũng thuộc D, và f(x+T) = f(x). Số T dương nhỏ nhất (nếu có) được gọi là chu kì của hàm số.",
+				"UUID": "da50ba87-0149-4976-9ba7-92c0d848372d"
+			},
+			"Phương trình sinx = m": {
+				"Công thức": "x = \\alpha + k2\\pi \\text{ hoặc } x = \\pi - \\alpha + k2\\pi \\quad (k \\in \\mathbb{Z})",
+				"Lý thuyết": "Nếu |m| > 1, phương trình vô nghiệm. Nếu |m| ≤ 1, tồn tại α sao cho sinα = m, và phương trình có các họ nghiệm như công thức.",
+				"UUID": "86fc7706-1533-4e57-9e90-99d05893fd23"
+			},
+			"Phương trình cosx = m": {
+				"Công thức": "x = \\pm\\alpha + k2\\pi \\quad (k \\in \\mathbb{Z})",
+				"Lý thuyết": "Nếu |m| > 1, phương trình vô nghiệm. Nếu |m| ≤ 1, tồn tại α sao cho cosα = m, và phương trình có các họ nghiệm như công thức.",
+				"UUID": "cf48c662-3387-48c0-871e-a8f3dbf647e7"
+			},
+			"Phương trình tanx = m": {
+				"Công thức": "x = \\alpha + k\\pi \\quad (k \\in \\mathbb{Z})",
+				"Lý thuyết": "Phương trình có nghiệm với mọi m. Tồn tại α sao cho tanα = m, và phương trình có họ nghiệm như công thức.",
+				"UUID": "a2b98c99-8007-4e26-bceb-5e80d505f4fe"
+			},
+			"Phương trình cotx = m": {
+				"Công thức": "x = \\alpha + k\\pi \\quad (k \\in \\mathbb{Z})",
+				"Lý thuyết": "Phương trình có nghiệm với mọi m. Tồn tại α sao cho cotα = m, và phương trình có họ nghiệm như công thức.",
+				"UUID": "9ef0e44f-510d-4897-a111-b07923a66cc8"
+			}
+		},
+		"Dãy số, Cấp số cộng, Cấp số nhân": {
+			"Dãy số": {
+				"Công thức": "",
+				"Lý thuyết": "Một hàm số u xác định trên tập hợp các số nguyên dương N* được gọi là một dãy số vô hạn. Kí hiệu (u_n).",
+				"UUID": "86c87de9-778e-4918-b557-96fd15ca4c35"
+			},
+			"Dãy số tăng, giảm": {
+				"Công thức": "u_{n+1} > u_n; \\quad u_{n+1} < u_n",
+				"Lý thuyết": "Dãy số (u_n) được gọi là dãy số tăng nếu u_{n+1} > u_n với mọi n ∈ N*. Dãy số (u_n) được gọi là dãy số giảm nếu u_{n+1} < u_n với mọi n ∈ N*.",
+				"UUID": "2999fecc-81c1-4f01-bec5-450bef3713df"
+			},
+			"Dãy số bị chặn": {
+				"Công thức": "m \\le u_n \\le M",
+				"Lý thuyết": "Dãy số (u_n) được gọi là bị chặn trên nếu tồn tại một số M sao cho u_n ≤ M với mọi n ∈ N*. Dãy số (u_n) được gọi là bị chặn dưới nếu tồn tại một số m sao cho u_n ≥ m với mọi n ∈ N*. Dãy số được gọi là bị chặn nếu nó vừa bị chặn trên, vừa bị chặn dưới.",
+				"UUID": "dd5bd023-8209-43fb-98bb-abce7404dbb8"
+			},
+			"Cấp số cộng": {
+				"Công thức": "u_{n+1} = u_n + d",
+				"Lý thuyết": "Là một dãy số mà trong đó, kể từ số hạng thứ hai, mỗi số hạng đều bằng tổng của số hạng đứng ngay trước nó với một số d không đổi. Số d được gọi là công sai.",
+				"UUID": "51d973ed-1a30-4e57-bb1a-fd9e4a14d918"
+			},
+			"Số hạng tổng quát của cấp số cộng": {
+				"Công thức": "u_n = u_1 + (n-1)d",
+				"Lý thuyết": "",
+				"UUID": "6058f501-29bc-40dc-a157-8de86e12952e"
+			},
+			"Tổng n số hạng đầu của cấp số cộng": {
+				"Công thức": "S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n[2u_1 + (n-1)d]}{2}",
+				"Lý thuyết": "",
+				"UUID": "33835ef2-ae85-48b4-90b1-73f874e37554"
+			},
+			"Cấp số nhân": {
+				"Công thức": "u_{n+1} = u_n \\cdot q",
+				"Lý thuyết": "Là một dãy số mà trong đó, kể từ số hạng thứ hai, mỗi số hạng đều bằng tích của số hạng đứng ngay trước nó với một số q không đổi. Số q được gọi là công bội.",
+				"UUID": "a67de4f1-2425-440b-8db2-55f2d97428be"
+			},
+			"Số hạng tổng quát của cấp số nhân": {
+				"Công thức": "u_n = u_1 \\cdot q^{n-1}",
+				"Lý thuyết": "",
+				"UUID": "d2577c13-1116-4f62-9ef3-3453c079dcc0"
+			},
+			"Tổng n số hạng đầu của cấp số nhân": {
+				"Công thức": "S_n = \\frac{u_1(1-q^n)}{1-q} \\quad (q \\neq 1)",
+				"Lý thuyết": "",
+				"UUID": "921e80e6-94b2-43f3-a0f3-baade75ede31"
+			}
+		},
+		"Giới hạn, Hàm số liên tục": {
+			"Giới hạn hữu hạn của dãy số": {
+				"Công thức": "\\lim_{n \\to +\\infty} u_n = L",
+				"Lý thuyết": "Ta nói dãy số (u_n) có giới hạn hữu hạn là số L khi n dần tới dương vô cực, nếu |u_n - L| có thể nhỏ hơn một số dương bé tuỳ ý cho trước, kể từ một số hạng đủ lớn nào đó.",
+				"UUID": "656e40bc-ac3b-4db5-a225-70299965a49b"
+			},
+			"Các phép toán về giới hạn hữu hạn của dãy số": {
+				"Công thức": "\\lim(u_n \\pm v_n) = L \\pm M; \\quad \\lim(u_n \\cdot v_n) = L \\cdot M; \\quad \\lim(\\frac{u_n}{v_n}) = \\frac{L}{M} \\quad (M \\neq 0)",
+				"Lý thuyết": "Nếu lim u_n = L và lim v_n = M.",
+				"UUID": "7218c8fa-0582-49a8-aa15-10b162cbd780"
+			},
+			"Tổng của cấp số nhân lùi vô hạn": {
+				"Công thức": "S = u_1 + u_2 + ... = \\frac{u_1}{1-q}",
+				"Lý thuyết": "Cấp số nhân vô hạn có công bội q thỏa mãn |q| < 1 được gọi là cấp số nhân lùi vô hạn.",
+				"UUID": "7ae8dd48-1d6c-4808-bfb5-d199cff43d46"
+			},
+			"Giới hạn hữu hạn của hàm số tại một điểm": {
+				"Công thức": "\\lim_{x \\to x_0} f(x) = L",
+				"Lý thuyết": "Cho hàm số y = f(x) xác định trên một khoảng K chứa x₀. Ta nói hàm số f(x) có giới hạn là L khi x dần tới x₀ nếu với mọi dãy số (x_n) trong K \\ {x₀} mà lim x_n = x₀, ta đều có lim f(x_n) = L.",
+				"UUID": "576ac798-f5d0-4dba-9b3f-e073ecec50c8"
+			},
+			"Giới hạn một phía": {
+				"Công thức": "\\lim_{x \\to x_0^+} f(x) = L; \\quad \\lim_{x \\to x_0^-} f(x) = L",
+				"Lý thuyết": "Định nghĩa tương tự giới hạn tại một điểm, nhưng dãy (x_n) chỉ gồm các số lớn hơn x₀ (giới hạn phải) hoặc nhỏ hơn x₀ (giới hạn trái).",
+				"UUID": "8d049379-8286-472d-afc9-15381907b433"
+			},
+			"Giới hạn tại vô cực": {
+				"Công thức": "\\lim_{x \\to +\\infty} f(x) = L; \\quad \\lim_{x \\to -\\infty} f(x) = L",
+				"Lý thuyết": "Định nghĩa tương tự giới hạn của dãy số.",
+				"UUID": "d14daabc-f39e-4ff3-a9bc-30ab544b69c1"
+			},
+			"Hàm số liên tục tại một điểm": {
+				"Công thức": "\\lim_{x \\to x_0} f(x) = f(x_0)",
+				"Lý thuyết": "Hàm số y = f(x) được gọi là liên tục tại điểm x₀ nếu nó xác định tại x₀ và giới hạn của hàm số khi x dần tới x₀ bằng giá trị của hàm số tại x₀.",
+				"UUID": "03d41442-80af-4b7f-a99f-97a5784aeaab"
+			},
+			"Hàm số liên tục trên một khoảng/đoạn": {
+				"Công thức": "",
+				"Lý thuyết": "Hàm số y = f(x) được gọi là liên tục trên một khoảng nếu nó liên tục tại mọi điểm của khoảng đó. Hàm số liên tục trên đoạn [a, b] nếu nó liên tục trên khoảng (a, b) và lim_{x→a⁺} f(x) = f(a), lim_{x→b⁻} f(x) = f(b).",
+				"UUID": "1016c22d-2adc-4c81-b3e0-f8669244ec2c"
+			}
+		},
+		"Quan hệ song song trong không gian": {
+			"Vị trí tương đối của hai đường thẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Trong không gian, hai đường thẳng có thể: đồng phẳng (cắt nhau, song song, trùng nhau) hoặc không đồng phẳng (chéo nhau).",
+				"UUID": "1ca94923-cfe1-4a86-9130-e6dbba5fbde0"
+			},
+			"Định lí về giao tuyến của ba mặt phẳng": {
+				"Công thức": "a = (P) \\cap (R); b = (Q) \\cap (R); c = (P) \\cap (Q). \\text{Nếu } a // b \\text{ thì } a // b // c.",
+				"Lý thuyết": "Nếu ba mặt phẳng phân biệt đôi một cắt nhau theo ba giao tuyến phân biệt, thì ba giao tuyến ấy hoặc đồng quy hoặc đôi một song song với nhau.",
+				"UUID": "b90b762d-1427-4d91-ad07-8f9b1427dfaa"
+			},
+			"Đường thẳng song song với mặt phẳng": {
+				"Công thức": "a \\| (P) \\Leftrightarrow a \\cap (P) = \\emptyset",
+				"Lý thuyết": "Một đường thẳng được gọi là song song với một mặt phẳng nếu chúng không có điểm chung.",
+				"UUID": "113a5d5c-cdb4-4fdf-9e49-57a46b42f5a9"
+			},
+			"Hai mặt phẳng song song": {
+				"Công thức": "(P) \\| (Q) \\Leftrightarrow (P) \\cap (Q) = \\emptyset",
+				"Lý thuyết": "Hai mặt phẳng được gọi là song song với nhau nếu chúng không có điểm chung.",
+				"UUID": "101da792-55a9-43e7-b76b-adaefec01c2a"
+			},
+			"Định lí Thalès trong không gian": {
+				"Công thức": "\\frac{AB}{A'B'} = \\frac{BC}{B'C'} = \\frac{AC}{A'C'}",
+				"Lý thuyết": "Ba mặt phẳng đôi một song song chắn trên hai cát tuyến bất kì các đoạn thẳng tương ứng tỉ lệ.",
+				"UUID": "69920046-52fd-42e1-a77e-81d4cba078df"
+			},
+			"Phép chiếu song song": {
+				"Công thức": "",
+				"Lý thuyết": "Phép đặt tương ứng mỗi điểm M trong không gian với điểm M' của mặt phẳng (P) theo phương l được gọi là phép chiếu song song lên mặt phẳng (P) theo phương l.",
+				"UUID": "a6d9e37b-e2b2-4469-9253-779ae75ae494"
+			}
+		},
+		"Thống kê cho mẫu số liệu ghép nhóm": {
+			"Số trung bình": {
+				"Công thức": "\\bar{x} = \\frac{n_1c_1 + n_2c_2 + ... + n_kc_k}{n}",
+				"Lý thuyết": "c_k là giá trị đại diện của nhóm thứ k (trung bình cộng hai đầu mút), n_k là tần số của nhóm đó.",
+				"UUID": "7a09aecf-2b8a-45e0-9611-8aef6e0e5cad"
+			},
+			"Mốt": {
+				"Công thức": "M_o = u_m + \\frac{n_m - n_{m-1}}{(n_m - n_{m-1}) + (n_m - n_{m+1})} (u_{m+1} - u_m)",
+				"Lý thuyết": "Nhóm chứa mốt là nhóm có tần số lớn nhất. u_m, u_{m+1} là đầu mút của nhóm chứa mốt; n_m là tần số nhóm chứa mốt; n_{m-1}, n_{m+1} là tần số nhóm liền trước và liền sau.",
+				"UUID": "1a49673d-ccb3-41aa-b9e1-0bc562d6f889"
+			},
+			"Trung vị": {
+				"Công thức": "M_e = u_m + \\frac{\\frac{n}{2} - C}{n_m} (u_{m+1} - u_m)",
+				"Lý thuyết": "Nhóm chứa trung vị là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng n/2. C là tổng tần số các nhóm trước nhóm chứa trung vị.",
+				"UUID": "d9acfa8e-6732-4f61-be6f-f06d2f1f078c"
+			},
+			"Tứ phân vị": {
+				"Công thức": "Q_j = u_p + \\frac{\\frac{jn}{4} - C}{n_p} (u_{p+1} - u_p)",
+				"Lý thuyết": "j = 1, 2, 3. Nhóm chứa Q_j là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng jn/4. C là tổng tần số các nhóm trước nhóm chứa Q_j.",
+				"UUID": "9049623f-b6d5-4e67-91a6-0b74178ce126"
+			}
+		},
+		"Hàm số mũ và Hàm số Lôgarit": {
+			"Luỹ thừa với số mũ nguyên": {
+				"Công thức": "a^{-n} = \\frac{1}{a^n} \\quad (a \\neq 0)",
+				"Lý thuyết": "Luỹ thừa của một số thực a với số mũ nguyên n được định nghĩa. Với n là số nguyên âm, a^{-n} là nghịch đảo của a^n.",
+				"UUID": "d2e1b267-6eee-4224-9839-52488b97b3fc"
+			},
+			"Căn bậc n": {
+				"Công thức": "\\sqrt[n]{b} = a \\Leftrightarrow a^n = b",
+				"Lý thuyết": "Với số nguyên dương n ≥ 2 và số thực b, số a được gọi là căn bậc n của b nếu a^n = b. Nếu n lẻ, có duy nhất một căn bậc n. Nếu n chẵn và b > 0, có hai căn bậc n đối nhau.",
+				"UUID": "9f8f8c68-59bc-4e3b-a393-798463aa740d"
+			},
+			"Tính chất của căn bậc n": {
+				"Công thức": "\\sqrt[n]{ab} = \\sqrt[n]{a}\\sqrt[n]{b}; \\quad \\sqrt[n]{\\frac{a}{b}} = \\frac{\\sqrt[n]{a}}{\\sqrt[n]{b}}; \\quad (\\sqrt[n]{a})^m = \\sqrt[n]{a^m}",
+				"Lý thuyết": "Các tính chất áp dụng cho các biểu thức có nghĩa.",
+				"UUID": "b14e13db-8c03-491d-9104-0a5cc3721c64"
+			},
+			"Luỹ thừa với số mũ hữu tỉ": {
+				"Công thức": "a^r = a^{\\frac{m}{n}} = \\sqrt[n]{a^m}",
+				"Lý thuyết": "Với số thực dương a và số hữu tỉ r = m/n (m, n ∈ ℤ, n > 0).",
+				"UUID": "1f883fe2-baa1-4bc5-83f2-fc20840f7926"
+			},
+			"Tính chất của luỹ thừa": {
+				"Công thức": "a^{\\alpha}a^{\\beta} = a^{\\alpha+\\beta}; \\quad \\frac{a^{\\alpha}}{a^{\\beta}} = a^{\\alpha-\\beta}; \\quad (a^{\\alpha})^{\\beta} = a^{\\alpha\\beta}; \\quad (ab)^{\\alpha} = a^{\\alpha}b^{\\alpha}; \\quad (\\frac{a}{b})^{\\alpha} = \\frac{a^{\\alpha}}{b^{\\alpha}}",
+				"Lý thuyết": "Với a, b là các số thực dương và α, β là các số thực.",
+				"UUID": "3d28b331-8652-41ac-a61b-dd9d60976a7b"
+			},
+			"Định nghĩa Lôgarit": {
+				"Công thức": "\\alpha = \\log_a b \\Leftrightarrow a^\\alpha = b",
+				"Lý thuyết": "Cho hai số thực dương a, b với a ≠ 1. Số α thoả mãn đẳng thức a^α = b được gọi là lôgarit cơ số a của b.",
+				"UUID": "340a54d9-acd7-4608-9492-7684805def42"
+			},
+			"Tính chất của Lôgarit": {
+				"Công thức": "\\log_a 1 = 0; \\quad \\log_a a = 1; \\quad \\log_a a^b = b; \\quad a^{\\log_a b} = b",
+				"Lý thuyết": "Các tính chất cơ bản của phép tính lôgarit với cơ số a dương và khác 1.",
+				"UUID": "e4dd71ad-1639-4684-b2ee-05117730086a"
+			},
+			"Quy tắc tính Lôgarit": {
+				"Công thức": "\\log_a(MN) = \\log_a M + \\log_a N; \\quad \\log_a(\\frac{M}{N}) = \\log_a M - \\log_a N; \\quad \\log_a(M^\\alpha) = \\alpha\\log_a M",
+				"Lý thuyết": "Các quy tắc cho lôgarit của một tích, một thương, một luỹ thừa.",
+				"UUID": "ba6a6a52-4d34-4021-935d-0285d3029bca"
+			},
+			"Công thức đổi cơ số": {
+				"Công thức": "\\log_b N = \\frac{\\log_a N}{\\log_a b}",
+				"Lý thuyết": "Cho các số dương a, b, N với a ≠ 1, b ≠ 1.",
+				"UUID": "f749777e-cc9a-4486-a9e4-1ac56c1dac23"
+			},
+			"Hàm số mũ": {
+				"Công thức": "y = a^x \\quad (a > 0, a \\neq 1)",
+				"Lý thuyết": "Hàm số cho tương ứng mỗi số thực x với số a^x. Tập xác định là ℝ. Tập giá trị là (0; +∞). Đồng biến trên ℝ nếu a > 1, nghịch biến trên ℝ nếu 0 < a < 1.",
+				"UUID": "ce1ae761-abc7-4540-8077-07a080618774"
+			},
+			"Hàm số lôgarit": {
+				"Công thức": "y = \\log_a x \\quad (a > 0, a \\neq 1)",
+				"Lý thuyết": "Hàm số cho tương ứng mỗi số thực dương x với số log_a x. Tập xác định là (0; +∞). Tập giá trị là ℝ. Đồng biến trên (0; +∞) nếu a > 1, nghịch biến trên (0; +∞) nếu 0 < a < 1.",
+				"UUID": "86e20fa3-a6b2-4198-95ff-38b189bd3b03"
+			},
+			"Phương trình mũ cơ bản": {
+				"Công thức": "a^x = b \\Leftrightarrow x = \\log_a b",
+				"Lý thuyết": "Với a > 0, a ≠ 1. Nếu b > 0, phương trình có nghiệm duy nhất. Nếu b ≤ 0, phương trình vô nghiệm.",
+				"UUID": "55e1aa59-73aa-4a22-b288-be5d96f2f491"
+			},
+			"Phương trình lôgarit cơ bản": {
+				"Công thức": "\\log_a x = b \\Leftrightarrow x = a^b",
+				"Lý thuyết": "Với a > 0, a ≠ 1, phương trình luôn có nghiệm duy nhất x = a^b.",
+				"UUID": "59598d15-740e-434f-9a6a-6280803aef77"
+			},
+			"Bất phương trình mũ": {
+				"Công thức": "a^{u(x)} > a^{v(x)}",
+				"Lý thuyết": "Nếu a > 1, bất phương trình tương đương u(x) > v(x). Nếu 0 < a < 1, bất phương trình tương đương u(x) < v(x).",
+				"UUID": "d1d9b8ce-c5bc-4cf9-8e90-b3eea1806262"
+			},
+			"Bất phương trình lôgarit": {
+				"Công thức": "\\log_a{u(x)} > \\log_a{v(x)}",
+				"Lý thuyết": "Nếu a > 1, bất phương trình tương đương u(x) > v(x) (kèm điều kiện xác định). Nếu 0 < a < 1, bất phương trình tương đương u(x) < v(x) (kèm điều kiện xác định).",
+				"UUID": "de15700c-b6e7-41f8-88b2-021b1e12503a"
+			}
+		},
+		"Đạo hàm": {
+			"Định nghĩa đạo hàm": {
+				"Công thức": "f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0}",
+				"Lý thuyết": "Đạo hàm của hàm số y = f(x) tại điểm x₀ là giới hạn (nếu có) của tỉ số giữa số gia của hàm số và số gia của đối số khi số gia của đối số tiến về 0.",
+				"UUID": "5a71a26d-70cb-48b1-a895-223230a6a11e"
+			},
+			"Phương trình tiếp tuyến": {
+				"Công thức": "y = f'(x_0)(x - x_0) + y_0",
+				"Lý thuyết": "Đạo hàm của hàm số tại điểm x₀ là hệ số góc của tiếp tuyến với đồ thị hàm số tại điểm M(x₀, y₀).",
+				"UUID": "27335027-4dd9-441d-adae-4e85b4c47674"
+			},
+			"Quy tắc tính đạo hàm": {
+				"Công thức": "(u \\pm v)' = u' \\pm v'; \\quad (uv)' = u'v + uv'; \\quad (\\frac{u}{v})' = \\frac{u'v - uv'}{v^2}",
+				"Lý thuyết": "Các quy tắc tính đạo hàm của tổng, hiệu, tích, thương của hai hàm số.",
+				"UUID": "795f5d02-b8af-4d99-9cfa-b8aac4feda81"
+			},
+			"Đạo hàm hàm hợp": {
+				"Công thức": "(f(u(x)))' = f'(u) \\cdot u'(x)",
+				"Lý thuyết": "Nếu hàm số u = g(x) có đạo hàm tại x và hàm số y = f(u) có đạo hàm tại u, thì hàm hợp y = f(g(x)) có đạo hàm tại x.",
+				"UUID": "051545ab-8957-4d61-a945-b642b4ff3f69"
+			},
+			"Bảng đạo hàm cơ bản": {
+				"Công thức": "(x^n)'=nx^{n-1}; (\\sqrt{x})'=\\frac{1}{2\\sqrt{x}}; (\\sin x)'=\\cos x; (\\cos x)'=-\\sin x; (e^x)'=e^x; (a^x)'=a^x\\ln a; (\\ln x)'=\\frac{1}{x}; (\\log_a x)'=\\frac{1}{x\\ln a}",
+				"Lý thuyết": "Bảng đạo hàm của các hàm số sơ cấp thường gặp.",
+				"UUID": "b6516b5d-7759-47af-bb87-acf7e4e397ab"
+			},
+			"Đạo hàm cấp hai": {
+				"Công thức": "f''(x) = (f'(x))'",
+				"Lý thuyết": "Đạo hàm cấp hai của hàm số y = f(x) là đạo hàm của hàm số y'. Ý nghĩa vật lý: là gia tốc tức thời của chuyển động s = f(t).",
+				"UUID": "1c10e303-1350-4ce2-8f23-453cdfe0018e"
+			}
+		},
+		"Quan hệ vuông góc trong không gian": {
+			"Góc giữa hai đường thẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng a' và b' cùng đi qua một điểm và lần lượt song song (hoặc trùng) với a và b. Góc này có số đo từ 0° đến 90°.",
+				"UUID": "61f7a032-4227-4881-ad2d-06f11c021815"
+			},
+			"Hai đường thẳng vuông góc": {
+				"Công thức": "a \\perp b",
+				"Lý thuyết": "Hai đường thẳng được gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°.",
+				"UUID": "19abf320-6fad-4b71-bf37-23760ee3251b"
+			},
+			"Đường thẳng vuông góc với mặt phẳng": {
+				"Công thức": "d \\perp (\\alpha)",
+				"Lý thuyết": "Một đường thẳng được gọi là vuông góc với một mặt phẳng nếu nó vuông góc với mọi đường thẳng nằm trong mặt phẳng đó. Điều kiện: đường thẳng vuông góc với hai đường thẳng cắt nhau nằm trong mặt phẳng.",
+				"UUID": "8eeaf44f-4792-451e-933c-46953e1a73ec"
+			},
+			"Định lí ba đường vuông góc": {
+				"Công thức": "",
+				"Lý thuyết": "Cho đường thẳng a và mặt phẳng (P) không vuông góc với nhau, và đường thẳng b nằm trong (P). Khi đó, b vuông góc với a khi và chỉ khi b vuông góc với hình chiếu vuông góc a' của a trên (P).",
+				"UUID": "41a010c8-1a84-4618-96a1-44873b58c84e"
+			},
+			"Góc giữa hai mặt phẳng": {
+				"Công thức": "((\\alpha), (\\beta)) = (a,b)",
+				"Lý thuyết": "Góc giữa hai mặt phẳng cắt nhau là góc giữa hai đường thẳng lần lượt vuông góc với giao tuyến của hai mặt phẳng đó.",
+				"UUID": "c6dbd5f8-23bf-465c-8a7a-9abda2a932c3"
+			},
+			"Hai mặt phẳng vuông góc": {
+				"Công thức": "(\\alpha) \\perp (\\beta)",
+				"Lý thuyết": "Hai mặt phẳng được gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°. Điều kiện: một mặt phẳng chứa một đường thẳng vuông góc với mặt phẳng kia.",
+				"UUID": "54f28b81-70ff-4205-86d4-92a6be210374"
+			},
+			"Khoảng cách": {
+				"Công thức": "d(M, a); d(M, (P)); d(a, (P)); d((P), (Q)); d(a, b)",
+				"Lý thuyết": "Định nghĩa các loại khoảng cách: từ điểm đến đường thẳng/mặt phẳng, giữa đường thẳng và mặt phẳng song song, giữa hai mặt phẳng song song, giữa hai đường thẳng chéo nhau (là độ dài đoạn vuông góc chung).",
+				"UUID": "b38a7c1f-9420-4d84-bd50-aa211645c63d"
+			},
+			"Thể tích khối hộp chữ nhật": {
+				"Công thức": "V = abc",
+				"Lý thuyết": "Thể tích bằng tích ba kích thước.",
+				"UUID": "45d3dd41-916f-48d6-937c-65413c9c9624"
+			},
+			"Thể tích khối lăng trụ": {
+				"Công thức": "V = S_{đáy} \\cdot h",
+				"Lý thuyết": "Thể tích bằng diện tích đáy nhân với chiều cao.",
+				"UUID": "79bd9423-5fd0-4674-b8c4-7e641e0315d3"
+			},
+			"Thể tích khối chóp": {
+				"Công thức": "V = \\frac{1}{3}S_{đáy} \\cdot h",
+				"Lý thuyết": "Thể tích bằng một phần ba diện tích đáy nhân với chiều cao.",
+				"UUID": "3fe9f260-8e40-477b-9b42-3ec2b2719622"
+			},
+			"Góc giữa đường thẳng và mặt phẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Nếu đường thẳng không vuông góc với mặt phẳng, góc giữa chúng là góc giữa đường thẳng và hình chiếu vuông góc của nó trên mặt phẳng.",
+				"UUID": "6fc586d6-a9a7-49ad-b596-ef5f81c76660"
+			},
+			"Góc nhị diện": {
+				"Công thức": "",
+				"Lý thuyết": "Góc phẳng nhị diện là góc có đỉnh nằm trên cạnh của nhị diện, có hai cạnh lần lượt nằm trên hai mặt của nhị diện và vuông góc với cạnh của nhị diện.",
+				"UUID": "affc9d8a-48dd-4cc8-8781-ef1de9ff6a7b"
+			}
+		},
+		"Xác suất": {
+			"Biến cố giao": {
+				"Công thức": "A \\cap B",
+				"Lý thuyết": "Là biến cố 'Cả A và B cùng xảy ra'. Tập hợp mô tả biến cố AB là giao của hai tập hợp A và B.",
+				"UUID": "051cbedd-ef7b-4f86-a981-0a2ddb8d2fd7"
+			},
+			"Biến cố xung khắc": {
+				"Công thức": "A \\cap B = \\emptyset",
+				"Lý thuyết": "Hai biến cố A và B được gọi là xung khắc nếu chúng không thể đồng thời xảy ra.",
+				"UUID": "5195b0bf-913f-40ce-96b6-38990c204254"
+			},
+			"Biến cố độc lập": {
+				"Công thức": "",
+				"Lý thuyết": "Hai biến cố A và B được gọi là độc lập nếu việc xảy ra hay không xảy ra của biến cố này không làm ảnh hưởng tới xác suất xảy ra của biến cố kia.",
+				"UUID": "a4360b31-86fb-412f-a10e-3a03e61443fe"
+			},
+			"Quy tắc nhân xác suất": {
+				"Công thức": "P(AB) = P(A)P(B)",
+				"Lý thuyết": "Nếu hai biến cố A và B độc lập với nhau thì xác suất của biến cố giao bằng tích các xác suất của chúng.",
+				"UUID": "e2b42610-b168-494e-9bd4-4ba28e69fdbd"
+			},
+			"Biến cố hợp": {
+				"Công thức": "A \\cup B",
+				"Lý thuyết": "Là biến cố 'A hoặc B xảy ra'. Tập hợp mô tả biến cố A ∪ B là hợp của hai tập hợp A và B.",
+				"UUID": "bd69b5d8-3c41-481d-a635-22a323c41619"
+			},
+			"Quy tắc cộng xác suất": {
+				"Công thức": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)",
+				"Lý thuyết": "Công thức tính xác suất của biến cố hợp cho hai biến cố bất kì. Nếu A và B xung khắc, P(A ∪ B) = P(A) + P(B).",
+				"UUID": "28d12463-a060-474b-9a3b-5a3851dc3db6"
+			}
+		}
+	},
+	"12": {
+		"Hàm số mũ và Hàm số Lôgarit": {
+			"Luỹ thừa với số mũ nguyên": {
+				"Công thức": "a^{-n} = \\frac{1}{a^n} \\quad (a \\neq 0)",
+				"Lý thuyết": "Luỹ thừa của một số thực a với số mũ nguyên n được định nghĩa. Với n là số nguyên âm, a^{-n} là nghịch đảo của a^n.",
+				"UUID": "f32d04e3-455b-4346-9fca-c88e07f6e85a"
+			},
+			"Căn bậc n": {
+				"Công thức": "\\sqrt[n]{b} = a \\Leftrightarrow a^n = b",
+				"Lý thuyết": "Với số nguyên dương n ≥ 2 và số thực b, số a được gọi là căn bậc n của b nếu a^n = b. Nếu n lẻ, có duy nhất một căn bậc n. Nếu n chẵn và b > 0, có hai căn bậc n đối nhau.",
+				"UUID": "756acc86-f067-4f3e-96c3-d34e89a830f4"
+			},
+			"Tính chất của căn bậc n": {
+				"Công thức": "\\sqrt[n]{ab} = \\sqrt[n]{a}\\sqrt[n]{b}; \\quad \\sqrt[n]{\\frac{a}{b}} = \\frac{\\sqrt[n]{a}}{\\sqrt[n]{b}}; \\quad (\\sqrt[n]{a})^m = \\sqrt[n]{a^m}",
+				"Lý thuyết": "Các tính chất áp dụng cho các biểu thức có nghĩa.",
+				"UUID": "bd518155-9196-4f6d-a5c7-c5ca50590d1a"
+			},
+			"Luỹ thừa với số mũ hữu tỉ": {
+				"Công thức": "a^r = a^{\\frac{m}{n}} = \\sqrt[n]{a^m}",
+				"Lý thuyết": "Với số thực dương a và số hữu tỉ r = m/n (m, n ∈ ℤ, n > 0).",
+				"UUID": "97391653-de82-40fc-a27d-d18d36ea6927"
+			},
+			"Tính chất của luỹ thừa": {
+				"Công thức": "a^{\\alpha}a^{\\beta} = a^{\\alpha+\\beta}; \\quad \\frac{a^{\\alpha}}{a^{\\beta}} = a^{\\alpha-\\beta}; \\quad (a^{\\alpha})^{\\beta} = a^{\\alpha\\beta}; \\quad (ab)^{\\alpha} = a^{\\alpha}b^{\\alpha}; \\quad (\\frac{a}{b})^{\\alpha} = \\frac{a^{\\alpha}}{b^{\\alpha}}",
+				"Lý thuyết": "Với a, b là các số thực dương và α, β là các số thực.",
+				"UUID": "c5562531-4f79-484e-9831-2b235ba58753"
+			},
+			"Định nghĩa Lôgarit": {
+				"Công thức": "\\alpha = \\log_a b \\Leftrightarrow a^\\alpha = b",
+				"Lý thuyết": "Cho hai số thực dương a, b với a ≠ 1. Số α thoả mãn đẳng thức a^α = b được gọi là lôgarit cơ số a của b.",
+				"UUID": "0779e640-68b3-42c8-b000-83cf53b50d38"
+			},
+			"Tính chất của Lôgarit": {
+				"Công thức": "\\log_a 1 = 0; \\quad \\log_a a = 1; \\quad \\log_a a^b = b; \\quad a^{\\log_a b} = b",
+				"Lý thuyết": "Các tính chất cơ bản của phép tính lôgarit với cơ số a dương và khác 1.",
+				"UUID": "6f42605d-871c-480d-a7cd-ba2a603c514f"
+			},
+			"Quy tắc tính Lôgarit": {
+				"Công thức": "\\log_a(MN) = \\log_a M + \\log_a N; \\quad \\log_a(\\frac{M}{N}) = \\log_a M - \\log_a N; \\quad \\log_a(M^\\alpha) = \\alpha\\log_a M",
+				"Lý thuyết": "Các quy tắc cho lôgarit của một tích, một thương, một luỹ thừa.",
+				"UUID": "1e8e412a-6187-4060-8abe-a69b6357959b"
+			},
+			"Công thức đổi cơ số": {
+				"Công thức": "\\log_b N = \\frac{\\log_a N}{\\log_a b}",
+				"Lý thuyết": "Cho các số dương a, b, N với a ≠ 1, b ≠ 1.",
+				"UUID": "cdc3d065-ebed-4b6c-ae0a-df08ab46ae75"
+			},
+			"Hàm số mũ": {
+				"Công thức": "y = a^x \\quad (a > 0, a \\neq 1)",
+				"Lý thuyết": "Hàm số cho tương ứng mỗi số thực x với số a^x. Tập xác định là ℝ. Tập giá trị là (0; +∞). Đồng biến trên ℝ nếu a > 1, nghịch biến trên ℝ nếu 0 < a < 1.",
+				"UUID": "36c50b51-6284-4ba6-b5d2-e6f2bffbef9b"
+			},
+			"Hàm số lôgarit": {
+				"Công thức": "y = \\log_a x \\quad (a > 0, a \\neq 1)",
+				"Lý thuyết": "Hàm số cho tương ứng mỗi số thực dương x với số log_a x. Tập xác định là (0; +∞). Tập giá trị là ℝ. Đồng biến trên (0; +∞) nếu a > 1, nghịch biến trên (0; +∞) nếu 0 < a < 1.",
+				"UUID": "e6c0b352-4d7d-4587-a40c-6db8cb102981"
+			},
+			"Phương trình mũ cơ bản": {
+				"Công thức": "a^x = b \\Leftrightarrow x = \\log_a b",
+				"Lý thuyết": "Với a > 0, a ≠ 1. Nếu b > 0, phương trình có nghiệm duy nhất. Nếu b ≤ 0, phương trình vô nghiệm.",
+				"UUID": "1eb0e05d-3483-4b97-99c4-dd4a96b97bf0"
+			},
+			"Phương trình lôgarit cơ bản": {
+				"Công thức": "\\log_a x = b \\Leftrightarrow x = a^b",
+				"Lý thuyết": "Với a > 0, a ≠ 1, phương trình luôn có nghiệm duy nhất x = a^b.",
+				"UUID": "bb6c7fb6-9594-40a3-bd64-9e9860d38cdb"
+			},
+			"Bất phương trình mũ": {
+				"Công thức": "a^{u(x)} > a^{v(x)}",
+				"Lý thuyết": "Nếu a > 1, bất phương trình tương đương u(x) > v(x). Nếu 0 < a < 1, bất phương trình tương đương u(x) < v(x).",
+				"UUID": "a60c8237-18e6-45fe-953c-2c14155803f9"
+			},
+			"Bất phương trình lôgarit": {
+				"Công thức": "\\log_a{u(x)} > \\log_a{v(x)}",
+				"Lý thuyết": "Nếu a > 1, bất phương trình tương đương u(x) > v(x) (kèm điều kiện xác định). Nếu 0 < a < 1, bất phương trình tương đương u(x) < v(x) (kèm điều kiện xác định).",
+				"UUID": "1b61abaf-3044-4663-85d9-30092e999008"
+			}
+		},
+		"Đạo hàm": {
+			"Định nghĩa đạo hàm": {
+				"Công thức": "f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0}",
+				"Lý thuyết": "Đạo hàm của hàm số y = f(x) tại điểm x₀ là giới hạn (nếu có) của tỉ số giữa số gia của hàm số và số gia của đối số khi số gia của đối số tiến về 0.",
+				"UUID": "3ceb3263-706c-48db-8343-8cb8b1552af0"
+			},
+			"Phương trình tiếp tuyến": {
+				"Công thức": "y = f'(x_0)(x - x_0) + y_0",
+				"Lý thuyết": "Đạo hàm của hàm số tại điểm x₀ là hệ số góc của tiếp tuyến với đồ thị hàm số tại điểm M(x₀, y₀).",
+				"UUID": "38f4acc7-5111-4355-8fea-abe492d91b78"
+			},
+			"Quy tắc tính đạo hàm": {
+				"Công thức": "(u \\pm v)' = u' \\pm v'; \\quad (uv)' = u'v + uv'; \\quad (\\frac{u}{v})' = \\frac{u'v - uv'}{v^2}",
+				"Lý thuyết": "Các quy tắc tính đạo hàm của tổng, hiệu, tích, thương của hai hàm số.",
+				"UUID": "5bb7ee0a-b70a-4824-ab18-256f02f7f46d"
+			},
+			"Đạo hàm hàm hợp": {
+				"Công thức": "(f(u(x)))' = f'(u) \\cdot u'(x)",
+				"Lý thuyết": "Nếu hàm số u = g(x) có đạo hàm tại x và hàm số y = f(u) có đạo hàm tại u, thì hàm hợp y = f(g(x)) có đạo hàm tại x.",
+				"UUID": "d3788733-0a1d-4522-ab5c-91fb3b5b3363"
+			},
+			"Bảng đạo hàm cơ bản": {
+				"Công thức": "(x^n)'=nx^{n-1}; (\\sqrt{x})'=\\frac{1}{2\\sqrt{x}}; (\\sin x)'=\\cos x; (\\cos x)'=-\\sin x; (e^x)'=e^x; (a^x)'=a^x\\ln a; (\\ln x)'=\\frac{1}{x}; (\\log_a x)'=\\frac{1}{x\\ln a}",
+				"Lý thuyết": "Bảng đạo hàm của các hàm số sơ cấp thường gặp.",
+				"UUID": "94df7b24-8eea-47d5-9c03-3468af10ed3d"
+			},
+			"Đạo hàm cấp hai": {
+				"Công thức": "f''(x) = (f'(x))'",
+				"Lý thuyết": "Đạo hàm cấp hai của hàm số y = f(x) là đạo hàm của hàm số y'. Ý nghĩa vật lý: là gia tốc tức thời của chuyển động s = f(t).",
+				"UUID": "5f6c159b-d145-43f6-ac46-ea21aa9673c5"
+			}
+		},
+		"Quan hệ vuông góc trong không gian": {
+			"Góc giữa hai đường thẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng a' và b' cùng đi qua một điểm và lần lượt song song (hoặc trùng) với a và b. Góc này có số đo từ 0° đến 90°.",
+				"UUID": "6258b232-5fb1-45e7-96f0-68043c1689eb"
+			},
+			"Hai đường thẳng vuông góc": {
+				"Công thức": "a \\perp b",
+				"Lý thuyết": "Hai đường thẳng được gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°.",
+				"UUID": "4e88ad0c-7deb-4eab-a076-6d1d80b65672"
+			},
+			"Đường thẳng vuông góc với mặt phẳng": {
+				"Công thức": "d \\perp (\\alpha)",
+				"Lý thuyết": "Một đường thẳng được gọi là vuông góc với một mặt phẳng nếu nó vuông góc với mọi đường thẳng nằm trong mặt phẳng đó. Điều kiện: đường thẳng vuông góc với hai đường thẳng cắt nhau nằm trong mặt phẳng.",
+				"UUID": "29d8614e-a518-4d5b-a295-551ba7bb49db"
+			},
+			"Định lí ba đường vuông góc": {
+				"Công thức": "",
+				"Lý thuyết": "Cho đường thẳng a và mặt phẳng (P) không vuông góc với nhau, và đường thẳng b nằm trong (P). Khi đó, b vuông góc với a khi và chỉ khi b vuông góc với hình chiếu vuông góc a' của a trên (P).",
+				"UUID": "eb3efd0a-52bd-4ec0-a1a9-913b54aa31e0"
+			},
+			"Góc giữa hai mặt phẳng": {
+				"Công thức": "((\\alpha), (\\beta)) = (a,b)",
+				"Lý thuyết": "Góc giữa hai mặt phẳng cắt nhau là góc giữa hai đường thẳng lần lượt vuông góc với giao tuyến của hai mặt phẳng đó.",
+				"UUID": "8beccd34-28a6-4376-9927-1e05a64f3a28"
+			},
+			"Hai mặt phẳng vuông góc": {
+				"Công thức": "(\\alpha) \\perp (\\beta)",
+				"Lý thuyết": "Hai mặt phẳng được gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°. Điều kiện: một mặt phẳng chứa một đường thẳng vuông góc với mặt phẳng kia.",
+				"UUID": "03657fcc-731b-4ec9-b985-ec968b43cffb"
+			},
+			"Khoảng cách": {
+				"Công thức": "d(M, a); d(M, (P)); d(a, (P)); d((P), (Q)); d(a, b)",
+				"Lý thuyết": "Định nghĩa các loại khoảng cách: từ điểm đến đường thẳng/mặt phẳng, giữa đường thẳng và mặt phẳng song song, giữa hai mặt phẳng song song, giữa hai đường thẳng chéo nhau (là độ dài đoạn vuông góc chung).",
+				"UUID": "c1474dae-cf87-4f29-b463-d8fc72908cb3"
+			},
+			"Thể tích khối hộp chữ nhật": {
+				"Công thức": "V = abc",
+				"Lý thuyết": "Thể tích bằng tích ba kích thước.",
+				"UUID": "d6d2e142-bcc8-4149-b3b0-c7f470d09ee2"
+			},
+			"Thể tích khối lăng trụ": {
+				"Công thức": "V = S_{đáy} \\cdot h",
+				"Lý thuyết": "Thể tích bằng diện tích đáy nhân với chiều cao.",
+				"UUID": "5c3ce762-ce89-4ff0-8130-56f492563b3e"
+			},
+			"Thể tích khối chóp": {
+				"Công thức": "V = \\frac{1}{3}S_{đáy} \\cdot h",
+				"Lý thuyết": "Thể tích bằng một phần ba diện tích đáy nhân với chiều cao.",
+				"UUID": "36122ae8-a4bb-4f7f-80b7-5bd38536ce1f"
+			},
+			"Góc giữa đường thẳng và mặt phẳng": {
+				"Công thức": "",
+				"Lý thuyết": "Nếu đường thẳng không vuông góc với mặt phẳng, góc giữa chúng là góc giữa đường thẳng và hình chiếu vuông góc của nó trên mặt phẳng.",
+				"UUID": "862194f0-329c-42e9-a402-3f5ebf636b7e"
+			},
+			"Góc nhị diện": {
+				"Công thức": "",
+				"Lý thuyết": "Góc phẳng nhị diện là góc có đỉnh nằm trên cạnh của nhị diện, có hai cạnh lần lượt nằm trên hai mặt của nhị diện và vuông góc với cạnh của nhị diện.",
+				"UUID": "8ee908f3-a7c0-4d7b-ac72-9af74d02e2df"
+			}
+		},
+		"Xác suất": {
+			"Biến cố giao": {
+				"Công thức": "A \\cap B",
+				"Lý thuyết": "Là biến cố 'Cả A và B cùng xảy ra'. Tập hợp mô tả biến cố AB là giao của hai tập hợp A và B.",
+				"UUID": "6a227115-b2ea-40b6-81d6-9bdc7ba8617d"
+			},
+			"Biến cố xung khắc": {
+				"Công thức": "A \\cap B = \\emptyset",
+				"Lý thuyết": "Hai biến cố A và B được gọi là xung khắc nếu chúng không thể đồng thời xảy ra.",
+				"UUID": "24837529-c724-46c8-b7e7-c415c27bb67b"
+			},
+			"Biến cố độc lập": {
+				"Công thức": "",
+				"Lý thuyết": "Hai biến cố A và B được gọi là độc lập nếu việc xảy ra hay không xảy ra của biến cố này không làm ảnh hưởng tới xác suất xảy ra của biến cố kia.",
+				"UUID": "d3579b24-9c03-4b79-b680-2aafc5fadade"
+			},
+			"Quy tắc nhân xác suất": {
+				"Công thức": "P(AB) = P(A)P(B)",
+				"Lý thuyết": "Nếu hai biến cố A và B độc lập với nhau thì xác suất của biến cố giao bằng tích các xác suất của chúng.",
+				"UUID": "454de3b1-e0bf-4c50-ad33-a717f68172cb"
+			},
+			"Biến cố hợp": {
+				"Công thức": "A \\cup B",
+				"Lý thuyết": "Là biến cố 'A hoặc B xảy ra'. Tập hợp mô tả biến cố A ∪ B là hợp của hai tập hợp A và B.",
+				"UUID": "48b35144-4de3-488c-9389-953a09cc524e"
+			},
+			"Quy tắc cộng xác suất": {
+				"Công thức": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)",
+				"Lý thuyết": "Công thức tính xác suất của biến cố hợp cho hai biến cố bất kì. Nếu A và B xung khắc, P(A ∪ B) = P(A) + P(B).",
+				"UUID": "c560b913-b94b-4b2f-8d65-edfb1f5d194e"
+			}
+		},
+		"Nguyên hàm và Tích phân": {
+			"Nguyên hàm": {
+				"Công thức": "\\int f(x)dx = F(x) + C",
+				"Lý thuyết": "Hàm số F(x) được gọi là nguyên hàm của hàm số f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Nếu F(x) là một nguyên hàm thì họ tất cả các nguyên hàm của f(x) là F(x) + C, với C là hằng số.",
+				"UUID": "801050b8-5695-4784-b31b-5793758cb0e7"
+			},
+			"Tính chất của nguyên hàm": {
+				"Công thức": "\\int kf(x)dx = k\\int f(x)dx; \\quad \\int [f(x) \\pm g(x)]dx = \\int f(x)dx \\pm \\int g(x)dx",
+				"Lý thuyết": "Nguyên hàm của một tích của hằng số với hàm số bằng tích của hằng số với nguyên hàm của hàm số đó. Nguyên hàm của một tổng hoặc hiệu bằng tổng hoặc hiệu các nguyên hàm.",
+				"UUID": "98a3cad1-6a35-42bd-b2e2-ca6bd587380c"
+			},
+			"Bảng nguyên hàm cơ bản": {
+				"Công thức": "\\int x^\\alpha dx = \\frac{x^{\\alpha+1}}{\\alpha+1} + C (\\alpha \\neq -1); \\quad \\int \\frac{1}{x}dx = \\ln|x| + C; \\quad \\int e^x dx = e^x + C; \\quad \\int a^x dx = \\frac{a^x}{\\ln a} + C; \\quad \\int \\cos x dx = \\sin x + C; \\quad \\int \\sin x dx = -\\cos x + C",
+				"Lý thuyết": "Bảng nguyên hàm của các hàm số sơ cấp thường gặp.",
+				"UUID": "586833fa-8ec8-4e78-9aae-f75787a19e40"
+			},
+			"Tích phân xác định": {
+				"Công thức": "\\int_a^b f(x)dx = F(b) - F(a)",
+				"Lý thuyết": "Nếu f(x) liên tục trên đoạn [a, b] và F(x) là một nguyên hàm của f(x) trên đoạn đó, thì hiệu số F(b) - F(a) được gọi là tích phân từ a đến b của f(x).",
+				"UUID": "d5e2f201-ef54-41a5-934e-eea100aa3285"
+			},
+			"Tính chất của tích phân": {
+				"Công thức": "\\int_a^b kf(x)dx = k\\int_a^b f(x)dx; \\quad \\int_a^b [f(x) \\pm g(x)]dx = \\int_a^b f(x)dx \\pm \\int_a^b g(x)dx; \\quad \\int_a^b f(x)dx = \\int_a^c f(x)dx + \\int_c^b f(x)dx",
+				"Lý thuyết": "Các tính chất tuyến tính và tính chất cộng của tích phân trên các đoạn liền kề.",
+				"UUID": "eea98c9d-81a0-4938-a67d-3616b3746ac2"
+			},
+			"Diện tích hình phẳng giới hạn bởi một đường cong": {
+				"Công thức": "S = \\int_a^b |f(x)|dx",
+				"Lý thuyết": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số y = f(x), trục hoành, và hai đường thẳng x = a, x = b.",
+				"UUID": "8ff6f751-87f9-43e3-a399-a6129b32e92e"
+			},
+			"Diện tích hình phẳng giới hạn bởi hai đường cong": {
+				"Công thức": "S = \\int_a^b |f_1(x) - f_2(x)|dx",
+				"Lý thuyết": "Diện tích hình phẳng giới hạn bởi đồ thị hai hàm số y = f₁(x), y = f₂(x) và hai đường thẳng x = a, x = b.",
+				"UUID": "badd5551-4628-4ff3-9a57-23809e30e113"
+			},
+			"Thể tích khối tròn xoay": {
+				"Công thức": "V = \\pi \\int_a^b [f(x)]^2 dx",
+				"Lý thuyết": "Thể tích của khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục hoành, x = a, x = b xung quanh trục Ox.",
+				"UUID": "3be7ca09-9855-452b-acf6-dd312a55a601"
+			}
+		},
+		"Phương trình trong không gian": {
+			"Phương trình tổng quát của mặt phẳng": {
+				"Công thức": "Ax + By + Cz + D = 0",
+				"Lý thuyết": "Một mặt phẳng trong không gian Oxyz có phương trình tổng quát như trên, với A, B, C không đồng thời bằng 0. Vectơ n=(A; B; C) là một vectơ pháp tuyến của mặt phẳng.",
+				"UUID": "6f502804-e56b-4368-98af-9f603a9340a2"
+			},
+			"Phương trình mặt phẳng theo đoạn chắn": {
+				"Công thức": "\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1",
+				"Lý thuyết": "Phương trình mặt phẳng đi qua ba điểm A(a,0,0), B(0,b,0), C(0,0,c) với a, b, c khác 0.",
+				"UUID": "bed8cb1f-20ec-41dd-b15f-f496dce66f07"
+			},
+			"Phương trình tham số của đường thẳng": {
+				"Công thức": "\\begin{cases} x = x_0 + a_1t \\\\ y = y_0 + a_2t \\\\ z = z_0 + a_3t \\end{cases}",
+				"Lý thuyết": "Phương trình đường thẳng đi qua điểm M₀(x₀, y₀, z₀) và có vectơ chỉ phương u=(a₁, a₂, a₃).",
+				"UUID": "75d2884b-807d-4b8f-995f-e218b33be6e4"
+			},
+			"Phương trình chính tắc của đường thẳng": {
+				"Công thức": "\\frac{x-x_0}{a_1} = \\frac{y-y_0}{a_2} = \\frac{z-z_0}{a_3}",
+				"Lý thuyết": "Dạng phương trình của đường thẳng khi các thành phần của vectơ chỉ phương đều khác 0.",
+				"UUID": "5284f3b4-8e52-4f5b-ba36-c527397ba35f"
+			},
+			"Phương trình mặt cầu": {
+				"Công thức": "(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2",
+				"Lý thuyết": "Phương trình mặt cầu có tâm I(a, b, c) và bán kính R.",
+				"UUID": "1520c286-4a57-4a46-ab20-a2c5f780249f"
+			},
+			"Góc giữa hai mặt phẳng": {
+				"Công thức": "\\cos(\\alpha, \\beta) = |\\cos(\\vec{n_1}, \\vec{n_2})| = \\frac{|A_1A_2 + B_1B_2 + C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
+				"Lý thuyết": "Góc giữa hai mặt phẳng là góc giữa hai vectơ pháp tuyến tương ứng của chúng.",
+				"UUID": "c561b9b8-816a-4fc1-aeb6-13212b6d861f"
+			},
+			"Góc giữa đường thẳng và mặt phẳng": {
+				"Công thức": "\\sin(d, (P)) = |\\cos(\\vec{a}, \\vec{n})| = \\frac{|a_1A + a_2B + a_3C|}{\\sqrt{a_1^2+a_2^2+a_3^2}\\sqrt{A^2+B^2+C^2}}",
+				"Lý thuyết": "Góc giữa một đường thẳng và một mặt phẳng được tính thông qua sin của góc đó, bằng cosin của góc giữa vectơ chỉ phương của đường thẳng và vectơ pháp tuyến của mặt phẳng.",
+				"UUID": "d6e4ca00-5970-4329-9119-d31d59e8a6bd"
+			},
+			"Khoảng cách từ điểm đến mặt phẳng": {
+				"Công thức": "d(M_0, (P)) = \\frac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}",
+				"Lý thuyết": "Khoảng cách từ điểm M₀(x₀, y₀, z₀) đến mặt phẳng (P) có phương trình Ax + By + Cz + D = 0.",
+				"UUID": "a7312bfb-fa46-42a7-a5da-2251cb3aa57a"
+			}
+		},
+		"Xác suất có điều kiện": {
+			"Xác suất có điều kiện": {
+				"Công thức": "P(A|B) = \\frac{P(AB)}{P(B)}",
+				"Lý thuyết": "Xác suất của biến cố A với điều kiện biến cố B đã xảy ra, trong đó P(B) > 0.",
+				"UUID": "2d4b49bc-7c00-4b40-9180-a00543c97318"
+			},
+			"Công thức nhân xác suất": {
+				"Công thức": "P(AB) = P(A)P(B|A) = P(B)P(A|B)",
+				"Lý thuyết": "Công thức tính xác suất của giao hai biến cố. Nếu A và B độc lập, P(AB) = P(A)P(B).",
+				"UUID": "a8bb8fff-ffd5-45e5-8afb-b6ad05990a99"
+			},
+			"Công thức xác suất toàn phần": {
+				"Công thức": "P(A) = P(B)P(A|B) + P(\\bar{B})P(A|\\bar{B})",
+				"Lý thuyết": "Công thức tính xác suất của một biến cố A thông qua một hệ đầy đủ các biến cố (ở đây là B và B-ngang).",
+				"UUID": "7a518c69-9ead-48da-a2ff-0c46e48273f4"
+			},
+			"Công thức Bayes": {
+				"Công thức": "P(B|A) = \\frac{P(B)P(A|B)}{P(A)} = \\frac{P(B)P(A|B)}{P(B)P(A|B) + P(\\bar{B})P(A|\\bar{B})}",
+				"Lý thuyết": "Công thức cho phép tính xác suất hậu nghiệm của một biến cố, dựa trên xác suất tiền nghiệm và các xác suất có điều kiện liên quan.",
+				"UUID": "49b7a21c-b04d-4c3d-87b6-ccc546805dae"
+			}
+		}
+	}
+}

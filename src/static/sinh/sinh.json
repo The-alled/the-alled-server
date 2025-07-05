@@ -1,0 +1,429 @@
+{
+	"10": {
+		"Giới thiệu chung và Các cấp độ tổ chức của thế giới sống": {
+			"Các cấp độ tổ chức của thế giới sống": {
+				"Công thức": "",
+				"Lý thuyết": "Thế giới sống được tổ chức theo một trật tự chặt chẽ gồm các cấp độ từ thấp đến cao: Phân tử → Bào quan → Tế bào → Mô → Cơ quan → Hệ cơ quan → Cơ thể → Quần thể → Quần xã - Hệ sinh thái → Sinh quyển. Tổ chức sống cấp trên vừa có những đặc điểm của tổ chức sống cấp dưới, vừa có những đặc tính nổi trội mà tổ chức cấp dưới không có được.",
+				"UUID": "3407eb7b-49cc-4816-9998-7de7285b6a9f"
+			},
+			"Đặc điểm chung của thế giới sống": {
+				"Công thức": "",
+				"Lý thuyết": "1. Tổ chức theo nguyên tắc thứ bậc: Cấp độ tổ chức thấp hơn làm nền tảng để xây dựng nên cấp độ tổ chức cao hơn. 2. Hệ thống mở và tự điều chỉnh: Sinh vật ở mọi cấp độ tổ chức đều không ngừng trao đổi vật chất và năng lượng với môi trường, đồng thời có các cơ chế tự điều chỉnh để đảm bảo duy trì và cân bằng các thông số trong hệ thống. 3. Thế giới sống liên tục tiến hoá: Sinh vật không ngừng biến đổi và thích nghi với môi trường sống, tạo nên một thế giới sống đa dạng và phong phú.",
+				"UUID": "6dc65463-8e27-46e6-9895-31052b37fdbd"
+			},
+			"Phát triển bền vững": {
+				"Công thức": "",
+				"Lý thuyết": "Là sự phát triển nhằm thoả mãn nhu cầu của thế hệ hiện tại mà không làm tổn hại đến khả năng thoả mãn nhu cầu của các thế hệ tương lai. Phát triển bền vững là sự kết hợp hài hoà giữa các hệ thống: hệ tự nhiên, hệ xã hội và hệ kinh tế.",
+				"UUID": "bc3ca71e-7c03-489d-8348-176796f62c27"
+			}
+		},
+		"Thành phần hoá học của tế bào": {
+			"Nguyên tố hoá học": {
+				"Công thức": "",
+				"Lý thuyết": "Gồm các nguyên tố đa lượng (chiếm > 0,01% khối lượng cơ thể) như C, H, O, N, S, P,... có vai trò cấu tạo nên các đại phân tử hữu cơ và các nguyên tố vi lượng (chiếm < 0,01% khối lượng cơ thể) như Fe, Mn, Cu, Zn,... có vai trò trong việc hoạt hoá enzyme, là thành phần của nhiều hormone và vitamin.",
+				"UUID": "55966fbd-32c7-4bbc-b668-9a85902e3975"
+			},
+			"Nước và vai trò của nước": {
+				"Công thức": "",
+				"Lý thuyết": "Nước được cấu tạo từ một nguyên tử oxygen liên kết với hai nguyên tử hydrogen. Do tính phân cực, các phân tử nước hút nhau và hút các phân tử phân cực khác. Vai trò: là dung môi phổ biến, môi trường của các phản ứng sinh hoá, vận chuyển chất và điều hoà nhiệt độ.",
+				"UUID": "884511f8-13a1-41ca-bc70-e5283d1ac317"
+			},
+			"Carbohydrate": {
+				"Công thức": "C_n(H_2O)_m",
+				"Lý thuyết": "Là hợp chất hữu cơ được cấu tạo từ C, H, O. Gồm 3 loại: Monosaccharide (đường đơn, ví dụ: glucose, fructose), Disaccharide (đường đôi, ví dụ: sucrose, lactose) và Polysaccharide (đường đa, ví dụ: tinh bột, glycogen, cellulose). Chức năng chính là cung cấp và dự trữ năng lượng, cấu trúc nên tế bào.",
+				"UUID": "5193169e-bd8a-4f93-8ed4-43683487dbc5"
+			},
+			"Lipid": {
+				"Công thức": "",
+				"Lý thuyết": "Là nhóm chất hữu cơ kị nước. Gồm lipid đơn giản (chất béo, sáp) và lipid phức tạp (phospholipid, steroid). Chức năng: dự trữ năng lượng, cấu tạo màng sinh chất, là hormone và vitamin.",
+				"UUID": "d5fd7b69-fcde-4e63-b1bc-bae70e6da9da"
+			},
+			"Protein": {
+				"Công thức": "",
+				"Lý thuyết": "Là đại phân tử được cấu tạo theo nguyên tắc đa phân từ các đơn phân là amino acid. Có 4 bậc cấu trúc: bậc 1 (chuỗi polypeptide), bậc 2 (xoắn alpha, gấp nếp beta), bậc 3 (cấu trúc không gian 3D), bậc 4 (kết hợp nhiều chuỗi polypeptide). Chức năng rất đa dạng: cấu trúc, xúc tác (enzyme), vận chuyển, bảo vệ (kháng thể), điều hoà, thụ thể.",
+				"UUID": "a49bd65a-b786-4b84-a996-d5eab7b67abe"
+			},
+			"Nucleic acid": {
+				"Công thức": "",
+				"Lý thuyết": "Là đại phân tử được cấu tạo theo nguyên tắc đa phân từ các đơn phân là nucleotide. Mỗi nucleotide gồm 3 thành phần: gốc phosphate, đường pentose, và nitrogenous base. Có 2 loại: DNA (chứa thông tin di truyền) và RNA (tham gia tổng hợp protein).",
+				"UUID": "143d2cfe-538f-4efd-a685-05e077958daa"
+			}
+		},
+		"Cấu trúc và chức năng của tế bào": {
+			"Học thuyết tế bào": {
+				"Công thức": "",
+				"Lý thuyết": "1. Tất cả các sinh vật đều được cấu tạo từ một hoặc nhiều tế bào. 2. Tế bào là đơn vị cơ sở của sự sống. 3. Các tế bào được sinh ra từ các tế bào có trước.",
+				"UUID": "aa1bac08-ad0b-4349-a146-6c6cd6c81c04"
+			},
+			"Tế bào nhân sơ": {
+				"Công thức": "",
+				"Lý thuyết": "Cấu tạo đơn giản, chưa có nhân hoàn chỉnh và không có các bào quan có màng. Vật chất di truyền là một phân tử DNA dạng vòng nằm trong vùng nhân. Có kích thước nhỏ (0,5 - 10 µm).",
+				"UUID": "4db94dbc-0fdd-4c8c-9535-0eceab24c91b"
+			},
+			"Tế bào nhân thực": {
+				"Công thức": "",
+				"Lý thuyết": "Cấu tạo phức tạp, có nhân hoàn chỉnh được bao bọc bởi màng nhân. Tế bào chất chứa hệ thống nội màng và các bào quan có màng (ti thể, lục lạp, lysosome,...). Kích thước lớn hơn tế bào nhân sơ (10 - 100 µm).",
+				"UUID": "d64bfef5-cb34-4086-a66b-051a66f2c252"
+			},
+			"Màng sinh chất": {
+				"Công thức": "",
+				"Lý thuyết": "Cấu tạo theo mô hình khảm động, gồm lớp kép phospholipid và các phân tử protein. Chức năng: trao đổi chất chọn lọc, tiếp nhận thông tin, là nơi định vị của nhiều enzyme, nhận biết tế bào và tạo các mối liên kết giữa các tế bào.",
+				"UUID": "08c3dfe8-6dff-44ea-a0ff-f2789f6c213a"
+			},
+			"Các bào quan": {
+				"Công thức": "",
+				"Lý thuyết": "Nhân: trung tâm điều khiển hoạt động tế bào. Ti thể: nhà máy năng lượng, nơi diễn ra hô hấp tế bào. Lục lạp (ở thực vật): nơi diễn ra quang hợp. Lưới nội chất: tổng hợp và vận chuyển các chất. Bộ máy Golgi: biến đổi, đóng gói và phân phối sản phẩm. Lysosome: tiêu hoá nội bào. Ribosome: tổng hợp protein.",
+				"UUID": "9cc5f4db-b3f3-4349-a081-61dfa73688f7"
+			}
+		},
+		"Trao đổi chất và chuyển hoá năng lượng ở tế bào": {
+			"Năng lượng và ATP": {
+				"Công thức": "ATP \\rightleftharpoons ADP + P_i + \\text{Năng lượng}",
+				"Lý thuyết": "Năng lượng trong tế bào tồn tại ở nhiều dạng. ATP (Adenosine triphosphate) là 'đồng tiền' năng lượng của tế bào, cung cấp năng lượng cho mọi hoạt động sống thông qua việc phá vỡ liên kết phosphate cao năng cuối cùng.",
+				"UUID": "fc8be0a9-b18e-4591-9b7c-602476443833"
+			},
+			"Vận chuyển chất qua màng": {
+				"Công thức": "",
+				"Lý thuyết": "Vận chuyển thụ động: không tốn năng lượng, theo chiều gradient nồng độ (khuếch tán, thẩm thấu). Vận chuyển chủ động: tốn năng lượng ATP, ngược chiều gradient nồng độ, cần protein vận chuyển. Nhập bào và xuất bào: vận chuyển các chất có kích thước lớn bằng cách biến dạng màng.",
+				"UUID": "d0e84987-d3c7-4cd0-a8d0-74e4eed771ae"
+			},
+			"Enzyme và xúc tác sinh học": {
+				"Công thức": "",
+				"Lý thuyết": "Enzyme là chất xúc tác sinh học có bản chất là protein, làm tăng tốc độ phản ứng mà không bị biến đổi. Mỗi enzyme có trung tâm hoạt động đặc hiệu với một cơ chất nhất định. Hoạt tính của enzyme bị ảnh hưởng bởi nhiệt độ, pH, nồng độ cơ chất và chất ức chế.",
+				"UUID": "17f5c9e0-6679-4f94-a497-0122f9655d69"
+			},
+			"Tổng hợp và phân giải các chất": {
+				"Công thức": "C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{Năng lượng (ATP + nhiệt)}",
+				"Lý thuyết": "Tổng hợp (đồng hoá) là quá trình tạo ra các chất phức tạp từ các chất đơn giản, tích luỹ năng lượng (ví dụ: quang hợp). Phân giải (dị hoá) là quá trình phá vỡ các chất phức tạp thành các chất đơn giản, giải phóng năng lượng (ví dụ: hô hấp tế bào, lên men).",
+				"UUID": "a2ee247f-cae1-4586-be2c-5cf04f4f47b9"
+			}
+		},
+		"Thông tin giữa các tế bào, chu kì tế bào và phân bào": {
+			"Thông tin giữa các tế bào": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình tế bào tiếp nhận, xử lí và trả lời các tín hiệu từ môi trường. Quá trình gồm 3 giai đoạn: Tiếp nhận tín hiệu (thụ thể), truyền tin nội bào (chuỗi các phản ứng hoá học) và đáp ứng (thay đổi hoạt động của tế bào).",
+				"UUID": "542f85f0-8e18-4cb1-919e-30fba4cb02ad"
+			},
+			"Chu kì tế bào": {
+				"Công thức": "",
+				"Lý thuyết": "Là một chuỗi các sự kiện có trật tự từ khi tế bào được hình thành cho đến khi nó phân chia. Gồm kì trung gian (pha G1, S, G2) và pha phân bào (pha M). Được kiểm soát chặt chẽ tại các điểm kiểm soát để tránh sai sót.",
+				"UUID": "38b24dd4-44ae-4fc2-833f-a1720e085fc7"
+			},
+			"Nguyên phân": {
+				"Công thức": "1 \\text{ Tế bào mẹ } (2n) \\rightarrow 2 \\text{ Tế bào con } (2n)",
+				"Lý thuyết": "Là quá trình phân chia tế bào từ một tế bào mẹ tạo ra hai tế bào con có bộ nhiễm sắc thể giống hệt mẹ. Gồm các kì: kì đầu, kì giữa, kì sau, kì cuối. Giúp cơ thể lớn lên, thay thế các tế bào bị tổn thương.",
+				"UUID": "ac475ff2-fd94-48cb-a6a8-f05d3c5d4d7c"
+			},
+			"Giảm phân": {
+				"Công thức": "1 \\text{ Tế bào mẹ } (2n) \\rightarrow 4 \\text{ Tế bào con } (n)",
+				"Lý thuyết": "Là quá trình phân chia tế bào sinh dục chín, từ một tế bào mẹ (2n) tạo ra bốn tế bào con (n). Gồm hai lần phân bào liên tiếp (Giảm phân I và Giảm phân II). Tạo ra sự đa dạng di truyền thông qua trao đổi chéo và phân li độc lập.",
+				"UUID": "203a1c02-9a3e-445a-8fd1-420b5ecfde91"
+			}
+		},
+		"Công nghệ tế bào": {
+			"Nguyên lí công nghệ tế bào": {
+				"Công thức": "",
+				"Lý thuyết": "Dựa trên tính toàn năng của tế bào (khả năng một tế bào riêng lẻ có thể phát triển thành cơ thể hoàn chỉnh) và khả năng biệt hoá, phản biệt hoá của tế bào. Tế bào được nuôi cấy trong môi trường dinh dưỡng nhân tạo (in vitro) để tạo ra mô, cơ quan hoặc cơ thể.",
+				"UUID": "290c2409-e3aa-485c-8de9-eb970eceb1fd"
+			},
+			"Thành tựu công nghệ tế bào thực vật": {
+				"Công thức": "",
+				"Lý thuyết": "Nhân nhanh các giống cây trồng quý hiếm; tạo ra các giống cây trồng sạch bệnh; sản xuất các chất có hoạt tính sinh học; tạo giống cây trồng mới thông qua lai tế bào soma, nuôi cấy hạt phấn, chuyển gene.",
+				"UUID": "9be5bc98-2eef-47f9-a42e-d946a0e11bf0"
+			},
+			"Thành tựu công nghệ tế bào động vật": {
+				"Công thức": "",
+				"Lý thuyết": "Tạo mô, cơ quan thay thế (y học tái tạo); nhân bản vô tính động vật (ví dụ: cừu Dolly); tạo động vật chuyển gene để sản xuất thuốc, protein hoặc làm mô hình nghiên cứu bệnh.",
+				"UUID": "dfedeca2-0695-445d-847a-80da0609fb01"
+			}
+		},
+		"Sinh học vi sinh vật và Virus": {
+			"Khái niệm vi sinh vật": {
+				"Công thức": "",
+				"Lý thuyết": "Là những sinh vật có kích thước rất nhỏ, chỉ quan sát được dưới kính hiển vi. Bao gồm vi khuẩn, nấm men, động vật nguyên sinh, tảo đơn bào và virus. Chúng có khả năng hấp thu và chuyển hoá vật chất nhanh, sinh trưởng và sinh sản rất nhanh.",
+				"UUID": "3ae383aa-2265-4600-adfd-830dc898bc72"
+			},
+			"Sinh trưởng của quần thể vi sinh vật": {
+				"Công thức": "",
+				"Lý thuyết": "Trong môi trường nuôi cấy không liên tục, sự sinh trưởng của quần thể vi khuẩn trải qua 4 pha: pha tiềm phát (lag), pha luỹ thừa (log), pha cân bằng và pha suy vong. Bị ảnh hưởng bởi các yếu tố hoá học (chất dinh dưỡng, chất ức chế) và vật lí (nhiệt độ, độ ẩm, pH, ánh sáng).",
+				"UUID": "6740c05d-0c37-4b60-845b-fcbd9b2c70ab"
+			},
+			"Tổng hợp và phân giải ở vi sinh vật": {
+				"Công thức": "",
+				"Lý thuyết": "Vi sinh vật có khả năng tổng hợp nhiều chất như amino acid, protein, kháng sinh, enzyme,... và phân giải các chất hữu cơ phức tạp trong môi trường. Các quá trình này được ứng dụng rộng rãi trong công nghiệp thực phẩm, dược phẩm và xử lí ô nhiễm.",
+				"UUID": "72d4d847-cb33-4aa1-96a7-2afa2175024c"
+			},
+			"Virus": {
+				"Công thức": "",
+				"Lý thuyết": "Là dạng sống chưa có cấu tạo tế bào, kích thước siêu nhỏ, kí sinh nội bào bắt buộc. Cấu tạo gồm lõi nucleic acid (DNA hoặc RNA) và vỏ protein (capsid). Chu trình nhân lên gồm 5 giai đoạn: hấp phụ, xâm nhập, sinh tổng hợp, lắp ráp và phóng thích.",
+				"UUID": "b67ef2f5-4921-4d0d-b375-a44068fb58de"
+			}
+		}
+	},
+	"11": {
+		"Trao đổi chất và Chuyển hoá năng lượng ở Thực vật": {
+			"Sự hấp thụ nước và khoáng ở rễ": {
+				"Công thức": "",
+				"Lý thuyết": "Nước và ion khoáng được hấp thụ chủ yếu qua miền lông hút của rễ. Có hai cơ chế hấp thụ: Thụ động (nước di chuyển theo cơ chế thẩm thấu từ đất vào rễ, ion khoáng khuếch tán từ nồng độ cao đến thấp) và Chủ động (ion khoáng di chuyển ngược chiều nồng độ, cần năng lượng ATP và protein vận chuyển). Có hai con đường vận chuyển từ lông hút vào mạch gỗ của rễ: Con đường gian bào (đi theo không gian giữa các tế bào, bị chặn bởi đai Caspary ở nội bì) và Con đường tế bào chất (đi xuyên qua tế bào chất của các tế bào).",
+				"UUID": "c1d00c2a-c2a8-4bca-9872-4638afad2385"
+			},
+			"Sự vận chuyển các chất trong thân": {
+				"Công thức": "",
+				"Lý thuyết": "Gồm hai dòng vận chuyển chính: Dòng mạch gỗ (xylem) vận chuyển nước và ion khoáng từ rễ lên các phần trên của cây. Động lực của dòng mạch gỗ gồm: Áp suất rễ (đẩy nước), Lực hút do thoát hơi nước ở lá (động lực chính), và Lực liên kết giữa các phân tử nước với nhau và với thành mạch. Dòng mạch rây (phloem) vận chuyển các chất hữu cơ (chủ yếu là sucrose) được tổng hợp ở lá đến các nơi cần thiết. Động lực của dòng mạch rây là sự chênh lệch áp suất thẩm thấu giữa cơ quan nguồn (lá) và cơ quan chứa (rễ, củ, quả).",
+				"UUID": "8d681a17-6f0f-430e-87cd-18af75ddcef4"
+			},
+			"Sự thoát hơi nước ở lá": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình mất nước từ bề mặt lá ra môi trường, tạo động lực chính cho sự vận chuyển nước trong cây và giúp điều hoà nhiệt độ của lá. Có hai con đường: Qua khí khổng (là chủ yếu, tốc độ lớn, được điều chỉnh) và Qua lớp cutin trên bề mặt lá (tốc độ chậm, không được điều chỉnh). Cơ chế đóng mở khí khổng phụ thuộc vào sự thay đổi sức trương nước của hai tế bào hạt đậu (tế bào khí khổng).",
+				"UUID": "ace71775-8283-48c3-93ef-f9ab7e4aaca5"
+			},
+			"Dinh dưỡng khoáng và Nitrogen": {
+				"Công thức": "",
+				"Lý thuyết": "Thực vật cần các nguyên tố khoáng thiết yếu, chia thành hai nhóm: Nguyên tố đại lượng (N, P, K, S, Ca, Mg...) và Nguyên tố vi lượng (Fe, Mn, Zn, Cu, B, Mo...). Nitrogen là nguyên tố đặc biệt quan trọng, được cây hấp thụ dưới dạng ion NH4+ và NO3-. Quá trình cố định nitrogen khí quyển thành dạng cây có thể sử dụng được thực hiện bởi các vi sinh vật.",
+				"UUID": "86633329-0752-42bf-bc3d-b0f69989332b"
+			},
+			"Quang hợp ở các nhóm thực vật": {
+				"Công thức": "6CO_2 + 12H_2O \\xrightarrow{\\text{Ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2 + 6H_2O",
+				"Lý thuyết": "Là quá trình tổng hợp chất hữu cơ từ CO2 và H2O nhờ năng lượng ánh sáng. Gồm pha sáng (tạo ATP, NADPH, giải phóng O2) và pha tối (cố định CO2). Có 3 con đường quang hợp: Thực vật C3 (sản phẩm cố định CO2 đầu tiên là APG 3C, có hô hấp sáng), Thực vật C4 (sản phẩm đầu tiên là AOA 4C, không có hô hấp sáng, thích nghi điều kiện nóng ẩm), và Thực vật CAM (cố định CO2 ban đêm, thích nghi điều kiện khô hạn).",
+				"UUID": "5a695d08-1920-48b8-92f5-c85c3f622d0b"
+			},
+			"Hô hấp ở thực vật": {
+				"Công thức": "C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{Năng lượng (ATP + nhiệt)}",
+				"Lý thuyết": "Là quá trình phân giải chất hữu cơ để giải phóng năng lượng cho hoạt động sống. Các giai đoạn chính: Đường phân (tế bào chất), Chu trình Krebs (chất nền ti thể), Chuỗi truyền electron (màng trong ti thể). Hô hấp sáng xảy ra ở thực vật C3 khi cường độ ánh sáng cao, gây lãng phí sản phẩm quang hợp.",
+				"UUID": "d3c1d85c-2dfc-4a43-93e1-4c7903a68612"
+			}
+		},
+		"Trao đổi chất và Chuyển hoá năng lượng ở Động vật": {
+			"Tiêu hoá": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình biến đổi thức ăn thành các chất dinh dưỡng mà cơ thể có thể hấp thụ. Các hình thức: Tiêu hoá nội bào (trong không bào tiêu hoá, ở động vật đơn bào), Tiêu hoá ngoại bào (trong túi tiêu hoá hoặc ống tiêu hoá). Ở người, tiêu hoá diễn ra trong ống tiêu hoá nhờ hoạt động cơ học và hoá học (enzyme).",
+				"UUID": "6f39652e-768e-459b-9ba2-6edffdfb2adf"
+			},
+			"Hô hấp (Trao đổi khí)": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình trao đổi khí O2 và CO2 giữa cơ thể và môi trường. Có 4 hình thức chính: Trao đổi khí qua bề mặt cơ thể (ở giun đất, lưỡng cư), Trao đổi khí bằng hệ thống ống khí (ở côn trùng), Trao đổi khí bằng mang (ở cá), và Trao đổi khí bằng phổi (ở bò sát, chim, thú).",
+				"UUID": "b0c7e6ed-fa83-4f5d-a774-05364a7c8dce"
+			},
+			"Tuần hoàn": {
+				"Công thức": "",
+				"Lý thuyết": "Vận chuyển các chất đi nuôi cơ thể và loại bỏ chất thải. Hệ tuần hoàn hở (ở thân mềm, chân khớp): máu không chảy hoàn toàn trong mạch kín, tốc độ chậm. Hệ tuần hoàn kín (ở giun đốt, động vật có xương sống): máu chảy trong mạch kín, áp lực cao. Gồm: Hệ tuần hoàn đơn (ở cá, 1 vòng tuần hoàn) và Hệ tuần hoàn kép (ở lưỡng cư, bò sát, chim, thú, 2 vòng tuần hoàn).",
+				"UUID": "e2d377a7-b5d3-4090-a2f5-f33f5456fcd7"
+			},
+			"Cân bằng nội môi và Bài tiết": {
+				"Công thức": "",
+				"Lý thuyết": "Cân bằng nội môi là sự duy trì ổn định các điều kiện lý hoá của môi trường trong (máu, bạch huyết, dịch mô). Thận đóng vai trò quan trọng trong việc điều hoà áp suất thẩm thấu, pH máu. Bài tiết là quá trình lọc máu và thải các chất cặn bã, sản phẩm thừa ra khỏi cơ thể qua nước tiểu.",
+				"UUID": "3f8981be-ec19-4532-b51d-8c5eeb039e2d"
+			},
+			"Miễn dịch": {
+				"Công thức": "",
+				"Lý thuyết": "Là hệ thống phòng thủ của cơ thể chống lại tác nhân gây bệnh. Gồm: Miễn dịch không đặc hiệu (bẩm sinh, đáp ứng tức thì, không cần tiếp xúc trước, gồm các hàng rào vật lí, hoá học và tế bào) và Miễn dịch đặc hiệu (hình thành sau khi tiếp xúc kháng nguyên, có tính đặc hiệu và trí nhớ miễn dịch). Miễn dịch đặc hiệu lại gồm: Miễn dịch thể dịch (do tế bào B sản xuất kháng thể) và Miễn dịch qua trung gian tế bào (do tế bào T độc tiêu diệt tế bào nhiễm bệnh).",
+				"UUID": "6a503316-31a9-4d26-a69b-9873a3146bab"
+			}
+		},
+		"Cảm ứng ở sinh vật": {
+			"Cảm ứng ở thực vật": {
+				"Công thức": "",
+				"Lý thuyết": "Là phản ứng của thực vật đối với kích thích. Gồm: Hướng động (vận động sinh trưởng theo hướng kích thích, ví dụ: hướng sáng, hướng trọng lực) và Ứng động (vận động không theo hướng kích thích, ví dụ: hoa nở, lá cây trinh nữ cụp lại). Cơ chế chủ yếu do sự thay đổi của hormone (hướng động) hoặc sức trương nước (ứng động).",
+				"UUID": "8ae87a14-dd74-4f43-8c66-c0a0bc6fc8c7"
+			},
+			"Cảm ứng ở động vật": {
+				"Công thức": "",
+				"Lý thuyết": "Là phản ứng của động vật thông qua hệ thần kinh. Cấu trúc hệ thần kinh tiến hoá từ dạng lưới (ruột khoang) -> dạng chuỗi hạch (giun, côn trùng) -> dạng ống (động vật có xương sống). Phản xạ là cơ sở của cảm ứng, thực hiện qua một cung phản xạ. Có phản xạ không điều kiện (bẩm sinh) và phản xạ có điều kiện (học được).",
+				"UUID": "2f82e3f4-930f-495e-aa41-5781f4be9e55"
+			},
+			"Tập tính ở động vật": {
+				"Công thức": "",
+				"Lý thuyết": "Là chuỗi phản ứng trả lời kích thích. Gồm: Tập tính bẩm sinh (di truyền, đặc trưng cho loài, ví dụ: nhện giăng tơ) và Tập tính học được (hình thành trong đời sống). Các hình thức học tập: Quen nhờn, In vết, Điều kiện hoá (đáp ứng và hành động), Học ngầm, Học khôn. Ngoài ra còn có các tập tính xã hội phức tạp (kiếm ăn, bảo vệ lãnh thổ, sinh sản, di cư).",
+				"UUID": "2c76b002-1f46-4698-9bd8-c7f970ff5d67"
+			}
+		},
+		"Sinh trưởng và Phát triển ở sinh vật": {
+			"Sinh trưởng và phát triển ở thực vật": {
+				"Công thức": "",
+				"Lý thuyết": "Sinh trưởng là sự tăng kích thước không thuận nghịch của cơ thể. Phát triển là toàn bộ những biến đổi trong vòng đời. Ở thực vật có mô phân sinh. Sinh trưởng sơ cấp làm cây dài ra, sinh trưởng thứ cấp làm cây to ra. Quá trình này được điều hoà bởi các hormone thực vật (phytohormone) như Auxin, Gibberellin, Cytokinin (kích thích) và Abscisic acid, Ethylene (ức chế).",
+				"UUID": "d68c4375-fa44-4e1c-a7f1-8eb29c705e03"
+			},
+			"Sinh trưởng và phát triển ở động vật": {
+				"Công thức": "",
+				"Lý thuyết": "Phát triển không qua biến thái: con non có hình thái tương tự con trưởng thành. Phát triển qua biến thái: con non có hình thái, cấu tạo khác với con trưởng thành. Gồm: Biến thái không hoàn toàn (ấu trùng lột xác nhiều lần để lớn lên) và Biến thái hoàn toàn (ấu trùng -> nhộng -> con trưởng thành). Quá trình được điều hoà bởi các hormone như GH, thyroxine, testosterone, estrogen (ở động vật có xương sống) và ecdysone, juvenile (ở côn trùng).",
+				"UUID": "0f10e009-1427-4c74-925f-9acf7bbb6fc8"
+			}
+		},
+		"Sinh sản ở sinh vật": {
+			"Sinh sản ở thực vật": {
+				"Công thức": "",
+				"Lý thuyết": "Sinh sản vô tính: tạo cá thể mới từ một phần của cơ thể mẹ (sinh sản sinh dưỡng: giâm, chiết, ghép). Sinh sản hữu tính: có sự kết hợp giao tử, ở thực vật có hoa có quá trình thụ tinh kép tạo ra hợp tử (2n) và nội nhũ (3n).",
+				"UUID": "54e95225-08b8-4dfa-afa3-128d3b40e456"
+			},
+			"Sinh sản ở động vật": {
+				"Công thức": "",
+				"Lý thuyết": "Sinh sản vô tính: không có sự kết hợp giao tử (phân đôi, nảy chồi, phân mảnh, trinh sinh). Sinh sản hữu tính: có sự kết hợp giữa tinh trùng và trứng. Có thể thụ tinh ngoài (trong môi trường nước) hoặc thụ tinh trong (trong cơ quan sinh dục của con cái). Quá trình sinh sản được điều hoà bởi hệ thần kinh và các hormone sinh dục.",
+				"UUID": "8def244e-0292-4e2f-b53d-dfd2b1409596"
+			}
+		}
+	},
+	"12": {
+		"Cơ sở phân tử của Di truyền và Biến dị": {
+			"Cấu trúc và chức năng của DNA": {
+				"Công thức": "A+G = T+X",
+				"Lý thuyết": "DNA (Deoxyribonucleic acid) là vật chất di truyền, cấu tạo từ các nguyên tố C, H, O, N, P. DNA là một đại phân tử, cấu tạo theo nguyên tắc đa phân, đơn phân là các nucleotide (A, T, G, C). Cấu trúc không gian là một chuỗi xoắn kép gồm hai mạch polynucleotide chạy song song, ngược chiều. Các nucleotide trên hai mạch liên kết theo nguyên tắc bổ sung (A-T, G-C). Chức năng: mang, bảo quản và truyền đạt thông tin di truyền.",
+				"UUID": "cecf68fc-e6c4-46be-ba6f-f09126b87011"
+			},
+			"Cơ chế tái bản DNA": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình tạo ra hai phân tử DNA con giống hệt phân tử DNA mẹ. Diễn ra theo nguyên tắc bổ sung (A-T, G-C) và nguyên tắc bán bảo tồn (mỗi DNA con có một mạch của mẹ và một mạch mới được tổng hợp). Quá trình gồm các bước: tháo xoắn, tổng hợp các mạch mới và tạo thành hai phân tử DNA con.",
+				"UUID": "550c1be4-2ef3-418e-a30c-e26b88de4cda"
+			},
+			"Gene và mã di truyền": {
+				"Công thức": "",
+				"Lý thuyết": "Gene là một đoạn của phân tử DNA mang thông tin mã hoá cho một sản phẩm xác định (chuỗi polypeptide hoặc phân tử RNA). Mã di truyền là trình tự các nucleotide trong gene quy định trình tự các amino acid trong protein. Mã di truyền là mã bộ ba, được đọc liên tục, có tính đặc hiệu, tính thoái hoá và tính phổ biến. Có bộ ba mở đầu (AUG) và các bộ ba kết thúc (UAA, UAG, UGA).",
+				"UUID": "268a7928-35c7-49c0-84ef-2e9c7515692b"
+			},
+			"Cơ chế phiên mã và dịch mã": {
+				"Công thức": "",
+				"Lý thuyết": "Phiên mã là quá trình tổng hợp RNA từ mạch khuôn của gene. Dịch mã là quá trình tổng hợp protein từ thông tin trên phân tử mRNA. Quá trình dịch mã diễn ra tại ribosome, gồm hai giai đoạn: hoạt hoá amino acid và tổng hợp chuỗi polypeptide (mở đầu, kéo dài, kết thúc).",
+				"UUID": "71cf17e3-0b86-457b-89d6-fd1676db85cf"
+			},
+			"Điều hoà hoạt động gene": {
+				"Công thức": "",
+				"Lý thuyết": "Là cơ chế kiểm soát lượng sản phẩm của gene được tạo ra. Ở sinh vật nhân sơ, điều hoà chủ yếu ở cấp độ phiên mã (mô hình operon Lac). Ở sinh vật nhân thực, điều hoà phức tạp hơn, diễn ra ở nhiều cấp độ: trước phiên mã, phiên mã, sau phiên mã, dịch mã và sau dịch mã.",
+				"UUID": "6478926a-9f38-4d7f-a592-7007e7a6e7d6"
+			},
+			"Đột biến gene": {
+				"Công thức": "",
+				"Lý thuyết": "Là những biến đổi đột ngột trong cấu trúc của gene, xảy ra ở cấp độ phân tử. Gồm các dạng: mất, thêm, hoặc thay thế một hoặc một vài cặp nucleotide. Đột biến gene là nguồn nguyên liệu sơ cấp, chủ yếu cho quá trình tiến hoá.",
+				"UUID": "18647b1c-feaf-4634-b864-c236412c0703"
+			}
+		},
+		"Cơ sở tế bào học của Di truyền và Biến dị": {
+			"Cấu trúc và chức năng của Nhiễm sắc thể (NST)": {
+				"Công thức": "",
+				"Lý thuyết": "NST là cấu trúc mang gene trong nhân tế bào, có khả năng tự nhân đôi, phân li, tổ hợp. Ở sinh vật nhân thực, NST được cấu tạo từ DNA và protein histone, có cấu trúc siêu hiển vi cuộn xoắn qua nhiều cấp độ. Mỗi loài có bộ NST đặc trưng về số lượng, hình dạng và kích thước.",
+				"UUID": "26af4e72-3e2a-4aa0-bb83-433431194caf"
+			},
+			"Đột biến cấu trúc NST": {
+				"Công thức": "",
+				"Lý thuyết": "Là những biến đổi trong cấu trúc của NST. Gồm các dạng: Mất đoạn (mất một đoạn NST), Lặp đoạn (một đoạn NST lặp lại một hay nhiều lần), Đảo đoạn (một đoạn NST đứt ra, đảo 180 độ và nối lại), Chuyển đoạn (trao đổi đoạn giữa các NST).",
+				"UUID": "e7ae826c-ebc0-49ae-a0a5-b4b710db0dc4"
+			},
+			"Đột biến số lượng NST": {
+				"Công thức": "",
+				"Lý thuyết": "Là những biến đổi về số lượng trong bộ NST. Gồm hai dạng chính: Đột biến lệch bội (thay đổi số lượng của một hoặc vài cặp NST, ví dụ: 2n+1, 2n-1) và Đột biến đa bội (tăng toàn bộ số bộ NST, ví dụ: 3n, 4n).",
+				"UUID": "3ca11e58-dffb-4aa4-adbb-5afa9d42c671"
+			}
+		},
+		"Các quy luật di truyền": {
+			"Quy luật phân li (Quy luật Mendel 1)": {
+				"Công thức": "",
+				"Lý thuyết": "Mỗi tính trạng do một cặp nhân tố di truyền (allele) quy định. Trong quá trình phát sinh giao tử, các allele của một cặp phân li đồng đều về các giao tử, do đó 50% giao tử chứa allele này và 50% giao tử chứa allele kia. Cơ sở tế bào học là sự phân li của cặp NST tương đồng trong giảm phân.",
+				"UUID": "bed781dc-a39d-47b4-a139-595bf5a1b1e8"
+			},
+			"Quy luật phân li độc lập (Quy luật Mendel 2)": {
+				"Công thức": "",
+				"Lý thuyết": "Các cặp allele quy định các tính trạng khác nhau nằm trên các cặp NST tương đồng khác nhau sẽ phân li độc lập với nhau trong quá trình hình thành giao tử. Cơ sở tế bào học là sự phân li độc lập và tổ hợp tự do của các cặp NST tương đồng khác nhau trong giảm phân.",
+				"UUID": "e0b38e7e-d212-4d26-bf4a-37ef2d69fe70"
+			},
+			"Tương tác gene": {
+				"Công thức": "",
+				"Lý thuyết": "Là sự tác động qua lại giữa các gene không allele trong quá trình hình thành một kiểu hình. Các kiểu tương tác phổ biến: Tương tác bổ sung (ví dụ: 9:7, 9:6:1, 9:3:3:1), Tương tác át chế (ví dụ: 12:3:1, 13:3, 9:3:4), Tương tác cộng gộp (tính trạng số lượng).",
+				"UUID": "84bdcbac-fadb-467a-855f-a5fd1783e33e"
+			},
+			"Liên kết gene và Hoán vị gene": {
+				"Công thức": "f = \\frac{\\text{tổng số cá thể có kiểu hình hoán vị}}{\\text{tổng số cá thể trong phép lai phân tích}} \times 100\\%",
+				"Lý thuyết": "Liên kết gene là hiện tượng các gene trên cùng một NST di truyền cùng nhau. Hoán vị gene là sự trao đổi các đoạn tương ứng giữa hai chromatid khác nguồn trong cặp NST tương đồng, dẫn đến sự tái tổ hợp của các allele. Tần số hoán vị gene (f) phản ánh khoảng cách tương đối giữa các gene.",
+				"UUID": "42130ccd-e210-40ac-b31b-c26d95d02cf4"
+			},
+			"Di truyền liên kết với giới tính": {
+				"Công thức": "",
+				"Lý thuyết": "Là sự di truyền của các tính trạng mà gene quy định nằm trên NST giới tính. Gene trên NST X có thể di truyền chéo. Gene trên NST Y chỉ di truyền thẳng cho giới XY.",
+				"UUID": "bde59ac1-23fd-493c-82d3-ee0c4f396af2"
+			},
+			"Di truyền ngoài nhân": {
+				"Công thức": "",
+				"Lý thuyết": "Là sự di truyền của các gene nằm trong tế bào chất (trong ti thể, lục lạp). Do giao tử cái thường chứa nhiều tế bào chất hơn, nên tính trạng do gene ngoài nhân quy định thường được di truyền theo dòng mẹ.",
+				"UUID": "ce901e72-ec5c-41ee-a5cd-17391c3824ef"
+			},
+			"Ảnh hưởng của môi trường lên sự biểu hiện của gene": {
+				"Công thức": "",
+				"Lý thuyết": "Kiểu hình của một cơ thể là kết quả của sự tương tác giữa kiểu gene và môi trường. Mức phản ứng là tập hợp các kiểu hình của cùng một kiểu gene tương ứng với các môi trường khác nhau. Thường biến là những biến đổi kiểu hình phát sinh trong đời cá thể dưới ảnh hưởng của môi trường, không di truyền.",
+				"UUID": "6a6f4d54-c472-42b5-bb35-b54161ff362a"
+			}
+		},
+		"Di truyền học quần thể và người": {
+			"Di truyền học quần thể": {
+				"Công thức": "p^2(AA) + 2pq(Aa) + q^2(aa) = 1",
+				"Lý thuyết": "Nghiên cứu cấu trúc di truyền của quần thể (vốn gene). Định luật Hardy-Weinberg mô tả trạng thái cân bằng di truyền trong một quần thể lớn, ngẫu phối, không có đột biến, di-nhập gene và chọn lọc tự nhiên. Công thức p+q=1, trong đó p là tần số allele trội, q là tần số allele lặn.",
+				"UUID": "3e514265-b4f4-45df-87e8-8db9aa79e00d"
+			},
+			"Di truyền y học và tư vấn": {
+				"Công thức": "",
+				"Lý thuyết": "Nghiên cứu các bệnh di truyền ở người và đề xuất các biện pháp phòng ngừa, điều trị. Bệnh di truyền phân tử (do đột biến gene, ví dụ: bệnh thiếu máu hồng cầu hình liềm). Bệnh di truyền NST (do đột biến NST, ví dụ: hội chứng Down, Turner, Klinefelter). Tư vấn di truyền giúp các cặp vợ chồng đưa ra quyết định sinh sản phù hợp.",
+				"UUID": "5492dfea-b50a-4c22-99c5-54898fb4a8cf"
+			},
+			"Liệu pháp gene và công nghệ gene ở người": {
+				"Công thức": "",
+				"Lý thuyết": "Liệu pháp gene là kĩ thuật chữa bệnh bằng cách thay thế gene bệnh bằng gene lành. Công nghệ gene được ứng dụng để chẩn đoán sớm các bệnh di truyền, sản xuất thuốc và vaccine, và có tiềm năng trong việc điều trị nhiều bệnh tật.",
+				"UUID": "84e261d4-35f2-43eb-8ad7-8463453959c5"
+			}
+		},
+		"Tiến hoá": {
+			"Bằng chứng tiến hoá": {
+				"Công thức": "",
+				"Lý thuyết": "Bao gồm: Bằng chứng hoá thạch (di tích của sinh vật cổ đại). Bằng chứng giải phẫu so sánh (cơ quan tương đồng, cơ quan tương tự, cơ quan thoái hoá). Bằng chứng phôi sinh học (sự giống nhau trong phát triển phôi). Bằng chứng địa lí sinh vật học (sự phân bố của các loài). Bằng chứng sinh học phân tử (sự tương đồng về DNA và protein).",
+				"UUID": "308a3424-9c4b-411a-aaab-8db05430ef96"
+			},
+			"Học thuyết Darwin và Thuyết tiến hoá tổng hợp": {
+				"Công thức": "",
+				"Lý thuyết": "Học thuyết Darwin đề cao vai trò của biến dị và chọn lọc tự nhiên. Thuyết tiến hoá tổng hợp hiện đại đã kết hợp học thuyết Darwin với di truyền học, coi quần thể là đơn vị tiến hoá và tiến hoá là quá trình làm thay đổi tần số allele và thành phần kiểu gene của quần thể.",
+				"UUID": "d81387f5-8860-4b96-b599-fe4f511d97d9"
+			},
+			"Các nhân tố tiến hoá": {
+				"Công thức": "",
+				"Lý thuyết": "Là những nhân tố làm thay đổi vốn gene của quần thể. Bao gồm: Đột biến (tạo allele mới), Di-nhập gene (trao đổi gene giữa các quần thể), Chọn lọc tự nhiên (tác động có hướng, giữ lại các cá thể thích nghi), Các yếu tố ngẫu nhiên (biến động di truyền, làm thay đổi tần số allele đột ngột), Giao phối không ngẫu nhiên (thay đổi thành phần kiểu gene).",
+				"UUID": "8fbbcf8b-3b14-44ba-a5ef-edab57ba85b7"
+			},
+			"Quá trình hình thành loài": {
+				"Công thức": "",
+				"Lý thuyết": "Là quá trình lịch sử cải biến thành phần kiểu gene của quần thể gốc, dẫn đến sự hình thành loài mới, cách li sinh sản với loài gốc. Các con đường chính: Hình thành loài khác khu vực địa lí (do cách li địa lí) và hình thành loài cùng khu vực địa lí (do cách li sinh thái, cách li tập tính, hoặc đa bội hoá lai xa).",
+				"UUID": "a323ffa5-abd8-4c05-aa4d-56ea80989850"
+			},
+			"Sự phát sinh và phát triển sự sống": {
+				"Công thức": "",
+				"Lý thuyết": "Gồm 3 giai đoạn: Tiến hoá hoá học (tạo chất hữu cơ từ vô cơ), Tiến hoá tiền sinh học (tạo tế bào sơ khai), Tiến hoá sinh học (từ tế bào đầu tiên hình thành các loài). Lịch sử Trái Đất được chia thành các đại: Thái cổ, Nguyên sinh, Cổ sinh (kỷ Cambri, Ordovic, Silur, Devon, Carbon, Permi), Trung sinh (kỷ Trias, Jura, Creta), Tân sinh (kỷ Đệ tam, Đệ tứ).",
+				"UUID": "14924df9-8123-41bf-b722-156a6305750c"
+			},
+			"Sự phát sinh loài người": {
+				"Công thức": "",
+				"Lý thuyết": "Loài người (Homo sapiens) có nguồn gốc từ một loài vượn người cổ đại. Quá trình tiến hoá trải qua các dạng trung gian như Australopithecus, Homo habilis, Homo erectus, và Homo neanderthalensis. Các nhân tố xã hội (lao động, ngôn ngữ, tư duy) đóng vai trò quan trọng trong sự tiến hoá của loài người.",
+				"UUID": "c61d24d0-bd33-4e6b-ba5a-07a918c24798"
+			}
+		},
+		"Sinh thái học": {
+			"Môi trường và các nhân tố sinh thái": {
+				"Công thức": "",
+				"Lý thuyết": "Môi trường là nơi sống của sinh vật, bao gồm các nhân tố sinh thái vô sinh (nhiệt độ, ánh sáng, độ ẩm,...) và hữu sinh (các sinh vật khác, con người). Mỗi loài có một giới hạn sinh thái (khoảng chống chịu, khoảng thuận lợi) đối với từng nhân tố.",
+				"UUID": "c26df572-7b09-4c8b-af0e-2b3e237f561b"
+			},
+			"Quần thể sinh vật": {
+				"Công thức": "",
+				"Lý thuyết": "Là tập hợp các cá thể cùng loài, có các đặc trưng về kích thước, mật độ, tỉ lệ giới tính, cấu trúc tuổi, sự phân bố. Sự tăng trưởng kích thước quần thể có thể theo dạng tiềm năng (đường cong J) hoặc thực tế (đường cong S).",
+				"UUID": "c87931a4-1419-4c4a-bc3c-0b34fe97613d"
+			},
+			"Quan hệ giữa các loài trong quần xã": {
+				"Công thức": "",
+				"Lý thuyết": "Bao gồm các mối quan hệ: Quan hệ hỗ trợ (Cộng sinh: hai bên cùng có lợi và cần thiết; Hợp tác: hai bên cùng có lợi nhưng không nhất thiết phải có nhau; Hội sinh: một bên có lợi, bên kia không ảnh hưởng). Quan hệ đối kháng (Cạnh tranh: các loài tranh giành nguồn sống; Kí sinh: một loài sống bám vào loài khác; Ức chế - cảm nhiễm: một loài vô tình gây hại cho loài khác; Sinh vật ăn sinh vật khác).",
+				"UUID": "63d85c11-78db-4fcf-9ec0-32d31761c354"
+			},
+			"Quần xã và Hệ sinh thái": {
+				"Công thức": "",
+				"Lý thuyết": "Quần xã là tập hợp các quần thể khác loài. Hệ sinh thái bao gồm quần xã và sinh cảnh của chúng. Trong hệ sinh thái, vật chất được tuần hoàn theo các chu trình sinh địa hoá (Nước, Carbon, Nitrogen, Phosphorus) và năng lượng được truyền một chiều qua chuỗi và lưới thức ăn. Hiệu suất sinh thái là tỉ lệ năng lượng được chuyển lên bậc dinh dưỡng cao hơn (thường khoảng 10%).",
+				"UUID": "76c06e84-1704-438d-90f2-9206f0d2f14b"
+			},
+			"Bảo vệ môi trường và Phát triển bền vững": {
+				"Công thức": "",
+				"Lý thuyết": "Bao gồm các hoạt động bảo tồn đa dạng sinh học, phục hồi các hệ sinh thái bị suy thoái, sử dụng bền vững tài nguyên thiên nhiên và giải quyết các vấn đề môi trường toàn cầu (biến đổi khí hậu, ô nhiễm). Phát triển bền vững là sự hài hoà giữa tăng trưởng kinh tế, công bằng xã hội và bảo vệ môi trường.",
+				"UUID": "ac1209a6-a98b-471a-a8bf-53083febf12d"
+			}
+		}
+	}
+}

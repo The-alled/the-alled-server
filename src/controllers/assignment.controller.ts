@@ -1,7 +1,10 @@
 import { Request, Response } from 'express';
+
 import assignmentService from '@/services/assignment.service';
 import { BadRequestError } from '@/core/error.response';
 import { AssignmentSubjectType } from '@/constant/assignmentSubject.constant';
+import { AssignmentSubjectParseError } from '../validation/assignmentSubject.validation';
+
 class AssignmentController {
 	async createAssignment(req: Request, res: Response) {
 		const payload = req.body;
@@ -11,23 +14,14 @@ class AssignmentController {
 		const subject = req.params.subject;
 		const grade = req.params.class;
 
-		const validSubjects: AssignmentSubjectType['subject'][] = ['toan', 'ly', 'hoa', 'sinh'];
-		const validGrades: AssignmentSubjectType['class'][] = ['10', '11', '12'];
-
-		if (!validSubjects.includes(subject as any)) {
-			throw new BadRequestError('Invalid subject provided');
+		const parseResult = await AssignmentSubjectType.safeParseAsync({ subject, grade });
+		if (parseResult.success) {
+			res.status(201).send(await assignmentService.getAssignmentSubject(parseResult.data));
+		} else {
+			throw new BadRequestError(
+				JSON.stringify(AssignmentSubjectParseError(parseResult.error.message))
+			);
 		}
-
-		if (!validGrades.includes(grade as any)) {
-			throw new BadRequestError('Invalid grade provided');
-		}
-
-		res.status(201).send(
-			await assignmentService.getAssignmentSubject({
-				subject: subject as AssignmentSubjectType['subject'],
-				class: grade as AssignmentSubjectType['class'],
-			})
-		);
 	}
 }
 
