@@ -1,6 +1,6 @@
-const GoogleGenAI = require("@google/genai");
+import { GoogleGenAI } from "@google/genai";
 
-export default async function generateContext(promt: string) {
+export default async function generateContext(prompt: string) {
   const genAi = new GoogleGenAI({
     apiKey: process.env.GOOGLE_API_KEY,
   });
@@ -9,7 +9,7 @@ export default async function generateContext(promt: string) {
     model: "gemini-2.5-pro",
     contents: [
       {
-        text: promt,
+        text: prompt,
       },
     ],
   });

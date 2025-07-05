@@ -1,13 +1,13 @@
-import { CreatedResponse } from '@/core/success.response';
-import { effectivenessQuestions, uxQuestions } from '@/data/questions';
-import sql from '@/config/sql';
-import { BadRequestError } from '@/core/error.response';
+import { CreatedResponse } from "@/core/success.response";
+import { effectivenessQuestions, uxQuestions } from "@/data/questions";
+import sql from "@/config/sql";
+import { BadRequestError } from "@/core/error.response";
 
 class SurveyService {
-	async createSurveyAnswer(data: any) {
-		// Create schema and table if they don't exist
-		await sql`CREATE SCHEMA IF NOT EXISTS survey`;
-		await sql`
+  async createSurveyAnswer(data: any) {
+    // Create schema and table if they don't exist
+    await sql`CREATE SCHEMA IF NOT EXISTS survey`;
+    await sql`
       CREATE TABLE IF NOT EXISTS survey.survey (
         "id" SERIAL PRIMARY KEY,
         "Họ và Tên" TEXT,
@@ -58,11 +58,11 @@ class SurveyService {
       )
     `;
 
-		const transformedData = { ...data };
+    const transformedData = { ...data };
 
-		// Insert data into the table
-		try {
-			await sql`
+    // Insert data into the table
+    try {
+      await sql`
 			INSERT INTO survey.survey (
 				"Họ và Tên", "Trường", "Vai trò", "Thời gian sử dụng", "Tần suất sử dụng",
 				"Hiệu quả câu 1", "Hiệu quả câu 2", "Hiệu quả câu 3", "Hiệu quả câu 4", "Hiệu quả câu 5",
@@ -75,53 +75,56 @@ class SurveyService {
 				"UX câu 21", "UX câu 22", "UX câu 23", "UX câu 24", "UX câu 25", "UX câu 26",
 				"Khả năng giới thiệu", "Khối lớp", "Đề xuất tính năng mới", "Góp ý khác"
 			) VALUES (
-				${transformedData['Họ và Tên']}, ${transformedData['Trường']}, ${transformedData['Vai trò']},
-				${transformedData['Thời gian sử dụng']}, ${transformedData['Tần suất sử dụng']},
-				${transformedData['Hiệu quả câu 1']},
-				${transformedData['Hiệu quả câu 2']},
-				${transformedData['Hiệu quả câu 3']},
-				${transformedData['Hiệu quả câu 4']},
-				${transformedData['Hiệu quả câu 5']},
-				${transformedData['Hiệu quả câu 6']},
-				${transformedData['Hiệu quả câu 7']},
-				${transformedData['Hiệu quả câu 8']},
-				${transformedData['Lợi ích lớn nhất']}, ${transformedData['Khó khăn khi học']},
-				${transformedData['UX câu 1']},
-				${transformedData['UX câu 2']},
-				${transformedData['UX câu 3']},
-				${transformedData['UX câu 4']},
-				${transformedData['UX câu 5']},
-				${transformedData['UX câu 6']},
-				${transformedData['UX câu 7']},
-				${transformedData['UX câu 8']},
-				${transformedData['UX câu 9']},
-				${transformedData['UX câu 10']},
-				${transformedData['UX câu 11']},
-				${transformedData['UX câu 12']},
-				${transformedData['UX câu 13']},
-				${transformedData['UX câu 14']},
-				${transformedData['UX câu 15']},
-				${transformedData['UX câu 16']},
-				${transformedData['UX câu 17']},
-				${transformedData['UX câu 18']},
-				${transformedData['UX câu 19']},
-				${transformedData['UX câu 20']},
-				${transformedData['UX câu 21']},
-				${transformedData['UX câu 22']},
-				${transformedData['UX câu 23']},
-				${transformedData['UX câu 24']},
-				${transformedData['UX câu 25']},
-				${transformedData['UX câu 26']},
-				${transformedData['Khả năng giới thiệu']}, ${transformedData['Khối lớp']},
-				${transformedData['Đề xuất tính năng mới']}, ${transformedData['Góp ý khác']}
+				${transformedData["Họ và Tên"]}, ${transformedData["Trường"]}, ${transformedData["Vai trò"]},
+				${transformedData["Thời gian sử dụng"]}, ${transformedData["Tần suất sử dụng"]},
+				${transformedData["Hiệu quả câu 1"]},
+				${transformedData["Hiệu quả câu 2"]},
+				${transformedData["Hiệu quả câu 3"]},
+				${transformedData["Hiệu quả câu 4"]},
+				${transformedData["Hiệu quả câu 5"]},
+				${transformedData["Hiệu quả câu 6"]},
+				${transformedData["Hiệu quả câu 7"]},
+				${transformedData["Hiệu quả câu 8"]},
+				${transformedData["Lợi ích lớn nhất"]}, ${transformedData["Khó khăn khi học"]},
+				${transformedData["UX câu 1"]},
+				${transformedData["UX câu 2"]},
+				${transformedData["UX câu 3"]},
+				${transformedData["UX câu 4"]},
+				${transformedData["UX câu 5"]},
+				${transformedData["UX câu 6"]},
+				${transformedData["UX câu 7"]},
+				${transformedData["UX câu 8"]},
+				${transformedData["UX câu 9"]},
+				${transformedData["UX câu 10"]},
+				${transformedData["UX câu 11"]},
+				${transformedData["UX câu 12"]},
+				${transformedData["UX câu 13"]},
+				${transformedData["UX câu 14"]},
+				${transformedData["UX câu 15"]},
+				${transformedData["UX câu 16"]},
+				${transformedData["UX câu 17"]},
+				${transformedData["UX câu 18"]},
+				${transformedData["UX câu 19"]},
+				${transformedData["UX câu 20"]},
+				${transformedData["UX câu 21"]},
+				${transformedData["UX câu 22"]},
+				${transformedData["UX câu 23"]},
+				${transformedData["UX câu 24"]},
+				${transformedData["UX câu 25"]},
+				${transformedData["UX câu 26"]},
+				${transformedData["Khả năng giới thiệu"]}, ${transformedData["Khối lớp"]},
+				${transformedData["Đề xuất tính năng mới"]}, ${transformedData["Góp ý khác"]}
 			)
 		`;
-		} catch {
-			return new BadRequestError('Insert failed');
-		}
+    } catch {
+      throw new BadRequestError("Insert failed");
+    }
 
-		return new CreatedResponse('Survey answer created successfully', transformedData);
-	}
+    return new CreatedResponse(
+      "Survey answer created successfully",
+      transformedData
+    );
+  }
 }
 
 const surveyService = new SurveyService();
