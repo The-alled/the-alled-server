@@ -4,6 +4,8 @@
 .env.production
 .env.docker
 
+.cursor/
+
 node_modules/
 
 build/
