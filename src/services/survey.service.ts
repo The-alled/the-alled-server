@@ -61,7 +61,8 @@ class SurveyService {
 		const transformedData = { ...data };
 
 		// Insert data into the table
-		await sql`
+		try {
+			await sql`
 			INSERT INTO survey.survey (
 				"Họ và Tên", "Trường", "Vai trò", "Thời gian sử dụng", "Tần suất sử dụng",
 				"Hiệu quả câu 1", "Hiệu quả câu 2", "Hiệu quả câu 3", "Hiệu quả câu 4", "Hiệu quả câu 5",
@@ -115,6 +116,9 @@ class SurveyService {
 				${transformedData['Đề xuất tính năng mới']}, ${transformedData['Góp ý khác']}
 			)
 		`;
+		} catch {
+			return new BadRequestError('Insert failed');
+		}
 
 		return new CreatedResponse('Survey answer created successfully', transformedData);
 	}
