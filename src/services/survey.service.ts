@@ -1,5 +1,5 @@
 import { CreatedResponse } from "@/core/success.response";
-import { effectivenessQuestions, uxQuestions } from "@/data/questions";
+import { effectivenessQuestions, uxQuestions } from "@/config/questions";
 import sql from "@/config/sql";
 import { BadRequestError } from "@/core/error.response";
 
