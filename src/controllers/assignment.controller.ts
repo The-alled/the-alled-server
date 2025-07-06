@@ -10,6 +10,11 @@ class AssignmentController {
 		const payload = req.body;
 		res.status(201).send(await assignmentService.createAssignment(payload));
 	}
+	async createAssignmentStep1(req: Request, res: Response) {
+		const payload = req.body;
+		res.status(201).send(await assignmentService.createAssignmentStep1);
+	}
+
 	async getAssignmentSubject(req: Request, res: Response) {
 		const subject = req.params.subject;
 		const grade = req.params.class;

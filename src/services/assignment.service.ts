@@ -22,6 +22,11 @@ class AssignmentService {
 		});
 	}
 
+	async createAssignmentStep1(data: any) {
+		console.log(data);
+		return new CreatedResponse('test', data);
+	}
+
 	async getAssignmentSubject(params: z.infer<typeof AssignmentSubjectType>) {
 		return new CreatedResponse('Data retrieved', subjectList[params.subject][params.class]);
 	}

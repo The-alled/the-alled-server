@@ -1,4 +1,4 @@
-export default function generateProcess1(fixedPrompt: string, quantity: number | string) {
+export default function generateProcess1(fixedPrompt: string) {
 	return `### **BẮT ĐẦU PROMPT**
 
 **# Bối cảnh và Vai trò (Context & Persona)**
@@ -30,7 +30,6 @@ Phân tích từng "set" trong đối tượng JSON đầu vào của người d
 *   \`"Các yếu tố ảnh hưởng đến tốc độ phản ứng"\` có UUID là \`"CHEM10-TPU-002"\`
 
 **Nếu Input của người dùng là:**
-\`\`\`json
 {
   "set_1": {
     "Môn": "Hóa",
@@ -43,10 +42,8 @@ Phân tích từng "set" trong đối tượng JSON đầu vào của người d
     "Nội dung ôn tập": "tốc độ phản ứng và các yếu tố ảnh hưởng"
   }
 }
-\`\`\`
 
 **Thì Output bạn phải trả về chính xác là:**
-\`\`\`json
 {
   "set_1": [
     "CHEM10-LKH-002",
@@ -57,7 +54,6 @@ Phân tích từng "set" trong đối tượng JSON đầu vào của người d
     "CHEM10-TPU-002"
   ]
 }
-\`\`\`
 
 **# Quy tắc và Ràng buộc (Rules and Constraints)**
 
@@ -66,6 +62,7 @@ Phân tích từng "set" trong đối tượng JSON đầu vào của người d
 3.  **Xử lý trường hợp không tìm thấy:** Nếu \`"Nội dung ôn tập"\` của một set không tương ứng với bất kỳ mục nào trong file JSON dữ liệu, hãy trả về một mảng rỗng \`[]\` cho set đó.
 4.  **Tuân thủ định dạng nghiêm ngặt:** Output cuối cùng phải là một đối tượng JSON hợp lệ, tuân thủ chính xác cấu trúc đã được mô tả và minh họa trong ví dụ. Không thêm bất kỳ giải thích hay văn bản nào khác ngoài đối tượng JSON.
 5.  **Hiệu quả:** Thực hiện nhiệm vụ một cách trực tiếp và hiệu quả, tập trung vào kết quả cuối cùng.
+**QUAN TRỌNG:** Toàn bộ phản hồi của bạn **PHẢI LÀ MỘT CHUỖI DUY NHẤT** chứa cấu trúc JSON hợp lệ như trên. **KHÔNG** được có bất kỳ văn bản giới thiệu nào (ví dụ: \"Đây là JSON bạn yêu cầu:\"), văn bản kết luận nào, hoặc dấu \`\`\`json \`\`\` bao quanh chuỗi JSON. Đảm bảo chuỗi trả về là hợp lệ.
 
 **### KẾT THÚC PROMPT**
 
@@ -74,8 +71,6 @@ Phân tích từng "set" trong đối tượng JSON đầu vào của người d
 **PHẦN NHẬP INPUT THỰC TẾ**
 
 **Input:**
-\`\`\`json
-{
-  // Dán nội dung JSON của bạn ở đây
-}`;
+${fixedPrompt}
+`;
 }
