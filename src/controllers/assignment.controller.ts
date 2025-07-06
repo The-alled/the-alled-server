@@ -5,7 +5,6 @@ import { BadRequestError } from '@/core/error.response';
 import { AssignmentSubjectType } from '@/constant/assignmentSubject.constant';
 import { AssignmentSubjectParseError } from '../validation/assignmentSubject.validation';
 
-
 class AssignmentController {
 	async createAssignment(req: Request, res: Response) {
 		const payload = req.body;
@@ -13,7 +12,7 @@ class AssignmentController {
 	}
 	async createAssignmentStep1(req: Request, res: Response) {
 		const payload = req.body;
-		res.status(201).send(await assignmentService.createAssignmentStep1);
+		res.status(201).send(await assignmentService.createAssignmentStep1(payload));
 	}
 
 	async getAssignmentSubject(req: Request, res: Response) {
@@ -33,4 +32,3 @@ class AssignmentController {
 
 const assignmentController = new AssignmentController();
 export default assignmentController;
-
